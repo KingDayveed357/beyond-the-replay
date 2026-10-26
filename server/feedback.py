@@ -106,19 +106,20 @@ def make_store(runtime: Path):
 
 
 class FeedbackService:
-    def __init__(self, store, per_hour: int = 6):
+    def __init__(self, store, per_hour: int = 6, clock=time.time):
         self.store = store
         self.per_hour = per_hour
+        self.clock = clock  # injectable, so tests never patch the global time module
         self.hits: dict[str, list[float]] = {}
 
     def allow(self, client: str) -> bool:
-        now = time.time()
+        now = self.clock()
         recent = [t for t in self.hits.get(client, []) if now - t < 3600]
         self.hits[client] = recent
         return len(recent) < self.per_hour
 
     def submit(self, fb: FeedbackIn, client: str) -> dict:
-        now = time.time()
+        now = self.clock()
         row = {"id": uuid.uuid4().hex[:12], "ts": now, "created": datetime.fromtimestamp(now, timezone.utc).isoformat(timespec="seconds"),
                "rating": fb.rating, "role": fb.role, "improve": fb.improve, "liked": fb.liked, "email": fb.email, "page": fb.page}
         if fb.website:  # a bot filled the hidden field: pretend it worked, keep nothing

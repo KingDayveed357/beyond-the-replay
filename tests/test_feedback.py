@@ -69,10 +69,10 @@ class FeedbackApiTests(unittest.TestCase):
 class StoreTests(unittest.TestCase):
     def test_azure_table_round_trip(self):
         store = TableStore("", client=FakeTable())
-        service = FeedbackService(store)
-        with mock.patch("server.feedback.time.time", side_effect=[1_800_000_000.0, 1_800_000_060.0]):
-            for rating in (5, 3):
-                service.submit(app_module.FeedbackIn(**GOOD | {"rating": rating}), "1.2.3.4")
+        ticks = iter([1_800_000_000.0, 1_800_000_060.0])
+        service = FeedbackService(store, clock=lambda: next(ticks))
+        for rating in (5, 3):
+            service.submit(app_module.FeedbackIn(**GOOD | {"rating": rating}), "1.2.3.4")
         rows = store.table.rows
         self.assertTrue(all(r["PartitionKey"] == rows[0]["created"][:7] for r in rows))
         self.assertLess(rows[1]["RowKey"], rows[0]["RowKey"])  # newer rows sort first in the table
