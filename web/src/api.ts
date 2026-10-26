@@ -28,6 +28,10 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
   if (!res.ok) {
     const body = await res.json().catch(() => ({}))
     const d = body.detail
+    if (Array.isArray(d) && d.length) {  // field validation errors: name the first problem in plain words
+      const first = d[0]
+      throw new ApiError(`${String(first.loc?.[first.loc.length - 1] ?? 'input')}: ${String(first.msg).replace(/^Value error, /, '')}`, 'invalid', false, res.status)
+    }
     if (d && typeof d === 'object') throw new ApiError(d.message, d.code, d.retryable, res.status)
     throw new ApiError(typeof d === 'string' ? d : `${res.status} ${res.statusText}`, 'error', res.status >= 500, res.status)
   }
@@ -36,6 +40,15 @@ async function call<T>(path: string, init?: RequestInit): Promise<T> {
 
 const byokHeaders = (byok: Byok | null): Record<string, string> =>
   byok ? { 'X-BYOK-Key': byok.key, 'X-BYOK-Model': byok.model } : {}
+
+export interface FeedbackSummary {
+  count: number
+  average_rating: number | null
+  ratings: Record<string, number>
+  by_role: Record<string, { count: number; average_rating: number | null }>
+  latest: { created: string; role: string; rating: number; improve: string; liked: string; page: string }[]
+  storage: 'azure-table' | 'file'
+}
 
 export const api = {
   matches: () => call<MatchSummary[]>('/matches'),
@@ -62,6 +75,9 @@ export const api = {
     call<{ accepted: number; rejected_count: number }>(url.replace(/^\/api/, ''), {
       method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
       body: JSON.stringify({ events, final }) }),
+  sendFeedback: (body: Record<string, unknown>) => call<{ id: string; stored: boolean }>('/feedback', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }),
+  feedbackSummary: () => call<FeedbackSummary>('/feedback/summary'),
   identity: () => call<{ mode: 'fictional' | 'real'; label: string; note: string }>('/identity'),
   benchmark: () => call<Record<string, any>>('/benchmark'),
 }

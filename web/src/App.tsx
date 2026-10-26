@@ -7,6 +7,8 @@ import { PrefsProvider, usePrefs } from './prefs'
 import { play } from './sound'
 import Benchmark from './pages/Benchmark'
 import Landing from './pages/Landing'
+import Feedback from './components/Feedback'
+import FeedbackPage from './pages/FeedbackPage'
 import Pack from './pages/Pack'
 import Studio from './pages/Studio'
 import MatchCentre from './pages/MatchCentre'
@@ -50,6 +52,7 @@ export default function App() {
           <Route path="/match/:id" element={<Workspace />} />
           <Route path="/benchmark" element={<Benchmark />} />
           <Route path="/pack/:id" element={<Pack />} />
+          <Route path="/feedback" element={<FeedbackPage />} />
           <Route path="/studio" element={<Studio />} />
           <Route path="/studio/:id" element={<Studio />} />
           <Route path="/feed/:id" element={<Studio />} />
@@ -57,6 +60,7 @@ export default function App() {
         </Routes>
       </main>
       <ModelSettings />
+      <Feedback />
     </ModelProvider>
     </PrefsProvider>
   )

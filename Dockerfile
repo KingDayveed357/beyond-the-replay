@@ -8,6 +8,8 @@ COPY web/ ./
 RUN npm run build
 
 FROM python:3.12-slim
+LABEL org.opencontainers.image.source="https://github.com/KingDayveed357/beyond-the-replay" \
+      org.opencontainers.image.description="Beyond the Replay: explainable match intelligence"
 WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PORT=8000 BTR_RUNTIME=/tmp/btr-runtime
 COPY requirements.txt ./
@@ -21,6 +23,8 @@ COPY schemas/ schemas/
 COPY data/ data/
 COPY results/*.json results/
 COPY --from=web /web/dist web/dist
+# Bytecode compiled at build time: the app never writes .pyc at runtime, so this shortens every cold start.
+RUN python -m compileall -q phase0 investigation analytics server mcp_server
 RUN useradd --create-home app && chown -R app /app
 USER app
 EXPOSE 8000

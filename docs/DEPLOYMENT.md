@@ -64,6 +64,8 @@ docker run -p 8000:8000 -e ANTHROPIC_API_KEY=<your key> ghcr.io/<owner>/<repo>:l
 | `BTR_FOUNDRY_DEPLOYMENT` | no | the model id | Foundry deployment name, if you did not name it after the model. |
 | `BTR_NAMES` | no | `fictional` | Names shown in every public output. `fictional` (broadcast-safe, no third-party trademarks) or `real` for local calibration work. |
 | `BTR_PUBLIC_URL` | for A2A | `http://localhost:8000` | The app's public URL, written into the A2A agent card (`/a2a/.well-known/agent-card.json`). |
+| `BTR_FEEDBACK_CONNECTION` | recommended | none | Azure Storage connection string (store as a secret). Feedback goes to Table Storage; without it, to a file that a restart wipes. |
+| `BTR_FEEDBACK_PER_HOUR` | no | `6` | Feedback notes accepted per visitor address per hour. |
 | `BTR_DEMO_FEEDS_PER_HOUR` | no | `12` | Live Studio demo matches a visitor can start per hour. |
 | `BTR_IDENTITY` | no | `pl` | Engine calibration: `fictional` generates matches from invented squads instead of real season strengths. |
 

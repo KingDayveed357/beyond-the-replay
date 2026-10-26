@@ -77,6 +77,12 @@ ingestion, storylines and studio packs; judges can add their own Anthropic key i
 3.13+ without a C compiler, install PyYAML first with `PYYAML_FORCE_LIBYAML=0 pip install pyyaml --no-binary pyyaml`.
 Deployment (Azure Container Apps, optional Claude on Microsoft Foundry): `docs/AZURE_SETUP.md`.
 
+## Feedback
+
+A **Feedback** button on every page collects a rating, who you are (fan, analyst, judge, developer) and the one
+thing to improve; `/feedback` shows the summary and latest notes (never emails). Notes are stored in **Azure Table
+Storage** when `BTR_FEEDBACK_CONNECTION` is set (`docs/AZURE_SETUP.md`, step B4b), otherwise in a local file.
+
 ## Production readiness
 
 Server-side keys only (never in the browser or logs, with a redaction filter); bring-your-own-key held in

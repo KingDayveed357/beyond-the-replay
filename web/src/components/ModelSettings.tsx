@@ -4,7 +4,7 @@ import { maskKey, modelLabel, useModel } from '../model'
 
 export function ModelButton() {
   const { status, byok, openSettings } = useModel()
-  const name = byok ? modelLabel(status, byok.model) : status?.server_key_configured ? modelLabel(status, status.default_model) : 'Statistics only'
+  const name = byok ? modelLabel(status, byok.model) : status?.server_key_configured ? modelLabel(status, status.default_model) : 'Saved AI results'
   const key = byok ? ' · your key' : status?.server_key_configured ? ' · demo key' : ''
   return (
     <button type="button" className="model-btn" onClick={() => openSettings(true)} aria-haspopup="dialog" aria-label={`Model: ${name}${key}`}>

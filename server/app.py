@@ -74,6 +74,7 @@ TAGS = [
     {"name": "Studio pack", "description": "Presenter scripts, highlight edit lists, social posts and alerts."},
     {"name": "Investigation", "description": "Why a goal happened: AI agents and the statistics-only workflow."},
     {"name": "Agents", "description": "Workflow descriptions and the A2A agent."},
+    {"name": "Feedback", "description": "Honest feedback from fans, analysts, judges and developers."},
 ]
 class UTF8JSONResponse(JSONResponse):
     """Say the charset out loud: Windows PowerShell 5.1 otherwise decodes accented names as Latin-1."""
@@ -500,6 +501,29 @@ def benchmark():
         if path.exists():
             out[name] = _read(path)
     return public(out)
+
+
+# ---------- feedback ----------
+
+from server.feedback import FeedbackIn, FeedbackService, make_store  # noqa: E402
+
+feedback = FeedbackService(make_store(RUNTIME), per_hour=int(os.environ.get("BTR_FEEDBACK_PER_HOUR", "6")))
+
+
+@app.post("/api/feedback", status_code=201, tags=["Feedback"], summary="Send feedback",
+          responses={429: {"model": ApiError, "description": "Too much feedback from one address in an hour"}})
+def send_feedback(body: FeedbackIn, request: Request):
+    """A rating, who you are, and the one thing we should improve. Emails are stored only for a reply and never shown."""
+    client = request.client.host if request.client else "unknown"
+    if not feedback.allow(client):
+        raise FeedError(429, "slow_down", "Thanks! You've sent several notes this hour; please try again later.")
+    return feedback.submit(body, client)
+
+
+@app.get("/api/feedback/summary", tags=["Feedback"], summary="What people think")
+def feedback_summary():
+    """Counts, average ratings by role and the latest comments (never emails)."""
+    return feedback.summary()
 
 
 # ---------- A2A: the match analyst as an agent other agents can call ----------

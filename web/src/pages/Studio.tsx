@@ -70,6 +70,7 @@ export default function Studio() {
   useEffect(() => {
     if (!id) return
     setFinished(false)
+    setError(null)
     const es = new EventSource(api.feedLiveUrl(id, lang))
     const data = (ev: Event) => JSON.parse((ev as MessageEvent).data)
     es.addEventListener('snapshot', (ev) => {
@@ -96,7 +97,14 @@ export default function Studio() {
     es.addEventListener('ingest', (ev) => { const a = data(ev); setAcks((x) => [...x.slice(-59), a]) })
     es.addEventListener('phase', () => { play('full_time'); setFinished(true); es.close() })
     let retry: ReturnType<typeof setTimeout> | undefined
-    es.onerror = () => { es.close(); retry = setTimeout(() => setReconnect((n) => n + 1), 1500) }
+    es.onerror = () => {
+      es.close()
+      // Live feeds are held in memory: after a restart or expiry the feed is gone, so stop and say so instead of retrying forever.
+      fetch(`/api/feeds/${id}`).then((r) => {
+        if (r.status === 404) setError('This live feed has ended or expired (feeds live in memory and do not survive a server restart). Kick off a new match.')
+        else retry = setTimeout(() => setReconnect((n) => n + 1), 1500)
+      }).catch(() => { retry = setTimeout(() => setReconnect((n) => n + 1), 3000) })
+    }
     return () => { es.close(); if (retry) clearTimeout(retry) }
   }, [id, lang, reconnect])
 

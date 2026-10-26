@@ -19,7 +19,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       # The suite makes no network calls: model tests use a scripted fake client.
-      - run: python -m unittest tests.test_phase0 tests.test_workflow tests.test_api tests.test_llm tests.test_analytics tests.test_mcp tests.test_identity tests.test_feeds tests.test_a2a
+      - run: python -m unittest tests.test_phase0 tests.test_workflow tests.test_api tests.test_llm tests.test_analytics tests.test_mcp tests.test_identity tests.test_feeds tests.test_a2a tests.test_feedback
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -45,3 +45,8 @@ jobs:
           tags: |
             ${{ env.IMAGE }}:latest
             ${{ env.IMAGE }}:${{ github.sha }}
+          labels: |
+            org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
+            org.opencontainers.image.revision=${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

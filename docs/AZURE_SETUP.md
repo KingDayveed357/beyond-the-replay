@@ -1,5 +1,8 @@
 # Azure setup guide: hosting on Azure Container Apps, Claude on Microsoft Foundry
 
+> **Deploying for the hackathon? Follow `docs/DEPLOY_RUNBOOK.md`** (portal steps, verified against the code, student
+> budget). This page is the background and the optional extras.
+
 This guide takes Beyond the Replay from your laptop to a reliable public URL on Azure, and
 optionally moves the AI agents onto Claude in Microsoft Foundry. Do the parts in order. Part B
 (hosting) matters most for the hackathon; Part C (Foundry) is optional.
@@ -124,6 +127,36 @@ The key is stored as a Container Apps secret and never appears in logs, response
 hard limit: the app's cap is an estimate and restarts from zero when the container restarts.
 
 **With Claude on Microsoft Foundry:** see Part C.
+
+### B4b. Feedback storage: Azure Table Storage (optional, about $0.10 a month)
+
+Deferred by default: add it only if feedback starts arriving and you want it to survive restarts.
+
+The Feedback button on every page saves notes from fans, analysts, judges and developers; `/feedback` shows a
+summary. Without storage they go to a file inside the container, which is wiped on every restart or redeploy,
+so give them a Table in a storage account. Use the cheapest options: Standard, locally redundant (LRS).
+
+```powershell
+az storage account create --name btrfeedback<4 random digits> --resource-group btr-rg --location westeurope --sku Standard_LRS --kind StorageV2 --min-tls-version TLS1_2 --allow-blob-public-access false
+```
+
+Storage account names must be 3-24 lowercase letters and digits, unique across Azure (hence the digits). Then
+store its connection string as a Container Apps **secret** and point the app at it:
+
+```powershell
+$conn = az storage account show-connection-string --name btrfeedback<digits> --resource-group btr-rg --query connectionString -o tsv
+az containerapp secret set --name beyond-the-replay --resource-group btr-rg --secrets "feedback-conn=$conn"
+az containerapp update --name beyond-the-replay --resource-group btr-rg --set-env-vars BTR_FEEDBACK_CONNECTION=secretref:feedback-conn
+```
+
+The app creates the `feedback` table itself on start. Check it: send a note with the Feedback button, then open
+`https://<your fqdn>/feedback`. The footer of that page should say **Stored in Azure Table Storage**. If it
+says "a local file", the connection string is missing or wrong (the app logs `feedback: Azure Table Storage
+unavailable` and keeps working). To read every note, including the optional emails, open the storage account
+in the portal → **Storage browser** → **Tables** → `feedback`.
+
+Cost: Table storage is billed per GB stored and per 10,000 transactions; a few thousand notes is a few
+kilobytes and well under $0.10 a month.
 
 ### B5. Health probes
 
@@ -253,6 +286,7 @@ Locally, the same variables go in `.env` (see `.env.example`).
 |---|---|---|
 | HTTPS | Container Apps ingress provides it | none |
 | Secrets | Read from environment; never logged, returned or sent to the browser | store keys as Container Apps secrets |
+| Feedback | Azure Table Storage when configured; per-address limit; spam trap; emails never returned | B4b |
 | Per-visitor rate limits behind Azure's proxy | Container runs uvicorn with `--proxy-headers` | none |
 | Live stream across proxy time limits | Match centre reopens the feed from the current minute if the connection drops | none |
 | Health checks | `/api/health` | add probes (B5) |
