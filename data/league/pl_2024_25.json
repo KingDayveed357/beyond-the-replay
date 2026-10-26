@@ -1,0 +1,3531 @@
+{
+ "season": "2024/25",
+ "competition": "Premier League",
+ "formation": "4-3-3",
+ "excluded": {
+  "Diogo Jota": "died in July 2025; not depicted in invented events"
+ },
+ "clubs": {
+  "ARS": {
+   "name": "Arsenal",
+   "short": "Arsenal",
+   "stadium": "Emirates Stadium",
+   "capacity": 60704,
+   "colours": [
+    "#DB0007",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 2,
+    "points": 74,
+    "won": 20,
+    "drawn": 14,
+    "lost": 4,
+    "goals_for": 69,
+    "goals_against": 34,
+    "xg_per_match": 1.62
+   },
+   "xi": {
+    "GK": {
+     "name": "David Raya",
+     "nationality": "Spain",
+     "foot": "Right",
+     "rating": 0.583,
+     "season": {
+      "apps": 38,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 71
+     }
+    },
+    "RB": {
+     "name": "Jurriën Timber",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.61,
+     "season": {
+      "apps": 30,
+      "minutes": 2422,
+      "goals": 1,
+      "assists": 3,
+      "xg": 1.22,
+      "pass_accuracy": 88
+     }
+    },
+    "CB1": {
+     "name": "William Saliba",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.589,
+     "season": {
+      "apps": 35,
+      "minutes": 3041,
+      "goals": 2,
+      "assists": 0,
+      "xg": 2.28,
+      "pass_accuracy": 95
+     }
+    },
+    "CB2": {
+     "name": "Gabriel Magalhães",
+     "nationality": "Brazil",
+     "foot": "Left",
+     "rating": 0.546,
+     "season": {
+      "apps": 28,
+      "minutes": 2365,
+      "goals": 3,
+      "assists": 1,
+      "xg": 2.61,
+      "pass_accuracy": 91
+     }
+    },
+    "LB": {
+     "name": "Myles Lewis-Skelly",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.582,
+     "season": {
+      "apps": 23,
+      "minutes": 1370,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.16,
+      "pass_accuracy": 94
+     }
+    },
+    "DM": {
+     "name": "Thomas Partey",
+     "nationality": "Ghana",
+     "foot": "Right",
+     "rating": 0.587,
+     "season": {
+      "apps": 35,
+      "minutes": 2799,
+      "goals": 4,
+      "assists": 2,
+      "xg": 2.29,
+      "pass_accuracy": 89
+     }
+    },
+    "CMR": {
+     "name": "Martin Ødegaard",
+     "nationality": "Norway",
+     "foot": "Left",
+     "rating": 0.615,
+     "season": {
+      "apps": 30,
+      "minutes": 2328,
+      "goals": 3,
+      "assists": 8,
+      "xg": 4.81,
+      "pass_accuracy": 87
+     }
+    },
+    "CML": {
+     "name": "Declan Rice",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.605,
+     "season": {
+      "apps": 35,
+      "minutes": 2833,
+      "goals": 4,
+      "assists": 7,
+      "xg": 3.51,
+      "pass_accuracy": 90
+     }
+    },
+    "RW": {
+     "name": "Bukayo Saka",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.633,
+     "season": {
+      "apps": 25,
+      "minutes": 1735,
+      "goals": 6,
+      "assists": 10,
+      "xg": 6.85,
+      "pass_accuracy": 84
+     }
+    },
+    "ST": {
+     "name": "Kai Havertz",
+     "nationality": "Germany",
+     "foot": "Left",
+     "rating": 0.598,
+     "season": {
+      "apps": 23,
+      "minutes": 1874,
+      "goals": 9,
+      "assists": 3,
+      "xg": 9.56,
+      "pass_accuracy": 80
+     }
+    },
+    "LW": {
+     "name": "Gabriel Martinelli",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.577,
+     "season": {
+      "apps": 33,
+      "minutes": 2300,
+      "goals": 8,
+      "assists": 4,
+      "xg": 7.41,
+      "pass_accuracy": 79
+     }
+    }
+   }
+  },
+  "AVL": {
+   "name": "Aston Villa",
+   "short": "Aston Villa",
+   "stadium": "Villa Park",
+   "capacity": 42682,
+   "colours": [
+    "#670E36",
+    "#95BFE5"
+   ],
+   "season_2024_25": {
+    "position": 6,
+    "points": 66,
+    "won": 19,
+    "drawn": 9,
+    "lost": 10,
+    "goals_for": 58,
+    "goals_against": 51,
+    "xg_per_match": 1.51
+   },
+   "xi": {
+    "GK": {
+     "name": "Emiliano Martínez",
+     "nationality": "Argentina",
+     "foot": "Right",
+     "rating": 0.573,
+     "season": {
+      "apps": 37,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 77
+     }
+    },
+    "RB": {
+     "name": "Matty Cash",
+     "nationality": "Poland",
+     "foot": "Right",
+     "rating": 0.606,
+     "season": {
+      "apps": 27,
+      "minutes": 2077,
+      "goals": 1,
+      "assists": 1,
+      "xg": 0.49,
+      "pass_accuracy": 85
+     }
+    },
+    "CB1": {
+     "name": "Ezri Konsa",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.539,
+     "season": {
+      "apps": 34,
+      "minutes": 2937,
+      "goals": 2,
+      "assists": 0,
+      "xg": 1.28,
+      "pass_accuracy": 93
+     }
+    },
+    "CB2": {
+     "name": "Pau Torres",
+     "nationality": "Spain",
+     "foot": "Left",
+     "rating": 0.521,
+     "season": {
+      "apps": 24,
+      "minutes": 2020,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.52,
+      "pass_accuracy": 89
+     }
+    },
+    "LB": {
+     "name": "Lucas Digne",
+     "nationality": "France",
+     "foot": "Left",
+     "rating": 0.603,
+     "season": {
+      "apps": 32,
+      "minutes": 2358,
+      "goals": 0,
+      "assists": 4,
+      "xg": 0.8,
+      "pass_accuracy": 83
+     }
+    },
+    "DM": {
+     "name": "Boubacar Kamara",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.563,
+     "season": {
+      "apps": 26,
+      "minutes": 1725,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.82,
+      "pass_accuracy": 89
+     }
+    },
+    "CMR": {
+     "name": "John McGinn",
+     "nationality": "Scotland",
+     "foot": "Left",
+     "rating": 0.594,
+     "season": {
+      "apps": 34,
+      "minutes": 2230,
+      "goals": 1,
+      "assists": 4,
+      "xg": 3.13,
+      "pass_accuracy": 87
+     }
+    },
+    "CML": {
+     "name": "Youri Tielemans",
+     "nationality": "Belgium",
+     "foot": "Right",
+     "rating": 0.604,
+     "season": {
+      "apps": 36,
+      "minutes": 3032,
+      "goals": 3,
+      "assists": 7,
+      "xg": 3.32,
+      "pass_accuracy": 86
+     }
+    },
+    "RW": {
+     "name": "Morgan Rogers",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.545,
+     "season": {
+      "apps": 37,
+      "minutes": 3129,
+      "goals": 8,
+      "assists": 10,
+      "xg": 6.58,
+      "pass_accuracy": 75
+     }
+    },
+    "ST": {
+     "name": "Ollie Watkins",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.608,
+     "season": {
+      "apps": 38,
+      "minutes": 2610,
+      "goals": 16,
+      "assists": 8,
+      "xg": 15.38,
+      "pass_accuracy": 74
+     }
+    },
+    "LW": {
+     "name": "Marcus Rashford",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.532,
+     "season": {
+      "apps": 25,
+      "minutes": 1426,
+      "goals": 6,
+      "assists": 3,
+      "xg": 3.06,
+      "pass_accuracy": 78
+     }
+    }
+   }
+  },
+  "BOU": {
+   "name": "Bournemouth",
+   "short": "Bournemouth",
+   "stadium": "Vitality Stadium",
+   "capacity": 11307,
+   "colours": [
+    "#DA291C",
+    "#000000"
+   ],
+   "season_2024_25": {
+    "position": 9,
+    "points": 56,
+    "won": 15,
+    "drawn": 11,
+    "lost": 12,
+    "goals_for": 58,
+    "goals_against": 46,
+    "xg_per_match": 1.71
+   },
+   "xi": {
+    "GK": {
+     "name": "Kepa",
+     "nationality": "Spain",
+     "foot": "Right",
+     "rating": 0.56,
+     "season": {
+      "apps": 31,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 70
+     }
+    },
+    "RB": {
+     "name": "Adam Smith",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.514,
+     "season": {
+      "apps": 25,
+      "minutes": 1596,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.65,
+      "pass_accuracy": 79
+     }
+    },
+    "CB1": {
+     "name": "Illia Zabarnyi",
+     "nationality": "Ukraine",
+     "foot": "Right",
+     "rating": 0.546,
+     "season": {
+      "apps": 36,
+      "minutes": 3113,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.27,
+      "pass_accuracy": 82
+     }
+    },
+    "CB2": {
+     "name": "Dean Huijsen",
+     "nationality": "Spain",
+     "foot": "Both",
+     "rating": 0.569,
+     "season": {
+      "apps": 32,
+      "minutes": 2422,
+      "goals": 3,
+      "assists": 2,
+      "xg": 1.87,
+      "pass_accuracy": 84
+     }
+    },
+    "LB": {
+     "name": "Milos Kerkez",
+     "nationality": "Hungary",
+     "foot": "Left",
+     "rating": 0.542,
+     "season": {
+      "apps": 38,
+      "minutes": 3342,
+      "goals": 2,
+      "assists": 5,
+      "xg": 0.59,
+      "pass_accuracy": 80
+     }
+    },
+    "DM": {
+     "name": "Tyler Adams",
+     "nationality": "United States",
+     "foot": "Right",
+     "rating": 0.539,
+     "season": {
+      "apps": 28,
+      "minutes": 1965,
+      "goals": 0,
+      "assists": 3,
+      "xg": 1.59,
+      "pass_accuracy": 85
+     }
+    },
+    "CMR": {
+     "name": "Lewis Cook",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.521,
+     "season": {
+      "apps": 36,
+      "minutes": 2978,
+      "goals": 1,
+      "assists": 3,
+      "xg": 0.94,
+      "pass_accuracy": 82
+     }
+    },
+    "CML": {
+     "name": "Ryan Christie",
+     "nationality": "Scotland",
+     "foot": "Left",
+     "rating": 0.555,
+     "season": {
+      "apps": 29,
+      "minutes": 2131,
+      "goals": 2,
+      "assists": 3,
+      "xg": 2.12,
+      "pass_accuracy": 82
+     }
+    },
+    "RW": {
+     "name": "Justin Kluivert",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.584,
+     "season": {
+      "apps": 34,
+      "minutes": 2356,
+      "goals": 12,
+      "assists": 6,
+      "xg": 10.11,
+      "pass_accuracy": 81
+     }
+    },
+    "ST": {
+     "name": "Evanilson",
+     "nationality": "Brazil",
+     "foot": "Both",
+     "rating": 0.602,
+     "season": {
+      "apps": 31,
+      "minutes": 2335,
+      "goals": 10,
+      "assists": 1,
+      "xg": 12.49,
+      "pass_accuracy": 72
+     }
+    },
+    "LW": {
+     "name": "Antoine Semenyo",
+     "nationality": "Ghana",
+     "foot": "Right",
+     "rating": 0.561,
+     "season": {
+      "apps": 37,
+      "minutes": 3209,
+      "goals": 11,
+      "assists": 5,
+      "xg": 9.98,
+      "pass_accuracy": 78
+     }
+    }
+   }
+  },
+  "BRE": {
+   "name": "Brentford",
+   "short": "Brentford",
+   "stadium": "Gtech Community Stadium",
+   "capacity": 17250,
+   "colours": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 10,
+    "points": 56,
+    "won": 16,
+    "drawn": 8,
+    "lost": 14,
+    "goals_for": 66,
+    "goals_against": 57,
+    "xg_per_match": 1.58
+   },
+   "xi": {
+    "GK": {
+     "name": "Mark Flekken",
+     "nationality": "Netherlands",
+     "foot": "Both",
+     "rating": 0.56,
+     "season": {
+      "apps": 37,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 2,
+      "xg": 0.0,
+      "pass_accuracy": 72
+     }
+    },
+    "RB": {
+     "name": "Michael Kayode",
+     "nationality": "Italy",
+     "foot": "Right",
+     "rating": 0.611,
+     "season": {
+      "apps": 12,
+      "minutes": 528,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.21,
+      "pass_accuracy": 85
+     }
+    },
+    "CB1": {
+     "name": "Nathan Collins",
+     "nationality": "Ireland",
+     "foot": "Right",
+     "rating": 0.554,
+     "season": {
+      "apps": 38,
+      "minutes": 3420,
+      "goals": 2,
+      "assists": 3,
+      "xg": 2.5,
+      "pass_accuracy": 86
+     }
+    },
+    "CB2": {
+     "name": "Ethan Pinnock",
+     "nationality": "Jamaica",
+     "foot": "Left",
+     "rating": 0.583,
+     "season": {
+      "apps": 22,
+      "minutes": 1913,
+      "goals": 2,
+      "assists": 0,
+      "xg": 1.09,
+      "pass_accuracy": 88
+     }
+    },
+    "LB": {
+     "name": "Keane Lewis-Potter",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.513,
+     "season": {
+      "apps": 38,
+      "minutes": 3101,
+      "goals": 1,
+      "assists": 3,
+      "xg": 3.06,
+      "pass_accuracy": 81
+     }
+    },
+    "DM": {
+     "name": "Christian Nørgaard",
+     "nationality": "Denmark",
+     "foot": "Right",
+     "rating": 0.526,
+     "season": {
+      "apps": 34,
+      "minutes": 2829,
+      "goals": 5,
+      "assists": 4,
+      "xg": 4.36,
+      "pass_accuracy": 83
+     }
+    },
+    "CMR": {
+     "name": "Mikkel Damsgaard",
+     "nationality": "Denmark",
+     "foot": "Right",
+     "rating": 0.57,
+     "season": {
+      "apps": 38,
+      "minutes": 2926,
+      "goals": 2,
+      "assists": 10,
+      "xg": 2.83,
+      "pass_accuracy": 78
+     }
+    },
+    "CML": {
+     "name": "Vitaly Janelt",
+     "nationality": "Germany",
+     "foot": "Left",
+     "rating": 0.507,
+     "season": {
+      "apps": 32,
+      "minutes": 2266,
+      "goals": 1,
+      "assists": 3,
+      "xg": 0.82,
+      "pass_accuracy": 84
+     }
+    },
+    "RW": {
+     "name": "Bryan Mbeumo",
+     "nationality": "Cameroon",
+     "foot": "Left",
+     "rating": 0.599,
+     "season": {
+      "apps": 38,
+      "minutes": 3415,
+      "goals": 20,
+      "assists": 7,
+      "xg": 12.26,
+      "pass_accuracy": 74
+     }
+    },
+    "ST": {
+     "name": "Yoane Wissa",
+     "nationality": "DR Congo",
+     "foot": "Right",
+     "rating": 0.58,
+     "season": {
+      "apps": 35,
+      "minutes": 2927,
+      "goals": 19,
+      "assists": 4,
+      "xg": 18.59,
+      "pass_accuracy": 79
+     }
+    },
+    "LW": {
+     "name": "Kevin Schade",
+     "nationality": "Germany",
+     "foot": "Right",
+     "rating": 0.55,
+     "season": {
+      "apps": 38,
+      "minutes": 2301,
+      "goals": 11,
+      "assists": 2,
+      "xg": 8.2,
+      "pass_accuracy": 64
+     }
+    }
+   }
+  },
+  "BHA": {
+   "name": "Brighton and Hove Albion",
+   "short": "Brighton",
+   "stadium": "Amex Stadium",
+   "capacity": 31876,
+   "colours": [
+    "#0057B8",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 8,
+    "points": 61,
+    "won": 16,
+    "drawn": 13,
+    "lost": 9,
+    "goals_for": 66,
+    "goals_against": 59,
+    "xg_per_match": 1.56
+   },
+   "xi": {
+    "GK": {
+     "name": "Bart Verbruggen",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.566,
+     "season": {
+      "apps": 36,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.0,
+      "pass_accuracy": 75
+     }
+    },
+    "RB": {
+     "name": "Joël Veltman",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.607,
+     "season": {
+      "apps": 21,
+      "minutes": 1699,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.47,
+      "pass_accuracy": 82
+     }
+    },
+    "CB1": {
+     "name": "Jan Paul van Hecke",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.555,
+     "season": {
+      "apps": 34,
+      "minutes": 2959,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.34,
+      "pass_accuracy": 88
+     }
+    },
+    "CB2": {
+     "name": "Lewis Dunk",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.519,
+     "season": {
+      "apps": 25,
+      "minutes": 2083,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.81,
+      "pass_accuracy": 91
+     }
+    },
+    "LB": {
+     "name": "Pervis Estupiñán",
+     "nationality": "Ecuador",
+     "foot": "Left",
+     "rating": 0.613,
+     "season": {
+      "apps": 30,
+      "minutes": 2403,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.17,
+      "pass_accuracy": 88
+     }
+    },
+    "DM": {
+     "name": "Carlos Baleba",
+     "nationality": "Cameroon",
+     "foot": "Left",
+     "rating": 0.581,
+     "season": {
+      "apps": 34,
+      "minutes": 2670,
+      "goals": 3,
+      "assists": 1,
+      "xg": 3.08,
+      "pass_accuracy": 88
+     }
+    },
+    "CMR": {
+     "name": "Yasin Ayari",
+     "nationality": "Sweden",
+     "foot": "Right",
+     "rating": 0.575,
+     "season": {
+      "apps": 34,
+      "minutes": 1966,
+      "goals": 2,
+      "assists": 1,
+      "xg": 2.44,
+      "pass_accuracy": 85
+     }
+    },
+    "CML": {
+     "name": "João Pedro",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.588,
+     "season": {
+      "apps": 27,
+      "minutes": 1953,
+      "goals": 10,
+      "assists": 6,
+      "xg": 8.9,
+      "pass_accuracy": 75
+     }
+    },
+    "RW": {
+     "name": "Yankuba Minteh",
+     "nationality": "Gambia",
+     "foot": "Left",
+     "rating": 0.564,
+     "season": {
+      "apps": 32,
+      "minutes": 1841,
+      "goals": 6,
+      "assists": 4,
+      "xg": 4.11,
+      "pass_accuracy": 69
+     }
+    },
+    "ST": {
+     "name": "Danny Welbeck",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.574,
+     "season": {
+      "apps": 30,
+      "minutes": 2122,
+      "goals": 10,
+      "assists": 4,
+      "xg": 9.57,
+      "pass_accuracy": 86
+     }
+    },
+    "LW": {
+     "name": "Kaoru Mitoma",
+     "nationality": "Japan",
+     "foot": "Right",
+     "rating": 0.597,
+     "season": {
+      "apps": 36,
+      "minutes": 2608,
+      "goals": 10,
+      "assists": 4,
+      "xg": 9.16,
+      "pass_accuracy": 81
+     }
+    }
+   }
+  },
+  "CHE": {
+   "name": "Chelsea",
+   "short": "Chelsea",
+   "stadium": "Stamford Bridge",
+   "capacity": 40173,
+   "colours": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 4,
+    "points": 69,
+    "won": 20,
+    "drawn": 9,
+    "lost": 9,
+    "goals_for": 64,
+    "goals_against": 43,
+    "xg_per_match": 1.82
+   },
+   "xi": {
+    "GK": {
+     "name": "Robert Sánchez",
+     "nationality": "Spain",
+     "foot": "Left",
+     "rating": 0.576,
+     "season": {
+      "apps": 32,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 65
+     }
+    },
+    "RB": {
+     "name": "Malo Gusto",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.577,
+     "season": {
+      "apps": 32,
+      "minutes": 1858,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.7,
+      "pass_accuracy": 89
+     }
+    },
+    "CB1": {
+     "name": "Levi Colwill",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.566,
+     "season": {
+      "apps": 35,
+      "minutes": 3149,
+      "goals": 2,
+      "assists": 1,
+      "xg": 1.89,
+      "pass_accuracy": 90
+     }
+    },
+    "CB2": {
+     "name": "Trevoh Chalobah",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.593,
+     "season": {
+      "apps": 25,
+      "minutes": 1974,
+      "goals": 3,
+      "assists": 1,
+      "xg": 0.79,
+      "pass_accuracy": 86
+     }
+    },
+    "LB": {
+     "name": "Marc Cucurella",
+     "nationality": "Spain",
+     "foot": "Left",
+     "rating": 0.576,
+     "season": {
+      "apps": 36,
+      "minutes": 2989,
+      "goals": 5,
+      "assists": 1,
+      "xg": 2.8,
+      "pass_accuracy": 89
+     }
+    },
+    "DM": {
+     "name": "Moisés Caicedo",
+     "nationality": "Ecuador",
+     "foot": "Right",
+     "rating": 0.587,
+     "season": {
+      "apps": 38,
+      "minutes": 3356,
+      "goals": 1,
+      "assists": 2,
+      "xg": 0.82,
+      "pass_accuracy": 90
+     }
+    },
+    "CMR": {
+     "name": "Enzo Fernández",
+     "nationality": "Argentina",
+     "foot": "Right",
+     "rating": 0.61,
+     "season": {
+      "apps": 36,
+      "minutes": 2946,
+      "goals": 6,
+      "assists": 7,
+      "xg": 6.13,
+      "pass_accuracy": 84
+     }
+    },
+    "CML": {
+     "name": "Cole Palmer",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.63,
+     "season": {
+      "apps": 37,
+      "minutes": 3195,
+      "goals": 15,
+      "assists": 8,
+      "xg": 17.28,
+      "pass_accuracy": 83
+     }
+    },
+    "RW": {
+     "name": "Noni Madueke",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.615,
+     "season": {
+      "apps": 32,
+      "minutes": 2046,
+      "goals": 7,
+      "assists": 3,
+      "xg": 9.64,
+      "pass_accuracy": 84
+     }
+    },
+    "ST": {
+     "name": "Nicolas Jackson",
+     "nationality": "Senegal",
+     "foot": "Right",
+     "rating": 0.61,
+     "season": {
+      "apps": 30,
+      "minutes": 2238,
+      "goals": 10,
+      "assists": 5,
+      "xg": 12.34,
+      "pass_accuracy": 77
+     }
+    },
+    "LW": {
+     "name": "Pedro Neto",
+     "nationality": "Portugal",
+     "foot": "Left",
+     "rating": 0.543,
+     "season": {
+      "apps": 35,
+      "minutes": 2268,
+      "goals": 4,
+      "assists": 6,
+      "xg": 3.5,
+      "pass_accuracy": 89
+     }
+    }
+   }
+  },
+  "CRY": {
+   "name": "Crystal Palace",
+   "short": "Crystal Palace",
+   "stadium": "Selhurst Park",
+   "capacity": 25486,
+   "colours": [
+    "#1B458F",
+    "#C4122E"
+   ],
+   "season_2024_25": {
+    "position": 12,
+    "points": 53,
+    "won": 13,
+    "drawn": 14,
+    "lost": 11,
+    "goals_for": 51,
+    "goals_against": 51,
+    "xg_per_match": 1.61
+   },
+   "xi": {
+    "GK": {
+     "name": "Dean Henderson",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.556,
+     "season": {
+      "apps": 38,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 57
+     }
+    },
+    "RB": {
+     "name": "Daniel Muñoz",
+     "nationality": "Colombia",
+     "foot": "Right",
+     "rating": 0.607,
+     "season": {
+      "apps": 37,
+      "minutes": 3233,
+      "goals": 4,
+      "assists": 5,
+      "xg": 4.93,
+      "pass_accuracy": 75
+     }
+    },
+    "CB1": {
+     "name": "Maxence Lacroix",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.577,
+     "season": {
+      "apps": 35,
+      "minutes": 3118,
+      "goals": 1,
+      "assists": 1,
+      "xg": 3.46,
+      "pass_accuracy": 82
+     }
+    },
+    "CB2": {
+     "name": "Marc Guéhi",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.568,
+     "season": {
+      "apps": 34,
+      "minutes": 3059,
+      "goals": 3,
+      "assists": 2,
+      "xg": 1.98,
+      "pass_accuracy": 84
+     }
+    },
+    "LB": {
+     "name": "Tyrick Mitchell",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.549,
+     "season": {
+      "apps": 37,
+      "minutes": 3102,
+      "goals": 0,
+      "assists": 5,
+      "xg": 1.31,
+      "pass_accuracy": 74
+     }
+    },
+    "DM": {
+     "name": "Adam Wharton",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.518,
+     "season": {
+      "apps": 20,
+      "minutes": 1326,
+      "goals": 0,
+      "assists": 2,
+      "xg": 0.37,
+      "pass_accuracy": 79
+     }
+    },
+    "CMR": {
+     "name": "Jefferson Lerma",
+     "nationality": "Colombia",
+     "foot": "Right",
+     "rating": 0.506,
+     "season": {
+      "apps": 33,
+      "minutes": 2276,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.09,
+      "pass_accuracy": 78
+     }
+    },
+    "CML": {
+     "name": "Daichi Kamada",
+     "nationality": "Japan",
+     "foot": "Right",
+     "rating": 0.519,
+     "season": {
+      "apps": 34,
+      "minutes": 1554,
+      "goals": 0,
+      "assists": 0,
+      "xg": 1.09,
+      "pass_accuracy": 82
+     }
+    },
+    "RW": {
+     "name": "Ismaïla Sarr",
+     "nationality": "Senegal",
+     "foot": "Right",
+     "rating": 0.575,
+     "season": {
+      "apps": 38,
+      "minutes": 2714,
+      "goals": 8,
+      "assists": 6,
+      "xg": 10.72,
+      "pass_accuracy": 70
+     }
+    },
+    "ST": {
+     "name": "Jean-Philippe Mateta",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.593,
+     "season": {
+      "apps": 37,
+      "minutes": 2654,
+      "goals": 14,
+      "assists": 2,
+      "xg": 13.53,
+      "pass_accuracy": 68
+     }
+    },
+    "LW": {
+     "name": "Eberechi Eze",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.603,
+     "season": {
+      "apps": 34,
+      "minutes": 2600,
+      "goals": 8,
+      "assists": 8,
+      "xg": 10.5,
+      "pass_accuracy": 82
+     }
+    }
+   }
+  },
+  "EVE": {
+   "name": "Everton",
+   "short": "Everton",
+   "stadium": "Goodison Park",
+   "capacity": 39414,
+   "colours": [
+    "#003399",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 13,
+    "points": 48,
+    "won": 11,
+    "drawn": 15,
+    "lost": 12,
+    "goals_for": 42,
+    "goals_against": 44,
+    "xg_per_match": 1.12
+   },
+   "xi": {
+    "GK": {
+     "name": "Jordan Pickford",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.55,
+     "season": {
+      "apps": 38,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.0,
+      "pass_accuracy": 63
+     }
+    },
+    "RB": {
+     "name": "Jake O'Brien",
+     "nationality": "Ireland",
+     "foot": "Right",
+     "rating": 0.518,
+     "season": {
+      "apps": 20,
+      "minutes": 1569,
+      "goals": 2,
+      "assists": 0,
+      "xg": 0.78,
+      "pass_accuracy": 81
+     }
+    },
+    "CB1": {
+     "name": "James Tarkowski",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.593,
+     "season": {
+      "apps": 33,
+      "minutes": 2924,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.31,
+      "pass_accuracy": 82
+     }
+    },
+    "CB2": {
+     "name": "Jarrad Branthwaite",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.53,
+     "season": {
+      "apps": 30,
+      "minutes": 2510,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.2,
+      "pass_accuracy": 83
+     }
+    },
+    "LB": {
+     "name": "Vitalii Mykolenko",
+     "nationality": "Ukraine",
+     "foot": "Left",
+     "rating": 0.548,
+     "season": {
+      "apps": 35,
+      "minutes": 3084,
+      "goals": 1,
+      "assists": 2,
+      "xg": 0.49,
+      "pass_accuracy": 79
+     }
+    },
+    "DM": {
+     "name": "Idrissa Gueye",
+     "nationality": "Senegal",
+     "foot": "Right",
+     "rating": 0.546,
+     "season": {
+      "apps": 37,
+      "minutes": 3067,
+      "goals": 0,
+      "assists": 3,
+      "xg": 1.06,
+      "pass_accuracy": 87
+     }
+    },
+    "CMR": {
+     "name": "James Garner",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.506,
+     "season": {
+      "apps": 21,
+      "minutes": 1594,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.67,
+      "pass_accuracy": 82
+     }
+    },
+    "CML": {
+     "name": "Abdoulaye Doucouré",
+     "nationality": "Mali",
+     "foot": "Right",
+     "rating": 0.495,
+     "season": {
+      "apps": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 0
+     }
+    },
+    "RW": {
+     "name": "Iliman Ndiaye",
+     "nationality": "Senegal",
+     "foot": "Right",
+     "rating": 0.495,
+     "season": {
+      "apps": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 0
+     }
+    },
+    "ST": {
+     "name": "Beto",
+     "nationality": "Guinea-Bissau",
+     "foot": "Right",
+     "rating": 0.582,
+     "season": {
+      "apps": 30,
+      "minutes": 1528,
+      "goals": 8,
+      "assists": 0,
+      "xg": 7.86,
+      "pass_accuracy": 59
+     }
+    },
+    "LW": {
+     "name": "Dwight McNeil",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.521,
+     "season": {
+      "apps": 21,
+      "minutes": 1371,
+      "goals": 4,
+      "assists": 6,
+      "xg": 1.09,
+      "pass_accuracy": 83
+     }
+    }
+   }
+  },
+  "FUL": {
+   "name": "Fulham",
+   "short": "Fulham",
+   "stadium": "Craven Cottage",
+   "capacity": 29589,
+   "colours": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "season_2024_25": {
+    "position": 11,
+    "points": 54,
+    "won": 15,
+    "drawn": 9,
+    "lost": 14,
+    "goals_for": 54,
+    "goals_against": 54,
+    "xg_per_match": 1.31
+   },
+   "xi": {
+    "GK": {
+     "name": "Bernd Leno",
+     "nationality": "Germany",
+     "foot": "Right",
+     "rating": 0.557,
+     "season": {
+      "apps": 38,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.0,
+      "pass_accuracy": 80
+     }
+    },
+    "RB": {
+     "name": "Kenny Tete",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.605,
+     "season": {
+      "apps": 22,
+      "minutes": 1779,
+      "goals": 0,
+      "assists": 2,
+      "xg": 1.36,
+      "pass_accuracy": 83
+     }
+    },
+    "CB1": {
+     "name": "Joachim Andersen",
+     "nationality": "Denmark",
+     "foot": "Right",
+     "rating": 0.532,
+     "season": {
+      "apps": 30,
+      "minutes": 2663,
+      "goals": 0,
+      "assists": 0,
+      "xg": 1.02,
+      "pass_accuracy": 83
+     }
+    },
+    "CB2": {
+     "name": "Calvin Bassey",
+     "nationality": "Nigeria",
+     "foot": "Left",
+     "rating": 0.542,
+     "season": {
+      "apps": 35,
+      "minutes": 3074,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.02,
+      "pass_accuracy": 90
+     }
+    },
+    "LB": {
+     "name": "Antonee Robinson",
+     "nationality": "United States",
+     "foot": "Left",
+     "rating": 0.608,
+     "season": {
+      "apps": 36,
+      "minutes": 3167,
+      "goals": 0,
+      "assists": 10,
+      "xg": 0.69,
+      "pass_accuracy": 81
+     }
+    },
+    "DM": {
+     "name": "Sander Berge",
+     "nationality": "Norway",
+     "foot": "Right",
+     "rating": 0.516,
+     "season": {
+      "apps": 31,
+      "minutes": 2227,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.35,
+      "pass_accuracy": 92
+     }
+    },
+    "CMR": {
+     "name": "Sasa Lukic",
+     "nationality": "Serbia",
+     "foot": "Right",
+     "rating": 0.526,
+     "season": {
+      "apps": 30,
+      "minutes": 2355,
+      "goals": 0,
+      "assists": 2,
+      "xg": 1.16,
+      "pass_accuracy": 90
+     }
+    },
+    "CML": {
+     "name": "Andreas Pereira",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.536,
+     "season": {
+      "apps": 33,
+      "minutes": 2022,
+      "goals": 2,
+      "assists": 4,
+      "xg": 3.81,
+      "pass_accuracy": 78
+     }
+    },
+    "RW": {
+     "name": "Adama Traoré",
+     "nationality": "Spain",
+     "foot": "Right",
+     "rating": 0.562,
+     "season": {
+      "apps": 36,
+      "minutes": 1769,
+      "goals": 2,
+      "assists": 7,
+      "xg": 4.0,
+      "pass_accuracy": 81
+     }
+    },
+    "ST": {
+     "name": "Raúl Jiménez",
+     "nationality": "Mexico",
+     "foot": "Right",
+     "rating": 0.578,
+     "season": {
+      "apps": 38,
+      "minutes": 2505,
+      "goals": 12,
+      "assists": 3,
+      "xg": 11.99,
+      "pass_accuracy": 73
+     }
+    },
+    "LW": {
+     "name": "Alex Iwobi",
+     "nationality": "Nigeria",
+     "foot": "Right",
+     "rating": 0.535,
+     "season": {
+      "apps": 38,
+      "minutes": 2994,
+      "goals": 9,
+      "assists": 6,
+      "xg": 4.72,
+      "pass_accuracy": 80
+     }
+    }
+   }
+  },
+  "IPS": {
+   "name": "Ipswich Town",
+   "short": "Ipswich",
+   "stadium": "Portman Road",
+   "capacity": 29673,
+   "colours": [
+    "#3A64A3",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 19,
+    "points": 22,
+    "won": 4,
+    "drawn": 10,
+    "lost": 24,
+    "goals_for": 36,
+    "goals_against": 82,
+    "xg_per_match": 0.91
+   },
+   "xi": {
+    "GK": {
+     "name": "Arijanet Muric",
+     "nationality": "Kosovo",
+     "foot": "Right",
+     "rating": 0.518,
+     "season": {
+      "apps": 18,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 68
+     }
+    },
+    "RB": {
+     "name": "Ben Johnson",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.536,
+     "season": {
+      "apps": 23,
+      "minutes": 1348,
+      "goals": 1,
+      "assists": 2,
+      "xg": 1.06,
+      "pass_accuracy": 78
+     }
+    },
+    "CB1": {
+     "name": "Dara O'Shea",
+     "nationality": "Ireland",
+     "foot": "Right",
+     "rating": 0.53,
+     "season": {
+      "apps": 35,
+      "minutes": 3123,
+      "goals": 0,
+      "assists": 2,
+      "xg": 1.27,
+      "pass_accuracy": 79
+     }
+    },
+    "CB2": {
+     "name": "Jacob Greaves",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.555,
+     "season": {
+      "apps": 25,
+      "minutes": 2205,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.31,
+      "pass_accuracy": 87
+     }
+    },
+    "LB": {
+     "name": "Leif Davis",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.493,
+     "season": {
+      "apps": 33,
+      "minutes": 2746,
+      "goals": 1,
+      "assists": 2,
+      "xg": 0.96,
+      "pass_accuracy": 81
+     }
+    },
+    "DM": {
+     "name": "Sam Morsy",
+     "nationality": "Egypt",
+     "foot": "Right",
+     "rating": 0.472,
+     "season": {
+      "apps": 33,
+      "minutes": 2753,
+      "goals": 1,
+      "assists": 1,
+      "xg": 0.44,
+      "pass_accuracy": 87
+     }
+    },
+    "CMR": {
+     "name": "Jens Cajuste",
+     "nationality": "Sweden",
+     "foot": "Right",
+     "rating": 0.477,
+     "season": {
+      "apps": 30,
+      "minutes": 1976,
+      "goals": 1,
+      "assists": 1,
+      "xg": 0.69,
+      "pass_accuracy": 86
+     }
+    },
+    "CML": {
+     "name": "Kalvin Phillips",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.466,
+     "season": {
+      "apps": 19,
+      "minutes": 1239,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.43,
+      "pass_accuracy": 81
+     }
+    },
+    "RW": {
+     "name": "Omari Hutchinson",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.469,
+     "season": {
+      "apps": 31,
+      "minutes": 2590,
+      "goals": 3,
+      "assists": 2,
+      "xg": 2.85,
+      "pass_accuracy": 84
+     }
+    },
+    "ST": {
+     "name": "Liam Delap",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.464,
+     "season": {
+      "apps": 37,
+      "minutes": 2612,
+      "goals": 12,
+      "assists": 2,
+      "xg": 0.0,
+      "pass_accuracy": 62
+     }
+    },
+    "LW": {
+     "name": "Jack Clarke",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.472,
+     "season": {
+      "apps": 32,
+      "minutes": 1170,
+      "goals": 0,
+      "assists": 4,
+      "xg": 1.17,
+      "pass_accuracy": 79
+     }
+    }
+   }
+  },
+  "LEI": {
+   "name": "Leicester City",
+   "short": "Leicester",
+   "stadium": "King Power Stadium",
+   "capacity": 32259,
+   "colours": [
+    "#003090",
+    "#FDBE11"
+   ],
+   "season_2024_25": {
+    "position": 18,
+    "points": 25,
+    "won": 6,
+    "drawn": 7,
+    "lost": 25,
+    "goals_for": 33,
+    "goals_against": 80,
+    "xg_per_match": 0.86
+   },
+   "xi": {
+    "GK": {
+     "name": "Mads Hermansen",
+     "nationality": "Denmark",
+     "foot": "Right",
+     "rating": 0.521,
+     "season": {
+      "apps": 27,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 56
+     }
+    },
+    "RB": {
+     "name": "James Justin",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.553,
+     "season": {
+      "apps": 36,
+      "minutes": 2920,
+      "goals": 2,
+      "assists": 2,
+      "xg": 1.5,
+      "pass_accuracy": 78
+     }
+    },
+    "CB1": {
+     "name": "Wout Faes",
+     "nationality": "Belgium",
+     "foot": "Right",
+     "rating": 0.482,
+     "season": {
+      "apps": 34,
+      "minutes": 2812,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.53,
+      "pass_accuracy": 88
+     }
+    },
+    "CB2": {
+     "name": "Conor Coady",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.467,
+     "season": {
+      "apps": 22,
+      "minutes": 1713,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.43,
+      "pass_accuracy": 91
+     }
+    },
+    "LB": {
+     "name": "Victor Kristiansen",
+     "nationality": "Denmark",
+     "foot": "Left",
+     "rating": 0.566,
+     "season": {
+      "apps": 30,
+      "minutes": 2489,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.13,
+      "pass_accuracy": 82
+     }
+    },
+    "DM": {
+     "name": "Wilfred Ndidi",
+     "nationality": "Nigeria",
+     "foot": "Right",
+     "rating": 0.514,
+     "season": {
+      "apps": 28,
+      "minutes": 2336,
+      "goals": 0,
+      "assists": 5,
+      "xg": 2.01,
+      "pass_accuracy": 82
+     }
+    },
+    "CMR": {
+     "name": "Boubakary Soumaré",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.479,
+     "season": {
+      "apps": 31,
+      "minutes": 2170,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.26,
+      "pass_accuracy": 88
+     }
+    },
+    "CML": {
+     "name": "Bilal El Khannouss",
+     "nationality": "Morocco",
+     "foot": "Right",
+     "rating": 0.487,
+     "season": {
+      "apps": 32,
+      "minutes": 2193,
+      "goals": 2,
+      "assists": 3,
+      "xg": 1.31,
+      "pass_accuracy": 80
+     }
+    },
+    "RW": {
+     "name": "Jordan Ayew",
+     "nationality": "Ghana",
+     "foot": "Right",
+     "rating": 0.47,
+     "season": {
+      "apps": 31,
+      "minutes": 1664,
+      "goals": 5,
+      "assists": 0,
+      "xg": 0.46,
+      "pass_accuracy": 80
+     }
+    },
+    "ST": {
+     "name": "Jamie Vardy",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.53,
+     "season": {
+      "apps": 35,
+      "minutes": 2839,
+      "goals": 9,
+      "assists": 4,
+      "xg": 11.22,
+      "pass_accuracy": 69
+     }
+    },
+    "LW": {
+     "name": "Stephy Mavididi",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.479,
+     "season": {
+      "apps": 30,
+      "minutes": 1613,
+      "goals": 4,
+      "assists": 1,
+      "xg": 1.84,
+      "pass_accuracy": 83
+     }
+    }
+   }
+  },
+  "LIV": {
+   "name": "Liverpool",
+   "short": "Liverpool",
+   "stadium": "Anfield",
+   "capacity": 61276,
+   "colours": [
+    "#C8102E",
+    "#F6EB61"
+   ],
+   "season_2024_25": {
+    "position": 1,
+    "points": 84,
+    "won": 25,
+    "drawn": 9,
+    "lost": 4,
+    "goals_for": 86,
+    "goals_against": 41,
+    "xg_per_match": 2.2
+   },
+   "xi": {
+    "GK": {
+     "name": "Alisson Becker",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.595,
+     "season": {
+      "apps": 28,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 81
+     }
+    },
+    "RB": {
+     "name": "Trent Alexander-Arnold",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.599,
+     "season": {
+      "apps": 33,
+      "minutes": 2377,
+      "goals": 3,
+      "assists": 6,
+      "xg": 1.88,
+      "pass_accuracy": 78
+     }
+    },
+    "CB1": {
+     "name": "Ibrahima Konaté",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.588,
+     "season": {
+      "apps": 31,
+      "minutes": 2565,
+      "goals": 1,
+      "assists": 2,
+      "xg": 1.77,
+      "pass_accuracy": 90
+     }
+    },
+    "CB2": {
+     "name": "Virgil van Dijk",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.609,
+     "season": {
+      "apps": 37,
+      "minutes": 3330,
+      "goals": 3,
+      "assists": 1,
+      "xg": 2.24,
+      "pass_accuracy": 92
+     }
+    },
+    "LB": {
+     "name": "Andy Robertson",
+     "nationality": "Scotland",
+     "foot": "Left",
+     "rating": 0.547,
+     "season": {
+      "apps": 33,
+      "minutes": 2492,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.17,
+      "pass_accuracy": 88
+     }
+    },
+    "DM": {
+     "name": "Ryan Gravenberch",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.54,
+     "season": {
+      "apps": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 0
+     }
+    },
+    "CMR": {
+     "name": "Dominik Szoboszlai",
+     "nationality": "Hungary",
+     "foot": "Right",
+     "rating": 0.637,
+     "season": {
+      "apps": 36,
+      "minutes": 2496,
+      "goals": 6,
+      "assists": 6,
+      "xg": 7.34,
+      "pass_accuracy": 86
+     }
+    },
+    "CML": {
+     "name": "Alexis Mac Allister",
+     "nationality": "Argentina",
+     "foot": "Right",
+     "rating": 0.639,
+     "season": {
+      "apps": 35,
+      "minutes": 2607,
+      "goals": 5,
+      "assists": 5,
+      "xg": 2.83,
+      "pass_accuracy": 87
+     }
+    },
+    "RW": {
+     "name": "Mohamed Salah",
+     "nationality": "Egypt",
+     "foot": "Left",
+     "rating": 0.65,
+     "season": {
+      "apps": 38,
+      "minutes": 3377,
+      "goals": 29,
+      "assists": 18,
+      "xg": 25.37,
+      "pass_accuracy": 74
+     }
+    },
+    "ST": {
+     "name": "Luis Díaz",
+     "nationality": "Colombia",
+     "foot": "Right",
+     "rating": 0.643,
+     "season": {
+      "apps": 36,
+      "minutes": 2410,
+      "goals": 13,
+      "assists": 5,
+      "xg": 12.02,
+      "pass_accuracy": 86
+     }
+    },
+    "LW": {
+     "name": "Cody Gakpo",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.622,
+     "season": {
+      "apps": 35,
+      "minutes": 1938,
+      "goals": 10,
+      "assists": 4,
+      "xg": 7.09,
+      "pass_accuracy": 84
+     }
+    }
+   }
+  },
+  "MCI": {
+   "name": "Manchester City",
+   "short": "Man City",
+   "stadium": "Etihad Stadium",
+   "capacity": 53400,
+   "colours": [
+    "#6CABDD",
+    "#1C2C5B"
+   ],
+   "season_2024_25": {
+    "position": 3,
+    "points": 71,
+    "won": 21,
+    "drawn": 8,
+    "lost": 9,
+    "goals_for": 72,
+    "goals_against": 44,
+    "xg_per_match": 1.82
+   },
+   "xi": {
+    "GK": {
+     "name": "Ederson",
+     "nationality": "Brazil",
+     "foot": "Left",
+     "rating": 0.579,
+     "season": {
+      "apps": 26,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 4,
+      "xg": 0.0,
+      "pass_accuracy": 86
+     }
+    },
+    "RB": {
+     "name": "Kyle Walker",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.534,
+     "season": {
+      "apps": 15,
+      "minutes": 967,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.14,
+      "pass_accuracy": 89
+     }
+    },
+    "CB1": {
+     "name": "Rúben Dias",
+     "nationality": "Portugal",
+     "foot": "Right",
+     "rating": 0.529,
+     "season": {
+      "apps": 27,
+      "minutes": 2269,
+      "goals": 0,
+      "assists": 0,
+      "xg": 1.5,
+      "pass_accuracy": 94
+     }
+    },
+    "CB2": {
+     "name": "Manuel Akanji",
+     "nationality": "Switzerland",
+     "foot": "Right",
+     "rating": 0.528,
+     "season": {
+      "apps": 26,
+      "minutes": 2014,
+      "goals": 0,
+      "assists": 0,
+      "xg": 1.55,
+      "pass_accuracy": 94
+     }
+    },
+    "LB": {
+     "name": "Josko Gvardiol",
+     "nationality": "Croatia",
+     "foot": "Left",
+     "rating": 0.594,
+     "season": {
+      "apps": 37,
+      "minutes": 3279,
+      "goals": 5,
+      "assists": 0,
+      "xg": 4.59,
+      "pass_accuracy": 91
+     }
+    },
+    "DM": {
+     "name": "Mateo Kovacic",
+     "nationality": "Croatia",
+     "foot": "Right",
+     "rating": 0.608,
+     "season": {
+      "apps": 31,
+      "minutes": 2202,
+      "goals": 6,
+      "assists": 2,
+      "xg": 1.88,
+      "pass_accuracy": 93
+     }
+    },
+    "CMR": {
+     "name": "Bernardo Silva",
+     "nationality": "Portugal",
+     "foot": "Left",
+     "rating": 0.597,
+     "season": {
+      "apps": 33,
+      "minutes": 2667,
+      "goals": 4,
+      "assists": 4,
+      "xg": 3.9,
+      "pass_accuracy": 89
+     }
+    },
+    "CML": {
+     "name": "Ilkay Gündogan",
+     "nationality": "Germany",
+     "foot": "Right",
+     "rating": 0.603,
+     "season": {
+      "apps": 33,
+      "minutes": 2227,
+      "goals": 1,
+      "assists": 6,
+      "xg": 3.23,
+      "pass_accuracy": 92
+     }
+    },
+    "RW": {
+     "name": "Savinho",
+     "nationality": "Brazil",
+     "foot": "Left",
+     "rating": 0.609,
+     "season": {
+      "apps": 29,
+      "minutes": 1770,
+      "goals": 1,
+      "assists": 8,
+      "xg": 5.01,
+      "pass_accuracy": 87
+     }
+    },
+    "ST": {
+     "name": "Erling Haaland",
+     "nationality": "Norway",
+     "foot": "Left",
+     "rating": 0.63,
+     "season": {
+      "apps": 31,
+      "minutes": 2741,
+      "goals": 22,
+      "assists": 3,
+      "xg": 22.01,
+      "pass_accuracy": 67
+     }
+    },
+    "LW": {
+     "name": "Jérémy Doku",
+     "nationality": "Belgium",
+     "foot": "Right",
+     "rating": 0.548,
+     "season": {
+      "apps": 29,
+      "minutes": 1513,
+      "goals": 3,
+      "assists": 6,
+      "xg": 1.32,
+      "pass_accuracy": 84
+     }
+    }
+   }
+  },
+  "MUN": {
+   "name": "Manchester United",
+   "short": "Man Utd",
+   "stadium": "Old Trafford",
+   "capacity": 74310,
+   "colours": [
+    "#DA291C",
+    "#FBE122"
+   ],
+   "season_2024_25": {
+    "position": 15,
+    "points": 42,
+    "won": 11,
+    "drawn": 9,
+    "lost": 18,
+    "goals_for": 44,
+    "goals_against": 54,
+    "xg_per_match": 1.41
+   },
+   "xi": {
+    "GK": {
+     "name": "André Onana",
+     "nationality": "Cameroon",
+     "foot": "Right",
+     "rating": 0.542,
+     "season": {
+      "apps": 34,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 70
+     }
+    },
+    "RB": {
+     "name": "Noussair Mazraoui",
+     "nationality": "Morocco",
+     "foot": "Right",
+     "rating": 0.598,
+     "season": {
+      "apps": 37,
+      "minutes": 2848,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.68,
+      "pass_accuracy": 86
+     }
+    },
+    "CB1": {
+     "name": "Matthijs de Ligt",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.54,
+     "season": {
+      "apps": 29,
+      "minutes": 2128,
+      "goals": 2,
+      "assists": 0,
+      "xg": 2.46,
+      "pass_accuracy": 90
+     }
+    },
+    "CB2": {
+     "name": "Harry Maguire",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.584,
+     "season": {
+      "apps": 27,
+      "minutes": 1757,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.82,
+      "pass_accuracy": 86
+     }
+    },
+    "LB": {
+     "name": "Diogo Dalot",
+     "nationality": "Portugal",
+     "foot": "Right",
+     "rating": 0.564,
+     "season": {
+      "apps": 33,
+      "minutes": 2813,
+      "goals": 0,
+      "assists": 3,
+      "xg": 2.03,
+      "pass_accuracy": 84
+     }
+    },
+    "DM": {
+     "name": "Manuel Ugarte",
+     "nationality": "Uruguay",
+     "foot": "Right",
+     "rating": 0.563,
+     "season": {
+      "apps": 29,
+      "minutes": 1789,
+      "goals": 1,
+      "assists": 2,
+      "xg": 1.01,
+      "pass_accuracy": 89
+     }
+    },
+    "CMR": {
+     "name": "Bruno Fernandes",
+     "nationality": "Portugal",
+     "foot": "Right",
+     "rating": 0.594,
+     "season": {
+      "apps": 36,
+      "minutes": 3024,
+      "goals": 8,
+      "assists": 10,
+      "xg": 9.95,
+      "pass_accuracy": 82
+     }
+    },
+    "CML": {
+     "name": "Kobbie Mainoo",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.545,
+     "season": {
+      "apps": 25,
+      "minutes": 1656,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.77,
+      "pass_accuracy": 87
+     }
+    },
+    "RW": {
+     "name": "Amad Diallo",
+     "nationality": "Cote d’Ivoire",
+     "foot": "Left",
+     "rating": 0.532,
+     "season": {
+      "apps": 26,
+      "minutes": 1901,
+      "goals": 8,
+      "assists": 6,
+      "xg": 4.68,
+      "pass_accuracy": 86
+     }
+    },
+    "ST": {
+     "name": "Rasmus Højlund",
+     "nationality": "Denmark",
+     "foot": "Left",
+     "rating": 0.499,
+     "season": {
+      "apps": 32,
+      "minutes": 2013,
+      "goals": 4,
+      "assists": 0,
+      "xg": 5.24,
+      "pass_accuracy": 76
+     }
+    },
+    "LW": {
+     "name": "Alejandro Garnacho",
+     "nationality": "Argentina",
+     "foot": "Right",
+     "rating": 0.525,
+     "season": {
+      "apps": 36,
+      "minutes": 2195,
+      "goals": 6,
+      "assists": 2,
+      "xg": 7.33,
+      "pass_accuracy": 83
+     }
+    }
+   }
+  },
+  "NEW": {
+   "name": "Newcastle United",
+   "short": "Newcastle",
+   "stadium": "St James' Park",
+   "capacity": 52305,
+   "colours": [
+    "#241F20",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 5,
+    "points": 66,
+    "won": 20,
+    "drawn": 6,
+    "lost": 12,
+    "goals_for": 68,
+    "goals_against": 47,
+    "xg_per_match": 1.72
+   },
+   "xi": {
+    "GK": {
+     "name": "Nick Pope",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.573,
+     "season": {
+      "apps": 28,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 65
+     }
+    },
+    "RB": {
+     "name": "Tino Livramento",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.563,
+     "season": {
+      "apps": 37,
+      "minutes": 2842,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.33,
+      "pass_accuracy": 87
+     }
+    },
+    "CB1": {
+     "name": "Fabian Schär",
+     "nationality": "Switzerland",
+     "foot": "Right",
+     "rating": 0.544,
+     "season": {
+      "apps": 34,
+      "minutes": 2937,
+      "goals": 4,
+      "assists": 0,
+      "xg": 3.8,
+      "pass_accuracy": 85
+     }
+    },
+    "CB2": {
+     "name": "Dan Burn",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.578,
+     "season": {
+      "apps": 37,
+      "minutes": 3330,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.96,
+      "pass_accuracy": 89
+     }
+    },
+    "LB": {
+     "name": "Lewis Hall",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.599,
+     "season": {
+      "apps": 27,
+      "minutes": 2192,
+      "goals": 0,
+      "assists": 4,
+      "xg": 0.41,
+      "pass_accuracy": 85
+     }
+    },
+    "DM": {
+     "name": "Bruno Guimarães",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.61,
+     "season": {
+      "apps": 38,
+      "minutes": 3282,
+      "goals": 5,
+      "assists": 6,
+      "xg": 4.31,
+      "pass_accuracy": 84
+     }
+    },
+    "CMR": {
+     "name": "Sandro Tonali",
+     "nationality": "Italy",
+     "foot": "Right",
+     "rating": 0.564,
+     "season": {
+      "apps": 36,
+      "minutes": 2631,
+      "goals": 4,
+      "assists": 2,
+      "xg": 4.4,
+      "pass_accuracy": 86
+     }
+    },
+    "CML": {
+     "name": "Joelinton",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.589,
+     "season": {
+      "apps": 29,
+      "minutes": 2404,
+      "goals": 4,
+      "assists": 3,
+      "xg": 3.95,
+      "pass_accuracy": 84
+     }
+    },
+    "RW": {
+     "name": "Jacob Murphy",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.558,
+     "season": {
+      "apps": 35,
+      "minutes": 2379,
+      "goals": 8,
+      "assists": 12,
+      "xg": 5.72,
+      "pass_accuracy": 75
+     }
+    },
+    "ST": {
+     "name": "Alexander Isak",
+     "nationality": "Sweden",
+     "foot": "Right",
+     "rating": 0.626,
+     "season": {
+      "apps": 34,
+      "minutes": 2769,
+      "goals": 23,
+      "assists": 6,
+      "xg": 20.42,
+      "pass_accuracy": 77
+     }
+    },
+    "LW": {
+     "name": "Anthony Gordon",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.578,
+     "season": {
+      "apps": 34,
+      "minutes": 2444,
+      "goals": 6,
+      "assists": 5,
+      "xg": 8.03,
+      "pass_accuracy": 81
+     }
+    }
+   }
+  },
+  "NFO": {
+   "name": "Nottingham Forest",
+   "short": "Nott'm Forest",
+   "stadium": "City Ground",
+   "capacity": 30404,
+   "colours": [
+    "#DD0000",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 7,
+    "points": 65,
+    "won": 19,
+    "drawn": 8,
+    "lost": 11,
+    "goals_for": 58,
+    "goals_against": 46,
+    "xg_per_match": 1.22
+   },
+   "xi": {
+    "GK": {
+     "name": "Matz Sels",
+     "nationality": "Belgium",
+     "foot": "Right",
+     "rating": 0.571,
+     "season": {
+      "apps": 38,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 49
+     }
+    },
+    "RB": {
+     "name": "Ola Aina",
+     "nationality": "Nigeria",
+     "foot": "Right",
+     "rating": 0.554,
+     "season": {
+      "apps": 35,
+      "minutes": 3003,
+      "goals": 2,
+      "assists": 1,
+      "xg": 0.64,
+      "pass_accuracy": 80
+     }
+    },
+    "CB1": {
+     "name": "Nikola Milenkovic",
+     "nationality": "Serbia",
+     "foot": "Right",
+     "rating": 0.549,
+     "season": {
+      "apps": 37,
+      "minutes": 3330,
+      "goals": 5,
+      "assists": 2,
+      "xg": 4.02,
+      "pass_accuracy": 83
+     }
+    },
+    "CB2": {
+     "name": "Murillo",
+     "nationality": "Brazil",
+     "foot": "Left",
+     "rating": 0.54,
+     "season": {
+      "apps": 36,
+      "minutes": 3191,
+      "goals": 2,
+      "assists": 0,
+      "xg": 1.42,
+      "pass_accuracy": 80
+     }
+    },
+    "LB": {
+     "name": "Neco Williams",
+     "nationality": "Wales",
+     "foot": "Right",
+     "rating": 0.623,
+     "season": {
+      "apps": 35,
+      "minutes": 2590,
+      "goals": 1,
+      "assists": 3,
+      "xg": 2.3,
+      "pass_accuracy": 81
+     }
+    },
+    "DM": {
+     "name": "Nicolás Domínguez",
+     "nationality": "Argentina",
+     "foot": "Right",
+     "rating": 0.578,
+     "season": {
+      "apps": 34,
+      "minutes": 1970,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.53,
+      "pass_accuracy": 88
+     }
+    },
+    "CMR": {
+     "name": "Morgan Gibbs-White",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.585,
+     "season": {
+      "apps": 34,
+      "minutes": 2822,
+      "goals": 7,
+      "assists": 8,
+      "xg": 6.34,
+      "pass_accuracy": 81
+     }
+    },
+    "CML": {
+     "name": "Elliot Anderson",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.607,
+     "season": {
+      "apps": 37,
+      "minutes": 2742,
+      "goals": 2,
+      "assists": 6,
+      "xg": 2.11,
+      "pass_accuracy": 82
+     }
+    },
+    "RW": {
+     "name": "Anthony Elanga",
+     "nationality": "Sweden",
+     "foot": "Right",
+     "rating": 0.539,
+     "season": {
+      "apps": 38,
+      "minutes": 2507,
+      "goals": 6,
+      "assists": 11,
+      "xg": 4.47,
+      "pass_accuracy": 78
+     }
+    },
+    "ST": {
+     "name": "Chris Wood",
+     "nationality": "New Zealand",
+     "foot": "Right",
+     "rating": 0.57,
+     "season": {
+      "apps": 36,
+      "minutes": 2976,
+      "goals": 20,
+      "assists": 3,
+      "xg": 13.35,
+      "pass_accuracy": 65
+     }
+    },
+    "LW": {
+     "name": "Callum Hudson-Odoi",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.534,
+     "season": {
+      "apps": 31,
+      "minutes": 2201,
+      "goals": 5,
+      "assists": 2,
+      "xg": 2.47,
+      "pass_accuracy": 89
+     }
+    }
+   }
+  },
+  "SOU": {
+   "name": "Southampton",
+   "short": "Southampton",
+   "stadium": "St Mary's Stadium",
+   "capacity": 32384,
+   "colours": [
+    "#D71920",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 20,
+    "points": 12,
+    "won": 2,
+    "drawn": 6,
+    "lost": 30,
+    "goals_for": 26,
+    "goals_against": 86,
+    "xg_per_match": 0.87
+   },
+   "xi": {
+    "GK": {
+     "name": "Aaron Ramsdale",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.505,
+     "season": {
+      "apps": 30,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 59
+     }
+    },
+    "RB": {
+     "name": "Yukinari Sugawara",
+     "nationality": "Japan",
+     "foot": "Right",
+     "rating": 0.465,
+     "season": {
+      "apps": 30,
+      "minutes": 1555,
+      "goals": 1,
+      "assists": 1,
+      "xg": 0.49,
+      "pass_accuracy": 85
+     }
+    },
+    "CB1": {
+     "name": "Taylor Harwood-Bellis",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.463,
+     "season": {
+      "apps": 34,
+      "minutes": 2828,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.79,
+      "pass_accuracy": 88
+     }
+    },
+    "CB2": {
+     "name": "Jan Bednarek",
+     "nationality": "Poland",
+     "foot": "Right",
+     "rating": 0.531,
+     "season": {
+      "apps": 30,
+      "minutes": 2535,
+      "goals": 2,
+      "assists": 0,
+      "xg": 0.65,
+      "pass_accuracy": 93
+     }
+    },
+    "LB": {
+     "name": "Kyle Walker-Peters",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.492,
+     "season": {
+      "apps": 33,
+      "minutes": 2922,
+      "goals": 0,
+      "assists": 2,
+      "xg": 0.84,
+      "pass_accuracy": 91
+     }
+    },
+    "DM": {
+     "name": "Flynn Downes",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.478,
+     "season": {
+      "apps": 27,
+      "minutes": 2154,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.63,
+      "pass_accuracy": 91
+     }
+    },
+    "CMR": {
+     "name": "Mateus Fernandes",
+     "nationality": "Portugal",
+     "foot": "Right",
+     "rating": 0.531,
+     "season": {
+      "apps": 36,
+      "minutes": 2919,
+      "goals": 2,
+      "assists": 4,
+      "xg": 4.01,
+      "pass_accuracy": 85
+     }
+    },
+    "CML": {
+     "name": "Joe Aribo",
+     "nationality": "Nigeria",
+     "foot": "Left",
+     "rating": 0.509,
+     "season": {
+      "apps": 32,
+      "minutes": 2018,
+      "goals": 3,
+      "assists": 0,
+      "xg": 2.7,
+      "pass_accuracy": 90
+     }
+    },
+    "RW": {
+     "name": "Tyler Dibling",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.517,
+     "season": {
+      "apps": 33,
+      "minutes": 1874,
+      "goals": 2,
+      "assists": 0,
+      "xg": 2.56,
+      "pass_accuracy": 84
+     }
+    },
+    "ST": {
+     "name": "Cameron Archer",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.501,
+     "season": {
+      "apps": 35,
+      "minutes": 1432,
+      "goals": 2,
+      "assists": 0,
+      "xg": 5.72,
+      "pass_accuracy": 83
+     }
+    },
+    "LW": {
+     "name": "Adam Armstrong",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.47,
+     "season": {
+      "apps": 20,
+      "minutes": 1252,
+      "goals": 2,
+      "assists": 2,
+      "xg": 3.28,
+      "pass_accuracy": 84
+     }
+    }
+   }
+  },
+  "TOT": {
+   "name": "Tottenham Hotspur",
+   "short": "Spurs",
+   "stadium": "Tottenham Hotspur Stadium",
+   "capacity": 62850,
+   "colours": [
+    "#132257",
+    "#FFFFFF"
+   ],
+   "season_2024_25": {
+    "position": 17,
+    "points": 38,
+    "won": 11,
+    "drawn": 5,
+    "lost": 22,
+    "goals_for": 64,
+    "goals_against": 65,
+    "xg_per_match": 1.57
+   },
+   "xi": {
+    "GK": {
+     "name": "Guglielmo Vicario",
+     "nationality": "Italy",
+     "foot": "Right",
+     "rating": 0.537,
+     "season": {
+      "apps": 24,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 86
+     }
+    },
+    "RB": {
+     "name": "Pedro Porro",
+     "nationality": "Spain",
+     "foot": "Right",
+     "rating": 0.542,
+     "season": {
+      "apps": 33,
+      "minutes": 2608,
+      "goals": 2,
+      "assists": 6,
+      "xg": 1.6,
+      "pass_accuracy": 76
+     }
+    },
+    "CB1": {
+     "name": "Cristian Romero",
+     "nationality": "Argentina",
+     "foot": "Right",
+     "rating": 0.583,
+     "season": {
+      "apps": 18,
+      "minutes": 1420,
+      "goals": 1,
+      "assists": 0,
+      "xg": 1.59,
+      "pass_accuracy": 90
+     }
+    },
+    "CB2": {
+     "name": "Micky van de Ven",
+     "nationality": "Netherlands",
+     "foot": "Left",
+     "rating": 0.502,
+     "season": {
+      "apps": 13,
+      "minutes": 1018,
+      "goals": 0,
+      "assists": 2,
+      "xg": 0.57,
+      "pass_accuracy": 91
+     }
+    },
+    "LB": {
+     "name": "Destiny Udogie",
+     "nationality": "Italy",
+     "foot": "Left",
+     "rating": 0.592,
+     "season": {
+      "apps": 25,
+      "minutes": 1931,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.3,
+      "pass_accuracy": 88
+     }
+    },
+    "DM": {
+     "name": "Yves Bissouma",
+     "nationality": "Mali",
+     "foot": "Right",
+     "rating": 0.507,
+     "season": {
+      "apps": 28,
+      "minutes": 1405,
+      "goals": 2,
+      "assists": 0,
+      "xg": 0.63,
+      "pass_accuracy": 89
+     }
+    },
+    "CMR": {
+     "name": "Pape Sarr",
+     "nationality": "Senegal",
+     "foot": "Right",
+     "rating": 0.553,
+     "season": {
+      "apps": 36,
+      "minutes": 1913,
+      "goals": 3,
+      "assists": 2,
+      "xg": 3.72,
+      "pass_accuracy": 88
+     }
+    },
+    "CML": {
+     "name": "James Maddison",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.593,
+     "season": {
+      "apps": 31,
+      "minutes": 1816,
+      "goals": 9,
+      "assists": 7,
+      "xg": 5.83,
+      "pass_accuracy": 87
+     }
+    },
+    "RW": {
+     "name": "Brennan Johnson",
+     "nationality": "Wales",
+     "foot": "Right",
+     "rating": 0.563,
+     "season": {
+      "apps": 33,
+      "minutes": 2179,
+      "goals": 11,
+      "assists": 3,
+      "xg": 10.4,
+      "pass_accuracy": 76
+     }
+    },
+    "ST": {
+     "name": "Dominic Solanke",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.551,
+     "season": {
+      "apps": 27,
+      "minutes": 2206,
+      "goals": 9,
+      "assists": 3,
+      "xg": 10.97,
+      "pass_accuracy": 71
+     }
+    },
+    "LW": {
+     "name": "Son Heung-Min",
+     "nationality": "South Korea",
+     "foot": "Both",
+     "rating": 0.55,
+     "season": {
+      "apps": 30,
+      "minutes": 2116,
+      "goals": 7,
+      "assists": 9,
+      "xg": 7.35,
+      "pass_accuracy": 84
+     }
+    }
+   }
+  },
+  "WHU": {
+   "name": "West Ham United",
+   "short": "West Ham",
+   "stadium": "London Stadium",
+   "capacity": 62500,
+   "colours": [
+    "#7A263A",
+    "#1BB1E7"
+   ],
+   "season_2024_25": {
+    "position": 14,
+    "points": 43,
+    "won": 11,
+    "drawn": 10,
+    "lost": 17,
+    "goals_for": 46,
+    "goals_against": 62,
+    "xg_per_match": 1.27
+   },
+   "xi": {
+    "GK": {
+     "name": "Alphonse Areola",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.544,
+     "season": {
+      "apps": 26,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 66
+     }
+    },
+    "RB": {
+     "name": "Aaron Wan-Bissaka",
+     "nationality": "England",
+     "foot": "Right",
+     "rating": 0.584,
+     "season": {
+      "apps": 36,
+      "minutes": 3154,
+      "goals": 2,
+      "assists": 5,
+      "xg": 1.19,
+      "pass_accuracy": 83
+     }
+    },
+    "CB1": {
+     "name": "Maximilian Kilman",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.535,
+     "season": {
+      "apps": 38,
+      "minutes": 3349,
+      "goals": 0,
+      "assists": 1,
+      "xg": 1.65,
+      "pass_accuracy": 87
+     }
+    },
+    "CB2": {
+     "name": "Konstantinos Mavropanos",
+     "nationality": "Greece",
+     "foot": "Right",
+     "rating": 0.579,
+     "season": {
+      "apps": 33,
+      "minutes": 2037,
+      "goals": 0,
+      "assists": 0,
+      "xg": 1.54,
+      "pass_accuracy": 87
+     }
+    },
+    "LB": {
+     "name": "Emerson",
+     "nationality": "Italy",
+     "foot": "Left",
+     "rating": 0.557,
+     "season": {
+      "apps": 31,
+      "minutes": 2126,
+      "goals": 2,
+      "assists": 1,
+      "xg": 1.95,
+      "pass_accuracy": 82
+     }
+    },
+    "DM": {
+     "name": "Edson Álvarez",
+     "nationality": "Mexico",
+     "foot": "Both",
+     "rating": 0.511,
+     "season": {
+      "apps": 28,
+      "minutes": 1781,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.38,
+      "pass_accuracy": 87
+     }
+    },
+    "CMR": {
+     "name": "Tomás Soucek",
+     "nationality": "Czech Republic",
+     "foot": "Right",
+     "rating": 0.519,
+     "season": {
+      "apps": 35,
+      "minutes": 2570,
+      "goals": 9,
+      "assists": 1,
+      "xg": 6.9,
+      "pass_accuracy": 75
+     }
+    },
+    "CML": {
+     "name": "Lucas Paquetá",
+     "nationality": "Brazil",
+     "foot": "Left",
+     "rating": 0.584,
+     "season": {
+      "apps": 33,
+      "minutes": 2384,
+      "goals": 4,
+      "assists": 0,
+      "xg": 5.32,
+      "pass_accuracy": 79
+     }
+    },
+    "RW": {
+     "name": "Mohammed Kudus",
+     "nationality": "Ghana",
+     "foot": "Left",
+     "rating": 0.597,
+     "season": {
+      "apps": 32,
+      "minutes": 2601,
+      "goals": 5,
+      "assists": 3,
+      "xg": 6.9,
+      "pass_accuracy": 90
+     }
+    },
+    "ST": {
+     "name": "Jarrod Bowen",
+     "nationality": "England",
+     "foot": "Left",
+     "rating": 0.531,
+     "season": {
+      "apps": 34,
+      "minutes": 2979,
+      "goals": 13,
+      "assists": 8,
+      "xg": 8.65,
+      "pass_accuracy": 79
+     }
+    },
+    "LW": {
+     "name": "Crysencio Summerville",
+     "nationality": "Netherlands",
+     "foot": "Right",
+     "rating": 0.523,
+     "season": {
+      "apps": 19,
+      "minutes": 780,
+      "goals": 1,
+      "assists": 1,
+      "xg": 1.63,
+      "pass_accuracy": 79
+     }
+    }
+   }
+  },
+  "WOL": {
+   "name": "Wolverhampton Wanderers",
+   "short": "Wolves",
+   "stadium": "Molineux",
+   "capacity": 31750,
+   "colours": [
+    "#FDB913",
+    "#231F20"
+   ],
+   "season_2024_25": {
+    "position": 16,
+    "points": 42,
+    "won": 12,
+    "drawn": 6,
+    "lost": 20,
+    "goals_for": 54,
+    "goals_against": 69,
+    "xg_per_match": 1.16
+   },
+   "xi": {
+    "GK": {
+     "name": "José Sá",
+     "nationality": "Portugal",
+     "foot": "Right",
+     "rating": 0.542,
+     "season": {
+      "apps": 29,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.0,
+      "pass_accuracy": 59
+     }
+    },
+    "RB": {
+     "name": "Nélson Semedo",
+     "nationality": "Portugal",
+     "foot": "Right",
+     "rating": 0.539,
+     "season": {
+      "apps": 34,
+      "minutes": 2891,
+      "goals": 0,
+      "assists": 4,
+      "xg": 0.89,
+      "pass_accuracy": 82
+     }
+    },
+    "CB1": {
+     "name": "Toti Gomes",
+     "nationality": "Portugal",
+     "foot": "Left",
+     "rating": 0.574,
+     "season": {
+      "apps": 31,
+      "minutes": 2615,
+      "goals": 0,
+      "assists": 1,
+      "xg": 0.73,
+      "pass_accuracy": 87
+     }
+    },
+    "CB2": {
+     "name": "Emmanuel Agbadou",
+     "nationality": "Cote d’Ivoire",
+     "foot": "Right",
+     "rating": 0.538,
+     "season": {
+      "apps": 16,
+      "minutes": 1411,
+      "goals": 1,
+      "assists": 0,
+      "xg": 0.85,
+      "pass_accuracy": 86
+     }
+    },
+    "LB": {
+     "name": "Rayan Aït-Nouri",
+     "nationality": "Algeria",
+     "foot": "Left",
+     "rating": 0.591,
+     "season": {
+      "apps": 37,
+      "minutes": 3127,
+      "goals": 4,
+      "assists": 7,
+      "xg": 2.69,
+      "pass_accuracy": 87
+     }
+    },
+    "DM": {
+     "name": "André",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.516,
+     "season": {
+      "apps": 33,
+      "minutes": 2484,
+      "goals": 0,
+      "assists": 0,
+      "xg": 0.42,
+      "pass_accuracy": 93
+     }
+    },
+    "CMR": {
+     "name": "João Gomes",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.541,
+     "season": {
+      "apps": 36,
+      "minutes": 2987,
+      "goals": 3,
+      "assists": 1,
+      "xg": 2.89,
+      "pass_accuracy": 86
+     }
+    },
+    "CML": {
+     "name": "Jean-Ricner Bellegarde",
+     "nationality": "France",
+     "foot": "Right",
+     "rating": 0.56,
+     "season": {
+      "apps": 35,
+      "minutes": 1681,
+      "goals": 2,
+      "assists": 7,
+      "xg": 1.53,
+      "pass_accuracy": 83
+     }
+    },
+    "RW": {
+     "name": "Matheus Cunha",
+     "nationality": "Brazil",
+     "foot": "Right",
+     "rating": 0.553,
+     "season": {
+      "apps": 33,
+      "minutes": 2600,
+      "goals": 15,
+      "assists": 6,
+      "xg": 8.63,
+      "pass_accuracy": 79
+     }
+    },
+    "ST": {
+     "name": "Jørgen Strand Larsen",
+     "nationality": "Norway",
+     "foot": "Right",
+     "rating": 0.533,
+     "season": {
+      "apps": 35,
+      "minutes": 2599,
+      "goals": 14,
+      "assists": 4,
+      "xg": 10.27,
+      "pass_accuracy": 65
+     }
+    },
+    "LW": {
+     "name": "Hwang Hee-Chan",
+     "nationality": "South Korea",
+     "foot": "Right",
+     "rating": 0.491,
+     "season": {
+      "apps": 21,
+      "minutes": 650,
+      "goals": 2,
+      "assists": 0,
+      "xg": 0.8,
+      "pass_accuracy": 84
+     }
+    }
+   }
+  }
+ },
+ "note": "Real clubs and players, simulated matches. Ratings derived from 2024/25 per-90 stats and final position."
+}

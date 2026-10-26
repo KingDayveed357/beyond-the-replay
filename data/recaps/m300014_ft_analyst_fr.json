@@ -1,0 +1,167 @@
+{
+ "headline": "Forest renverse Brentford 3-2 au terme d'un match à deux visages",
+ "paragraphs": [
+  "Nottingham Forest s'impose 3-2 face à Brentford au City Ground, dans un match simulé entre effectifs réels de Premier League. Chris Wood ouvre le score à la 8e minute (xG 0.194, passe décisive d'Ola Aina), mais Vitaly Janelt égalise à la 26e (xG 0.39, sur une passe de Mikkel Damsgaard). Le tournant intervient à la 35e : Damsgaard marque pour Brentford (xG 0.436, passe de Christian Nørgaard), et ce but constitue le premier renversement de dynamique du match. Nicolás Domínguez répond dès la 37e (xG 0.449, passe d'Elliot Anderson), avant que Wood ne donne l'avantage définitif à la 66e (xG 0.183, passe d'Aina). Le score final est de 3-2 pour Forest, avec un second basculement de dynamique enregistré à la 45e en faveur de Forest.",
+  "Les données collectives confirment la domination territoriale de Forest. L'équipe de Nuno tire 17 fois, dont 8 cadrés, pour un xG cumulé de 3.33, contre 4 tirs (3 cadrés) et un xG de 1.0 pour Brentford. Forest termine avec une possession de 55 contre 45, un field tilt de 67 contre 33, un contrôle de 66 contre 51 et une précision de passes de 81 contre 78. Les deux occasions franches sont l'œuvre de Forest : Wood à la 6e (xG 0.267) et Anderson à la 86e (xG 0.288). Le chaos enregistré est de 27, pour un tempo de 4.7 passes par minute, signe d'un match ouvert et heurté dans sa seconde moitié.",
+  "Chris Wood réalise la performance individuelle la plus marquante, avec 2 buts pour un xG de 1.56, malgré une précision de passes de 60 et 3 duels gagnés. Ola Aina totalise 2 passes décisives, 34 duels gagnés et une précision de passes de 100. Côté Brentford, Damsgaard signe un but et une passe décisive (xG 0.44, 8 duels gagnés), et Janelt marque un but (xG 0.39). Les cartons jaunes sont distribués à Keane Lewis-Potter (1e), Christian Nørgaard (66e) et Michael Kayode (87e), tous côté Brentford."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Nott'm Forest",
+  "away": "Brentford",
+  "score": "3-2",
+  "venue": "City Ground",
+  "goals": [
+   {
+    "minute": 8,
+    "team": "Nott'm Forest",
+    "scorer": "Chris Wood",
+    "assist": "Ola Aina",
+    "xg": 0.194,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 26,
+    "team": "Brentford",
+    "scorer": "Vitaly Janelt",
+    "assist": "Mikkel Damsgaard",
+    "xg": 0.39,
+    "score_after": "1-1"
+   },
+   {
+    "minute": 35,
+    "team": "Brentford",
+    "scorer": "Mikkel Damsgaard",
+    "assist": "Christian Nørgaard",
+    "xg": 0.436,
+    "score_after": "1-2"
+   },
+   {
+    "minute": 37,
+    "team": "Nott'm Forest",
+    "scorer": "Nicolás Domínguez",
+    "assist": "Elliot Anderson",
+    "xg": 0.449,
+    "score_after": "2-2"
+   },
+   {
+    "minute": 66,
+    "team": "Nott'm Forest",
+    "scorer": "Chris Wood",
+    "assist": "Ola Aina",
+    "xg": 0.183,
+    "score_after": "3-2"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Nott'm Forest",
+    "player": "Chris Wood",
+    "xg": 0.267
+   },
+   {
+    "minute": 86,
+    "team": "Nott'm Forest",
+    "player": "Elliot Anderson",
+    "xg": 0.288
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 35,
+    "team": "Brentford"
+   },
+   {
+    "minute": 45,
+    "team": "Nott'm Forest"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 1,
+    "team": "Brentford",
+    "player": "Keane Lewis-Potter"
+   },
+   {
+    "minute": 66,
+    "team": "Brentford",
+    "player": "Christian Nørgaard"
+   },
+   {
+    "minute": 87,
+    "team": "Brentford",
+    "player": "Michael Kayode"
+   }
+  ],
+  "team_stats": {
+   "Nott'm Forest": {
+    "goals": 3,
+    "shots": 17,
+    "on_target": 8,
+    "xg": 3.33,
+    "possession": 55,
+    "pass_accuracy": 81,
+    "field_tilt": 67,
+    "control": 66
+   },
+   "Brentford": {
+    "goals": 2,
+    "shots": 4,
+    "on_target": 3,
+    "xg": 1.0,
+    "possession": 45,
+    "pass_accuracy": 78,
+    "field_tilt": 33,
+    "control": 51
+   }
+  },
+  "chaos_now": 27,
+  "tempo_passes_per_min": 4.7,
+  "standout_players": [
+   {
+    "name": "Chris Wood",
+    "team": "Nott'm Forest",
+    "goals": 2,
+    "assists": 0,
+    "xg": 1.56,
+    "pass_accuracy": 60,
+    "duels_won": 3
+   },
+   {
+    "name": "Ola Aina",
+    "team": "Nott'm Forest",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.0,
+    "pass_accuracy": 100,
+    "duels_won": 34
+   },
+   {
+    "name": "Mikkel Damsgaard",
+    "team": "Brentford",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.44,
+    "pass_accuracy": 62,
+    "duels_won": 8
+   },
+   {
+    "name": "Vitaly Janelt",
+    "team": "Brentford",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.39,
+    "pass_accuracy": 84,
+    "duels_won": 8
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "fr",
+ "voice": "analyst",
+ "phase": "ft"
+}

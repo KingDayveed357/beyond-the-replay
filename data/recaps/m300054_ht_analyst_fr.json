@@ -1,0 +1,152 @@
+{
+ "headline": "Chelsea-West Ham 1-1 à la pause : xG favorable aux Hammers",
+ "paragraphs": [
+  "À la pause, Stamford Bridge voit Chelsea et West Ham dos à dos sur le score (1-1), mais pas sur le fond. Mohammed Kudus a ouvert la marque à la 11e minute (xG 0,177, passe décisive d'Emerson), avant que Enzo Fernández n'égalise à la 36e (xG 0,158, sur une passe de Nicolas Jackson). Les Blues ont eu le plus d'occasions franches en début de match : Jackson (6e, xG 0,251 puis 19e, xG 0,265) et Noni Madueke (13e, xG 0,267). Les Hammers ont répondu par Lucas Paquetá, auteur de deux grosses occasions (26e, xG 0,341 ; 30e, xG 0,718) sans trouver le cadre sur la seconde.",
+  "Les statistiques d'équipe confirment un duel serré. Chelsea totalise 9 tirs dont 5 cadrés et un xG de 1,45, contre 6 tirs dont 2 cadrés et un xG de 1,79 pour West Ham. La possession est de 48 % pour Chelsea et 52 % pour West Ham, le field tilt est à égalité (50/50), mais le contrôle penche vers les visiteurs (61 contre 58). Le tournant est intervenu à la 29e minute, avec un swing de momentum en faveur de West Ham, juste avant la séquence Paquetá. Le chaos est évalué à 35 et le rythme à 4,4 passes par minute.",
+  "Côté individuel, Jackson (xG 1,42, 4 duels gagnés, précision de passes 87 %) et Fernández (xG 0,79, 8 duels gagnés, précision 90 %) portent les Blues, tandis qu'Emerson (13 duels gagnés, précision 67 %) et Kudus (6 duels gagnés) tiennent le côté londonien en respect. Malo Gusto a reçu deux cartons (38e et 41e), un point de vigilance pour la seconde période. Chelsea devra transformer sa domination territoriale en occasions cadrées, alors que West Ham doit prouver qu'un xG supérieur peut se convertir en avantage au score."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "1-1",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 11,
+    "team": "West Ham",
+    "scorer": "Mohammed Kudus",
+    "assist": "Emerson",
+    "xg": 0.177,
+    "score_after": "0-1"
+   },
+   {
+    "minute": 36,
+    "team": "Chelsea",
+    "scorer": "Enzo Fernández",
+    "assist": "Nicolas Jackson",
+    "xg": 0.158,
+    "score_after": "1-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.251
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.267
+   },
+   {
+    "minute": 19,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.265
+   },
+   {
+    "minute": 26,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.341
+   },
+   {
+    "minute": 30,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.718
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 29,
+    "team": "West Ham"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 41,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 1,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 1.45,
+    "possession": 48,
+    "pass_accuracy": 80,
+    "field_tilt": 50,
+    "control": 58
+   },
+   "West Ham": {
+    "goals": 1,
+    "shots": 6,
+    "on_target": 2,
+    "xg": 1.79,
+    "possession": 52,
+    "pass_accuracy": 83,
+    "field_tilt": 50,
+    "control": 61
+   }
+  },
+  "chaos_now": 35,
+  "tempo_passes_per_min": 4.4,
+  "standout_players": [
+   {
+    "name": "Nicolas Jackson",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 1.42,
+    "pass_accuracy": 87,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.79,
+    "pass_accuracy": 90,
+    "duels_won": 8
+   },
+   {
+    "name": "Mohammed Kudus",
+    "team": "West Ham",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.18,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Emerson",
+    "team": "West Ham",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.0,
+    "pass_accuracy": 67,
+    "duels_won": 13
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "fr",
+ "voice": "analyst",
+ "phase": "ht"
+}

@@ -1,0 +1,68 @@
+{
+  "prompt_version": "8b1f1dee53",
+  "model": "claude-haiku-5-5",
+  "spent_usd_estimate": 0.7589,
+  "n_cases": 62,
+  "variants": {
+    "deterministic (shipped)": {
+      "investigator": "deterministic",
+      "n_cases": 62,
+      "n_labelled": 62,
+      "recall@1": 0.6451612903225806,
+      "recall@3": 0.9354838709677419,
+      "recall@1_strict_onset": 0.4838709677419355,
+      "macro_recall@1": 0.5436507936507936,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 35,
+          "recall@1": 0.7142857142857143
+        },
+        "OVERLOAD": {
+          "n": 24,
+          "recall@1": 0.5833333333333334
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.3333333333333333
+        }
+      }
+    },
+    "agents": {
+      "investigator": "agents",
+      "n_cases": 62,
+      "n_labelled": 62,
+      "recall@1": 0.6451612903225806,
+      "recall@3": 0.7741935483870968,
+      "recall@1_strict_onset": 0.43548387096774194,
+      "macro_recall@1": 0.4376984126984127,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 35,
+          "recall@1": 0.7714285714285715
+        },
+        "OVERLOAD": {
+          "n": 24,
+          "recall@1": 0.5416666666666666
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.0
+        }
+      },
+      "completed": 62,
+      "errors": 1,
+      "mean_cost_usd": 0.00409,
+      "mean_calls": 7.21,
+      "template_fallbacks": 1,
+      "citations_dropped": 0
+    }
+  },
+  "seed_start": 500001,
+  "note": "Frozen after tuning on seeds 400001+ (40 labelled matches). Measured once on seeds 500001+ (62 labelled). LLM-only baseline not re-run on this set to stay within budget."
+}

@@ -1,0 +1,147 @@
+{
+ "headline": "Bournemouth dominam o Leicester e vão ao intervalo com 3-0",
+ "paragraphs": [
+  "O Bournemouth fez uma primeira parte forte no Vitality Stadium. Evanilson abriu o placar aos 22 minutos, com assistência de Lewis Cook. Quatro minutos depois, Lewis Cook marcou ele mesmo, com passe de Tyler Adams. Antes do intervalo, Ryan Christie fez o terceiro gol aos 45 minutos, também com assistência de Tyler Adams.",
+  "O Leicester teve bons momentos e criou chances perigosas. Jamie Vardy teve uma grande oportunidade aos 28 minutos, e Jordan Ayew também chegou perto aos 13. Mesmo assim, a bola não quis entrar para os visitantes. Adam Smith levou cartão amarelo aos 38 minutos pelo lado do Bournemouth.",
+  "Agora o segundo tempo começa com um placar de 3-0 para os donos da casa. O Leicester vai precisar de mais calma e de mais pontaria para voltar ao jogo. Fique ligado, porque a segunda parte promete emoção!"
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Bournemouth",
+  "away": "Leicester",
+  "score": "3-0",
+  "venue": "Vitality Stadium",
+  "goals": [
+   {
+    "minute": 22,
+    "team": "Bournemouth",
+    "scorer": "Evanilson",
+    "assist": "Lewis Cook",
+    "xg": 0.351,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 26,
+    "team": "Bournemouth",
+    "scorer": "Lewis Cook",
+    "assist": "Tyler Adams",
+    "xg": 0.186,
+    "score_after": "2-0"
+   },
+   {
+    "minute": 45,
+    "team": "Bournemouth",
+    "scorer": "Ryan Christie",
+    "assist": "Tyler Adams",
+    "xg": 0.574,
+    "score_after": "3-0"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 13,
+    "team": "Leicester",
+    "player": "Jordan Ayew",
+    "xg": 0.251
+   },
+   {
+    "minute": 28,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.269
+   },
+   {
+    "minute": 34,
+    "team": "Bournemouth",
+    "player": "Tyler Adams",
+    "xg": 0.311
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 19,
+    "team": "Leicester"
+   },
+   {
+    "minute": 44,
+    "team": "Leicester"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Bournemouth",
+    "player": "Adam Smith"
+   }
+  ],
+  "team_stats": {
+   "Bournemouth": {
+    "goals": 3,
+    "shots": 6,
+    "on_target": 3,
+    "xg": 1.76,
+    "possession": 52,
+    "pass_accuracy": 77,
+    "field_tilt": 54,
+    "control": 60
+   },
+   "Leicester": {
+    "goals": 0,
+    "shots": 5,
+    "on_target": 3,
+    "xg": 0.81,
+    "possession": 48,
+    "pass_accuracy": 78,
+    "field_tilt": 46,
+    "control": 57
+   }
+  },
+  "chaos_now": 35,
+  "tempo_passes_per_min": 3.9,
+  "standout_players": [
+   {
+    "name": "Lewis Cook",
+    "team": "Bournemouth",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.47,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Jamie Vardy",
+    "team": "Leicester",
+    "goals": 1,
+    "assists": 0,
+    "xg": 2.19,
+    "pass_accuracy": 71,
+    "duels_won": 1
+   },
+   {
+    "name": "Tyler Adams",
+    "team": "Bournemouth",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.82,
+    "pass_accuracy": 81,
+    "duels_won": 2
+   },
+   {
+    "name": "Evanilson",
+    "team": "Bournemouth",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.61,
+    "pass_accuracy": 90,
+    "duels_won": 7
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "pt",
+ "voice": "fan",
+ "phase": "ht"
+}

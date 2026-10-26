@@ -1,0 +1,23 @@
+{
+ "features": [
+  "bias",
+  "distance",
+  "forward",
+  "pressure",
+  "switch",
+  "final_third",
+  "long"
+ ],
+ "weights": [
+  1.678,
+  -0.3401,
+  0.4222,
+  -0.2442,
+  -0.5055,
+  -0.1743,
+  -0.2979
+ ],
+ "trained_on": "development seeds 1-40",
+ "held_out_log_loss": 0.481,
+ "constant_log_loss": 0.5027
+}

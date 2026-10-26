@@ -1,0 +1,152 @@
+{
+ "headline": "تعادل 1-1 في الشوط الأول بين تشيلسي وويست هام على ملعب ستامفورد بريدج",
+ "paragraphs": [
+  "انتهى الشوط الأول بالتعادل 1-1 على ملعب ستامفورد بريدج. افتتح ويست هام التسجيل في الدقيقة 11 عبر محمد كودوس بعد تمريرة حاسمة من Emerson، بمجسّم xG بلغ 0.177. وعادل تشيلسي في الدقيقة 36 بهدف إنزو فernandez من تمريرة Nicolas Jackson، بقيمة xG بلغت 0.158. ورغم تقارب النتيجة، تفوّق ويست هام في جودة الفرص مع إجمالي xG بلغ 1.79 مقابل 1.45 لتشيلسي، بينما سجّل تشيلسي تسديدات أكثر (9 مقابل 6) وتسديدات على المرمى أكثر (5 مقابل 2).",
+  "سيطر ويست هام على الكرة بنسبة استحواذ 52% مقابل 48% لتشيلسي، وبلغت السيطرة 61 لويست هام مقابل 58 لتشيلسي، فيما تعادل الميل الميداني عند 50 لكل فريق. وكانت الفرص الكبيرة أكثر حدّة لدى ويست هام، إذ أهدر Lucas Paquetá فرصتين في الدقيقتين 26 و30 بقيمتي xG بلغتا 0.341 و0.718 على التوالي. أما تشيلسي، فقد خلق فرصاً عبر Nicolas Jackson في الدقيقتين 6 و19، وNoni Madueke في الدقيقة 13. وشهدت الدقيقة 29 تحوّلاً في الزخم لصالح ويست هام، وبلغ مؤشر الفوضى 35.",
+  "تلقى Malo Gusto بطاقتين في الدقيقتين 38 و41، وهو ما قد يغيّر حسابات تشيلسي في الشوط الثاني. على صعيد اللاعبين البارزين، واصل Nicolas Jackson تأثيره بـ xG تراكمي بلغ 1.42 وإسهامه في الهدف، بينما قدّم Enzo Fernández دقة تمرير بنسبة 90% و8 مراوغات ناجحة مع xG بلغ 0.79. أما Emerson فلعب دور الصانع بتمريرة حاسمة وفاز بـ13 مبارزة، في حين سجّل Mohammed Kudus هدف ويست هام. ويبقى السؤال في الشوط الثاني: هل يحافظ ويست هام على تفوقه في جودة الفرص، أم يستعيد تشيلسي السيطرة بعد الهدف؟"
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "1-1",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 11,
+    "team": "West Ham",
+    "scorer": "Mohammed Kudus",
+    "assist": "Emerson",
+    "xg": 0.177,
+    "score_after": "0-1"
+   },
+   {
+    "minute": 36,
+    "team": "Chelsea",
+    "scorer": "Enzo Fernández",
+    "assist": "Nicolas Jackson",
+    "xg": 0.158,
+    "score_after": "1-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.251
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.267
+   },
+   {
+    "minute": 19,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.265
+   },
+   {
+    "minute": 26,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.341
+   },
+   {
+    "minute": 30,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.718
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 29,
+    "team": "West Ham"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 41,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 1,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 1.45,
+    "possession": 48,
+    "pass_accuracy": 80,
+    "field_tilt": 50,
+    "control": 58
+   },
+   "West Ham": {
+    "goals": 1,
+    "shots": 6,
+    "on_target": 2,
+    "xg": 1.79,
+    "possession": 52,
+    "pass_accuracy": 83,
+    "field_tilt": 50,
+    "control": 61
+   }
+  },
+  "chaos_now": 35,
+  "tempo_passes_per_min": 4.4,
+  "standout_players": [
+   {
+    "name": "Nicolas Jackson",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 1.42,
+    "pass_accuracy": 87,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.79,
+    "pass_accuracy": 90,
+    "duels_won": 8
+   },
+   {
+    "name": "Mohammed Kudus",
+    "team": "West Ham",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.18,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Emerson",
+    "team": "West Ham",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.0,
+    "pass_accuracy": 67,
+    "duels_won": 13
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "ar",
+ "voice": "analyst",
+ "phase": "ht"
+}

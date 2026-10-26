@@ -1,0 +1,99 @@
+{
+  "prompt_version": "2dcbf3d4da",
+  "model": "claude-haiku-5-5",
+  "spent_usd_estimate": 0.7471,
+  "n_cases": 80,
+  "variants": {
+    "deterministic (shipped)": {
+      "investigator": "deterministic",
+      "n_cases": 80,
+      "n_labelled": 61,
+      "recall@1": 0.6557377049180327,
+      "recall@3": 0.8852459016393442,
+      "recall@1_strict_onset": 0.45901639344262296,
+      "macro_recall@1": 0.4692982456140351,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 38,
+          "recall@1": 0.6578947368421053
+        },
+        "OVERLOAD": {
+          "n": 20,
+          "recall@1": 0.75
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "agents": {
+      "investigator": "agents",
+      "n_cases": 80,
+      "n_labelled": 61,
+      "recall@1": 0.5737704918032787,
+      "recall@3": 0.7704918032786885,
+      "recall@1_strict_onset": 0.4098360655737705,
+      "macro_recall@1": 0.4883040935672514,
+      "decoy_rejection": 0.9875,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 38,
+          "recall@1": 0.631578947368421
+        },
+        "OVERLOAD": {
+          "n": 20,
+          "recall@1": 0.5
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.3333333333333333
+        }
+      },
+      "completed": 80,
+      "errors": 0,
+      "mean_cost_usd": 0.00528,
+      "mean_calls": 8.41,
+      "template_fallbacks": 20,
+      "citations_dropped": 0,
+      "pre_verification_unsupported_rate": 0.049,
+      "note": "unsupported_claim_rate is measured after the verifier removed unverified claims; see pre_verification_unsupported_rate"
+    },
+    "llm_only": {
+      "investigator": "llm_only",
+      "n_cases": 80,
+      "n_labelled": 61,
+      "recall@1": 0.2459016393442623,
+      "recall@3": 0.6229508196721312,
+      "recall@1_strict_onset": 0.14754098360655737,
+      "macro_recall@1": 0.35994152046783623,
+      "decoy_rejection": 0.9375,
+      "unsupported_claim_rate": 0.5983263598326359,
+      "evidence_link_correctness": 0.8109683203825464,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 38,
+          "recall@1": 0.2631578947368421
+        },
+        "OVERLOAD": {
+          "n": 20,
+          "recall@1": 0.15
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.6666666666666666
+        }
+      },
+      "completed": 80,
+      "errors": 0,
+      "mean_cost_usd": 0.00406,
+      "mean_calls": 1.0
+    }
+  },
+  "producer_note": "template_fallbacks were measured before the producer's number-quoting fix; not re-measured"
+}

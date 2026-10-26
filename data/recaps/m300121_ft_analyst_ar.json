@@ -1,0 +1,163 @@
+{
+ "headline": "Liverpool تسحق Man City 4-1 في أنفيلد بثنائية Luis Díaz",
+ "paragraphs": [
+  "انتهت المباراة في أنفيلد بفوز Liverpool 4-1 على Man City. سجل Luis Díaz هدفين في الدقيقتين 2 و17 (xG 0.189 و0.175)، وأضاف Alexis Mac Allister الهدف الثالث في الدقيقة 34 (xG 0.285) بعد تمريرة Andy Robertson. قلّص Ilkay Gündogan الفارق في الدقيقة 65 (xG 0.181) بعد تمريرة Bernardo Silva، قبل أن يختم Mohamed Salah التسجيل في الدقيقة 86 (xG 0.194) مصنوعًا من Andy Robertson. ساهم Robertson بتمريرتين حاسمتين، بينما بلغ عدد duels المكسوبة له 23.",
+  "أحد أبرز ملامح اللقاء كان الفارق في الفرص المحققة. Liverpool سجل xG إجماليًا قدره 2.88 من 13 تسديدة، منها 7 على المرمى، مقابل 1.44 xG لـ Man City من 7 تسديدات، منها 3 على المرمى. في المقابل أهدر Man City فرصتين كبيرتين عبر Rúben Dias في الدقيقة 30 (xG 0.282) وErling Haaland في الدقيقة 32 (xG 0.261)، وكانت الأولى قبل تحول الزخم الذي سجله City في الدقيقة 32. أما Liverpool فرد بتحول زخم في الدقيقة 41، وأهدر Mac Allister فرصة كبيرة في الدقيقة 46 بقيمة xG بلغت 0.742.",
+  "على مستوى السيطرة، أنهى Liverpool اللقاء بنسبة استحواذ 53 مقابل 47 لـ Man City، وبلغت دقة التمرير 85 مقابل 80، مع field tilt 59 مقابل 41 وcontrol 65 مقابل 55. ارتفع مؤشر الفوضى إلى 38، وبلغ معدل التمرير الإيقاعي 3.2 تمريرة في الدقيقة. تلقى Rúben Dias بطاقة صفراء في الدقيقة 86. Luis Díaz كان الأبرز بتسجيله هدفين بنسبة تمرير 100 وxG إجمالي 0.92، فيما سجل Mac Allister xG 1.12 من هدف واحد."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Liverpool",
+  "away": "Man City",
+  "score": "4-1",
+  "venue": "Anfield",
+  "goals": [
+   {
+    "minute": 2,
+    "team": "Liverpool",
+    "scorer": "Luis Díaz",
+    "assist": "Mohamed Salah",
+    "xg": 0.189,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 17,
+    "team": "Liverpool",
+    "scorer": "Luis Díaz",
+    "assist": "Dominik Szoboszlai",
+    "xg": 0.175,
+    "score_after": "2-0"
+   },
+   {
+    "minute": 34,
+    "team": "Liverpool",
+    "scorer": "Alexis Mac Allister",
+    "assist": "Andy Robertson",
+    "xg": 0.285,
+    "score_after": "3-0"
+   },
+   {
+    "minute": 65,
+    "team": "Man City",
+    "scorer": "Ilkay Gündogan",
+    "assist": "Bernardo Silva",
+    "xg": 0.181,
+    "score_after": "3-1"
+   },
+   {
+    "minute": 86,
+    "team": "Liverpool",
+    "scorer": "Mohamed Salah",
+    "assist": "Andy Robertson",
+    "xg": 0.194,
+    "score_after": "4-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 30,
+    "team": "Man City",
+    "player": "Rúben Dias",
+    "xg": 0.282
+   },
+   {
+    "minute": 32,
+    "team": "Man City",
+    "player": "Erling Haaland",
+    "xg": 0.261
+   },
+   {
+    "minute": 46,
+    "team": "Liverpool",
+    "player": "Alexis Mac Allister",
+    "xg": 0.742
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 32,
+    "team": "Man City"
+   },
+   {
+    "minute": 41,
+    "team": "Liverpool"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 86,
+    "team": "Man City",
+    "player": "Rúben Dias"
+   }
+  ],
+  "team_stats": {
+   "Liverpool": {
+    "goals": 4,
+    "shots": 13,
+    "on_target": 7,
+    "xg": 2.88,
+    "possession": 53,
+    "pass_accuracy": 85,
+    "field_tilt": 59,
+    "control": 65
+   },
+   "Man City": {
+    "goals": 1,
+    "shots": 7,
+    "on_target": 3,
+    "xg": 1.44,
+    "possession": 47,
+    "pass_accuracy": 80,
+    "field_tilt": 41,
+    "control": 55
+   }
+  },
+  "chaos_now": 38,
+  "tempo_passes_per_min": 3.2,
+  "standout_players": [
+   {
+    "name": "Luis Díaz",
+    "team": "Liverpool",
+    "goals": 2,
+    "assists": 0,
+    "xg": 0.92,
+    "pass_accuracy": 100,
+    "duels_won": 2
+   },
+   {
+    "name": "Mohamed Salah",
+    "team": "Liverpool",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.43,
+    "pass_accuracy": 54,
+    "duels_won": 11
+   },
+   {
+    "name": "Andy Robertson",
+    "team": "Liverpool",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.0,
+    "pass_accuracy": 83,
+    "duels_won": 23
+   },
+   {
+    "name": "Alexis Mac Allister",
+    "team": "Liverpool",
+    "goals": 1,
+    "assists": 0,
+    "xg": 1.12,
+    "pass_accuracy": 85,
+    "duels_won": 5
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "ar",
+ "voice": "analyst",
+ "phase": "ft"
+}

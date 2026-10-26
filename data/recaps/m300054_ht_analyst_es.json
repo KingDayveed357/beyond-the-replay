@@ -1,0 +1,152 @@
+{
+ "headline": "Chelsea y West Ham empatan 1-1 al descanso en Stamford Bridge",
+ "paragraphs": [
+  "West Ham se adelantó en el minuto 11 con gol de Mohammed Kudus (xG 0.177), asistido por Emerson, y Chelsea igualó en el 36 por medio de Enzo Fernández (xG 0.158), que llegó tras pase de Nicolas Jackson. Al descanso el marcador es 1-1 y el partido está equilibrado en los números clave: posesión de 48% para Chelsea frente a 52% para West Ham, field tilt de 50 para ambos y tempo de 4.4 pases por minuto.",
+  "Chelsea generó más volumen ofensivo: 9 disparos (5 a puerta) frente a 6 (2 a puerta) de West Ham, con 1.45 xG contra 1.79. Jackson acumula 1.42 xG en solitario y tuvo cuatro ocasiones claras en el primer tiempo (minutos 6 y 19 entre ellas), con Madueke también en la lista (minuto 13, xG 0.267). West Ham, sin embargo, tuvo la ocasión de mayor calidad: Lucas Paquetá falló un remate de 0.718 xG en el minuto 30, tras un cambio de dinámica en el 29 a favor de los visitantes. Su control fue de 61 frente a 58 de Chelsea, aunque el chaos de 35 indica un partido de transiciones abiertas.",
+  "Chelsea perdió orden disciplinario con Malo Gusto, amonestado en los minutos 38 y 41. Fernández (8 duelos ganados, pase al 90%) y Emerson (13 duelos ganados, pase al 67%) lideran los indicadores de duelo de sus equipos. La segunda mitad arranca con un marcador igualado y un diferencial de xG de 1.79 frente a 1.45 a favor de West Ham, un dato que obliga a Chelsea a convertir su volumen de disparos en el segundo tiempo."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "1-1",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 11,
+    "team": "West Ham",
+    "scorer": "Mohammed Kudus",
+    "assist": "Emerson",
+    "xg": 0.177,
+    "score_after": "0-1"
+   },
+   {
+    "minute": 36,
+    "team": "Chelsea",
+    "scorer": "Enzo Fernández",
+    "assist": "Nicolas Jackson",
+    "xg": 0.158,
+    "score_after": "1-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.251
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.267
+   },
+   {
+    "minute": 19,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.265
+   },
+   {
+    "minute": 26,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.341
+   },
+   {
+    "minute": 30,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.718
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 29,
+    "team": "West Ham"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 41,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 1,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 1.45,
+    "possession": 48,
+    "pass_accuracy": 80,
+    "field_tilt": 50,
+    "control": 58
+   },
+   "West Ham": {
+    "goals": 1,
+    "shots": 6,
+    "on_target": 2,
+    "xg": 1.79,
+    "possession": 52,
+    "pass_accuracy": 83,
+    "field_tilt": 50,
+    "control": 61
+   }
+  },
+  "chaos_now": 35,
+  "tempo_passes_per_min": 4.4,
+  "standout_players": [
+   {
+    "name": "Nicolas Jackson",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 1.42,
+    "pass_accuracy": 87,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.79,
+    "pass_accuracy": 90,
+    "duels_won": 8
+   },
+   {
+    "name": "Mohammed Kudus",
+    "team": "West Ham",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.18,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Emerson",
+    "team": "West Ham",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.0,
+    "pass_accuracy": 67,
+    "duels_won": 13
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "es",
+ "voice": "analyst",
+ "phase": "ht"
+}

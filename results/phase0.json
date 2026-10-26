@@ -1,0 +1,1161 @@
+{
+  "args": {
+    "dev": 40,
+    "test": 80,
+    "k": 120,
+    "workers": 7,
+    "out": "results",
+    "dev_only": false
+  },
+  "build_seconds": 508.9,
+  "fitted_weights": {
+    "FATIGUE": 1.0,
+    "OVERLOAD": 0.25,
+    "STATIC": 0.25,
+    "STYLE": 0.25,
+    "FOUL": 0.25
+  },
+  "realism_mean_per_match": {
+    "events": 953.267,
+    "goals": 3.608,
+    "shots": 21.742,
+    "pass_completion": 0.808,
+    "possessions": 227.15,
+    "fouls": 11.867
+  },
+  "truth": {
+    "labelled": 55,
+    "ambiguous": 25,
+    "label_is_planted_factor": 48,
+    "label_kinds": {
+      "FATIGUE": 37,
+      "OVERLOAD": 11,
+      "STATIC": 7,
+      "STYLE": 0
+    },
+    "planted_effect_mean": 0.201,
+    "but_for_rate": 0.613,
+    "candidates_per_case": 8.95
+  },
+  "dev_scores": {
+    "random": {
+      "investigator": "random",
+      "n_cases": 40,
+      "n_labelled": 27,
+      "recall@1": 0.1111111111111111,
+      "recall@3": 0.4444444444444444,
+      "recall@1_strict_onset": 0.0,
+      "macro_recall@1": 0.08333333333333333,
+      "decoy_rejection": 0.925,
+      "unsupported_claim_rate": 1.0,
+      "evidence_link_correctness": 0.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 12,
+          "recall@1": 0.25
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.0
+        },
+        "STATIC": {
+          "n": 4,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "salience": {
+      "investigator": "salience",
+      "n_cases": 40,
+      "n_labelled": 27,
+      "recall@1": 0.07407407407407407,
+      "recall@3": 0.4074074074074074,
+      "recall@1_strict_onset": 0.0,
+      "macro_recall@1": 0.05555555555555555,
+      "decoy_rejection": 0.050000000000000044,
+      "unsupported_claim_rate": 0.6779661016949152,
+      "evidence_link_correctness": 0.3220338983050847,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 12,
+          "recall@1": 0.16666666666666666
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.0
+        },
+        "STATIC": {
+          "n": 4,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "lane_shortcut": {
+      "investigator": "lane_shortcut",
+      "n_cases": 40,
+      "n_labelled": 27,
+      "recall@1": 0.18518518518518517,
+      "recall@3": 0.4444444444444444,
+      "recall@1_strict_onset": 0.0,
+      "macro_recall@1": 0.1388888888888889,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 1.0,
+      "evidence_link_correctness": 0.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 12,
+          "recall@1": 0.4166666666666667
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.0
+        },
+        "STATIC": {
+          "n": 4,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "stat_unfitted": {
+      "investigator": "stat_unfitted",
+      "n_cases": 40,
+      "n_labelled": 27,
+      "recall@1": 0.48148148148148145,
+      "recall@3": 0.8148148148148148,
+      "recall@1_strict_onset": 0.48148148148148145,
+      "macro_recall@1": 0.3863636363636364,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 12,
+          "recall@1": 0.25
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.9090909090909091
+        },
+        "STATIC": {
+          "n": 4,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "stat_fitted": {
+      "investigator": "stat_fitted",
+      "n_cases": 40,
+      "n_labelled": 27,
+      "recall@1": 0.6296296296296297,
+      "recall@3": 0.8518518518518519,
+      "recall@1_strict_onset": 0.5185185185185185,
+      "macro_recall@1": 0.49242424242424243,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 12,
+          "recall@1": 0.75
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.7272727272727273
+        },
+        "STATIC": {
+          "n": 4,
+          "recall@1": 0.0
+        }
+      }
+    }
+  },
+  "test_scores": {
+    "random": {
+      "investigator": "random",
+      "n_cases": 80,
+      "n_labelled": 55,
+      "recall@1": 0.10909090909090909,
+      "recall@3": 0.41818181818181815,
+      "recall@1_strict_onset": 0.05454545454545454,
+      "macro_recall@1": 0.19117819117819115,
+      "decoy_rejection": 0.9375,
+      "unsupported_claim_rate": 1.0,
+      "evidence_link_correctness": 0.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 37,
+          "recall@1": 0.05405405405405406
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.09090909090909091
+        },
+        "STATIC": {
+          "n": 7,
+          "recall@1": 0.42857142857142855
+        }
+      }
+    },
+    "salience": {
+      "investigator": "salience",
+      "n_cases": 80,
+      "n_labelled": 55,
+      "recall@1": 0.01818181818181818,
+      "recall@3": 0.4909090909090909,
+      "recall@1_strict_onset": 0.0,
+      "macro_recall@1": 0.009009009009009009,
+      "decoy_rejection": 0.050000000000000044,
+      "unsupported_claim_rate": 0.6779661016949152,
+      "evidence_link_correctness": 0.3220338983050847,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 37,
+          "recall@1": 0.02702702702702703
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.0
+        },
+        "STATIC": {
+          "n": 7,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "lane_shortcut": {
+      "investigator": "lane_shortcut",
+      "n_cases": 80,
+      "n_labelled": 55,
+      "recall@1": 0.43636363636363634,
+      "recall@3": 0.6909090909090909,
+      "recall@1_strict_onset": 0.0,
+      "macro_recall@1": 0.21621621621621623,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 1.0,
+      "evidence_link_correctness": 0.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 37,
+          "recall@1": 0.6486486486486487
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.0
+        },
+        "STATIC": {
+          "n": 7,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "stat_unfitted": {
+      "investigator": "stat_unfitted",
+      "n_cases": 80,
+      "n_labelled": 55,
+      "recall@1": 0.36363636363636365,
+      "recall@3": 0.8,
+      "recall@1_strict_onset": 0.32727272727272727,
+      "macro_recall@1": 0.3931203931203931,
+      "decoy_rejection": 0.9875,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 37,
+          "recall@1": 0.2702702702702703
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.9090909090909091
+        },
+        "STATIC": {
+          "n": 7,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "stat_fitted": {
+      "investigator": "stat_fitted",
+      "n_cases": 80,
+      "n_labelled": 55,
+      "recall@1": 0.6363636363636364,
+      "recall@3": 0.8909090909090909,
+      "recall@1_strict_onset": 0.5272727272727272,
+      "macro_recall@1": 0.46437346437346444,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 37,
+          "recall@1": 0.7567567567567568
+        },
+        "OVERLOAD": {
+          "n": 11,
+          "recall@1": 0.6363636363636364
+        },
+        "STATIC": {
+          "n": 7,
+          "recall@1": 0.0
+        }
+      }
+    }
+  },
+  "llm_only": "see results/slice3_agents.json (python -m investigation.evaluate_agents)",
+  "gates": {
+    "G0_no_leakage": {
+      "pass": true,
+      "detail": []
+    },
+    "G1_truth_is_meaningful": {
+      "pass": true,
+      "detail": "69% of cases have a clear measured cause (need >= 60%)"
+    },
+    "G2_learnable": {
+      "pass": false,
+      "detail": "stat recall@1 0.64 (>=0.50), recall@3 0.89 (>=0.75), class-balanced recall@1 0.46 (>=0.50)"
+    },
+    "G3_not_trivial": {
+      "pass": true,
+      "detail": "salience recall@1 0.02 (<=0.35); stat minus lane-shortcut +0.20 (>=+0.15)"
+    },
+    "G4_headroom": {
+      "pass": true,
+      "detail": "stat recall@1 0.64; above 0.90 leaves agents nothing to add"
+    }
+  },
+  "examples": {
+    "successes": [
+      {
+        "case": "m100010",
+        "teams": "NEW v CRY",
+        "goal": "e00757 by NEW at 73.2'",
+        "truth_label": [
+          "OVERLOAD",
+          "right"
+        ],
+        "planted": [
+          "OVERLOAD",
+          "right"
+        ],
+        "measured_effects": [
+          [
+            "factor",
+            [
+              "OVERLOAD",
+              "right"
+            ],
+            0.442,
+            0.08
+          ],
+          [
+            "style",
+            [
+              "STYLE",
+              "right"
+            ],
+            0.058,
+            0.045
+          ]
+        ],
+        "but_for": true,
+        "top3": [
+          [
+            "OVERLOAD",
+            "right",
+            1.99,
+            60
+          ],
+          [
+            "FATIGUE",
+            "CRY-LB",
+            1.91,
+            55
+          ],
+          [
+            "STYLE",
+            "right",
+            1.01,
+            null
+          ]
+        ],
+        "top1_cited": [
+          "e00629",
+          "e00630",
+          "e00636",
+          "e00637",
+          "e00647"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00629",
+            "t": 3687.6,
+            "team": "NEW",
+            "player_id": "NEW-RW",
+            "type": "pass",
+            "outcome": "success",
+            "x": 50.2,
+            "y": 5.2,
+            "end_x": 60.8,
+            "end_y": 16.6,
+            "opponent_id": null,
+            "receiver_id": "NEW-CML",
+            "possession_id": "p0148",
+            "under_pressure": true,
+            "speed_kmh": 47.4
+          },
+          {
+            "id": "e00630",
+            "t": 3691.2,
+            "team": "NEW",
+            "player_id": "NEW-CML",
+            "type": "carry",
+            "outcome": "fail",
+            "x": 60.8,
+            "y": 8.1,
+            "end_x": null,
+            "end_y": null,
+            "opponent_id": "CRY-LB",
+            "receiver_id": null,
+            "possession_id": "p0148",
+            "under_pressure": true,
+            "speed_kmh": 17.5
+          },
+          {
+            "id": "e00636",
+            "t": 3725.8,
+            "team": "NEW",
+            "player_id": "NEW-RB",
+            "type": "pass",
+            "outcome": "success",
+            "x": 80.1,
+            "y": 16.2,
+            "end_x": 94.9,
+            "end_y": 5.5,
+            "opponent_id": null,
+            "receiver_id": "NEW-CML",
+            "possession_id": "p0150",
+            "under_pressure": true,
+            "speed_kmh": 52.3
+          }
+        ]
+      },
+      {
+        "case": "m100013",
+        "teams": "WOL v BRE",
+        "goal": "e00714 by BRE at 69.8'",
+        "truth_label": [
+          "OVERLOAD",
+          "left"
+        ],
+        "planted": [
+          "OVERLOAD",
+          "left"
+        ],
+        "measured_effects": [
+          [
+            "factor",
+            [
+              "OVERLOAD",
+              "left"
+            ],
+            0.25,
+            0.066
+          ],
+          [
+            "static",
+            [
+              "STATIC",
+              "WOL-LB"
+            ],
+            0.05,
+            0.041
+          ]
+        ],
+        "but_for": true,
+        "top3": [
+          [
+            "OVERLOAD",
+            "left",
+            3.19,
+            55
+          ],
+          [
+            "STYLE",
+            "right",
+            0.51,
+            null
+          ],
+          [
+            "STATIC",
+            "WOL-LB",
+            0.25,
+            null
+          ]
+        ],
+        "top1_cited": [
+          "e00572",
+          "e00573",
+          "e00579",
+          "e00598",
+          "e00623"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00572",
+            "t": 3367.6,
+            "team": "BRE",
+            "player_id": "BRE-LB",
+            "type": "pass",
+            "outcome": "success",
+            "x": 54.6,
+            "y": 6.9,
+            "end_x": 43.1,
+            "end_y": 12.4,
+            "opponent_id": null,
+            "receiver_id": "BRE-CMR",
+            "possession_id": "p0141",
+            "under_pressure": false,
+            "speed_kmh": 44.2
+          },
+          {
+            "id": "e00573",
+            "t": 3372.9,
+            "team": "BRE",
+            "player_id": "BRE-CMR",
+            "type": "pass",
+            "outcome": "success",
+            "x": 43.1,
+            "y": 13.1,
+            "end_x": 28.2,
+            "end_y": 17.3,
+            "opponent_id": null,
+            "receiver_id": "BRE-DM",
+            "possession_id": "p0141",
+            "under_pressure": true,
+            "speed_kmh": 54.3
+          },
+          {
+            "id": "e00579",
+            "t": 3404.5,
+            "team": "BRE",
+            "player_id": "BRE-CMR",
+            "type": "pass",
+            "outcome": "success",
+            "x": 42.0,
+            "y": 6.8,
+            "end_x": 28.5,
+            "end_y": 8.2,
+            "opponent_id": null,
+            "receiver_id": "BRE-LW",
+            "possession_id": "p0143",
+            "under_pressure": true,
+            "speed_kmh": 55.8
+          }
+        ]
+      }
+    ],
+    "failures": [
+      {
+        "case": "m100008",
+        "teams": "MCI v BRE",
+        "goal": "e00843 by MCI at 79.4'",
+        "truth_label": [
+          "STATIC",
+          "BRE-LB"
+        ],
+        "planted": [
+          "OVERLOAD",
+          "right"
+        ],
+        "measured_effects": [
+          [
+            "static",
+            [
+              "STATIC",
+              "BRE-LB"
+            ],
+            0.183,
+            0.063
+          ],
+          [
+            "factor",
+            [
+              "OVERLOAD",
+              "right"
+            ],
+            0.1,
+            0.082
+          ],
+          [
+            "style",
+            [
+              "STYLE",
+              "left"
+            ],
+            -0.117,
+            0.066
+          ]
+        ],
+        "but_for": true,
+        "top3": [
+          [
+            "FATIGUE",
+            "BRE-LB",
+            1.55,
+            80
+          ],
+          [
+            "OVERLOAD",
+            "right",
+            1.22,
+            65
+          ],
+          [
+            "STYLE",
+            "right",
+            0.52,
+            null
+          ]
+        ],
+        "top1_cited": [
+          "e00909",
+          "e00915",
+          "e00925",
+          "e00934"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00909",
+            "t": 5153.3,
+            "team": "MCI",
+            "player_id": "MCI-RB",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 37.1,
+            "y": 17.3,
+            "end_x": 43.4,
+            "end_y": 17.3,
+            "opponent_id": "BRE-LB",
+            "receiver_id": null,
+            "possession_id": "p0198",
+            "under_pressure": true,
+            "speed_kmh": 26.2
+          },
+          {
+            "id": "e00915",
+            "t": 5175.0,
+            "team": "MCI",
+            "player_id": "MCI-RW",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 89.3,
+            "y": 7.3,
+            "end_x": 95.6,
+            "end_y": 7.3,
+            "opponent_id": "BRE-LB",
+            "receiver_id": null,
+            "possession_id": "p0198",
+            "under_pressure": false,
+            "speed_kmh": 24.5
+          },
+          {
+            "id": "e00925",
+            "t": 5243.7,
+            "team": "MCI",
+            "player_id": "MCI-CML",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 72.8,
+            "y": 15.9,
+            "end_x": 84.0,
+            "end_y": 15.9,
+            "opponent_id": "BRE-LB",
+            "receiver_id": null,
+            "possession_id": "p0200",
+            "under_pressure": false,
+            "speed_kmh": 22.1
+          }
+        ]
+      },
+      {
+        "case": "m100028",
+        "teams": "FUL v SOU",
+        "goal": "e00676 by FUL at 66.3'",
+        "truth_label": [
+          "STATIC",
+          "SOU-RB"
+        ],
+        "planted": [
+          "OVERLOAD",
+          "right"
+        ],
+        "measured_effects": [
+          [
+            "static",
+            [
+              "STATIC",
+              "SOU-RB"
+            ],
+            0.108,
+            0.044
+          ],
+          [
+            "factor",
+            [
+              "OVERLOAD",
+              "right"
+            ],
+            0.025,
+            0.096
+          ],
+          [
+            "style",
+            [
+              "STYLE",
+              "left"
+            ],
+            -0.15,
+            0.073
+          ]
+        ],
+        "but_for": false,
+        "top3": [
+          [
+            "OVERLOAD",
+            "right",
+            1.14,
+            60
+          ],
+          [
+            "STATIC",
+            "SOU-RB",
+            1.13,
+            null
+          ],
+          [
+            "OVERLOAD",
+            "left",
+            0.61,
+            65
+          ]
+        ],
+        "top1_cited": [
+          "e00639",
+          "e00640",
+          "e00641",
+          "e00656",
+          "e00774"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00639",
+            "t": 3768.7,
+            "team": "FUL",
+            "player_id": "FUL-RW",
+            "type": "pass",
+            "outcome": "success",
+            "x": 75.8,
+            "y": 14.1,
+            "end_x": 82.3,
+            "end_y": 8.5,
+            "opponent_id": null,
+            "receiver_id": "FUL-CML",
+            "possession_id": "p0144",
+            "under_pressure": false,
+            "speed_kmh": 39.2
+          },
+          {
+            "id": "e00640",
+            "t": 3772.4,
+            "team": "FUL",
+            "player_id": "FUL-CML",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 82.3,
+            "y": 7.5,
+            "end_x": 89.7,
+            "end_y": 7.5,
+            "opponent_id": "SOU-LB",
+            "receiver_id": null,
+            "possession_id": "p0144",
+            "under_pressure": false,
+            "speed_kmh": 18.8
+          },
+          {
+            "id": "e00641",
+            "t": 3778.1,
+            "team": "FUL",
+            "player_id": "FUL-CML",
+            "type": "pass",
+            "outcome": "success",
+            "x": 89.7,
+            "y": 5.1,
+            "end_x": 96.8,
+            "end_y": 17.7,
+            "opponent_id": null,
+            "receiver_id": "FUL-RB",
+            "possession_id": "p0144",
+            "under_pressure": false,
+            "speed_kmh": 48.6
+          }
+        ]
+      },
+      {
+        "case": "m100038",
+        "teams": "CHE v WOL",
+        "goal": "e00933 by CHE at 88.2'",
+        "truth_label": [
+          "FATIGUE",
+          "WOL-LB"
+        ],
+        "planted": [
+          "FATIGUE",
+          "WOL-LB"
+        ],
+        "measured_effects": [
+          [
+            "factor",
+            [
+              "FATIGUE",
+              "WOL-LB"
+            ],
+            0.217,
+            0.068
+          ],
+          [
+            "static",
+            [
+              "STATIC",
+              "WOL-RB"
+            ],
+            0.125,
+            0.063
+          ]
+        ],
+        "but_for": true,
+        "top3": [
+          [
+            "OVERLOAD",
+            "left",
+            1.52,
+            80
+          ],
+          [
+            "FATIGUE",
+            "WOL-LB",
+            1.13,
+            60
+          ],
+          [
+            "OVERLOAD",
+            "right",
+            0.51,
+            45
+          ]
+        ],
+        "top1_cited": [
+          "e00855",
+          "e00919",
+          "e00920",
+          "e00921"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00855",
+            "t": 4867.9,
+            "team": "CHE",
+            "player_id": "CHE-CB1",
+            "type": "pass",
+            "outcome": "success",
+            "x": 59.9,
+            "y": 54.0,
+            "end_x": 71.0,
+            "end_y": 32.7,
+            "opponent_id": null,
+            "receiver_id": "CHE-CMR",
+            "possession_id": "p0194",
+            "under_pressure": false,
+            "speed_kmh": 66.2
+          },
+          {
+            "id": "e00919",
+            "t": 5226.8,
+            "team": "CHE",
+            "player_id": "CHE-LW",
+            "type": "pass",
+            "outcome": "success",
+            "x": 63.0,
+            "y": 54.3,
+            "end_x": 70.6,
+            "end_y": 54.9,
+            "opponent_id": null,
+            "receiver_id": "CHE-CMR",
+            "possession_id": "p0206",
+            "under_pressure": false,
+            "speed_kmh": 43.4
+          },
+          {
+            "id": "e00920",
+            "t": 5231.8,
+            "team": "CHE",
+            "player_id": "CHE-CMR",
+            "type": "carry",
+            "outcome": "success",
+            "x": 70.6,
+            "y": 62.9,
+            "end_x": 76.6,
+            "end_y": 62.9,
+            "opponent_id": null,
+            "receiver_id": null,
+            "possession_id": "p0206",
+            "under_pressure": true,
+            "speed_kmh": 21.7
+          }
+        ]
+      }
+    ],
+    "ambiguous": [
+      {
+        "case": "m100002",
+        "teams": "SOU v MUN",
+        "goal": "e00885 by SOU at 81.4'",
+        "truth_label": null,
+        "planted": [
+          "FATIGUE",
+          "MUN-RB"
+        ],
+        "measured_effects": [
+          [
+            "factor",
+            [
+              "FATIGUE",
+              "MUN-RB"
+            ],
+            0.208,
+            0.053
+          ],
+          [
+            "static",
+            [
+              "STATIC",
+              "MUN-LB"
+            ],
+            0.183,
+            0.046
+          ],
+          [
+            "style",
+            [
+              "STYLE",
+              "right"
+            ],
+            0.033,
+            0.035
+          ]
+        ],
+        "but_for": true,
+        "top3": [
+          [
+            "FATIGUE",
+            "MUN-RB",
+            4.88,
+            80
+          ],
+          [
+            "FATIGUE",
+            "MUN-LB",
+            2.05,
+            60
+          ],
+          [
+            "OVERLOAD",
+            "left",
+            0.49,
+            75
+          ]
+        ],
+        "top1_cited": [
+          "e00877",
+          "e00882",
+          "e00883",
+          "e00905",
+          "e00923"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00877",
+            "t": 4853.2,
+            "team": "SOU",
+            "player_id": "SOU-LW",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 23.5,
+            "y": 53.7,
+            "end_x": 33.9,
+            "end_y": 53.7,
+            "opponent_id": "MUN-RB",
+            "receiver_id": null,
+            "possession_id": "p0212",
+            "under_pressure": true,
+            "speed_kmh": 29.7
+          },
+          {
+            "id": "e00882",
+            "t": 4875.6,
+            "team": "SOU",
+            "player_id": "SOU-LW",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 67.4,
+            "y": 56.3,
+            "end_x": 76.0,
+            "end_y": 56.3,
+            "opponent_id": "MUN-RB",
+            "receiver_id": null,
+            "possession_id": "p0212",
+            "under_pressure": false,
+            "speed_kmh": 25.0
+          },
+          {
+            "id": "e00883",
+            "t": 4878.6,
+            "team": "SOU",
+            "player_id": "SOU-LW",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 76.0,
+            "y": 54.3,
+            "end_x": 87.9,
+            "end_y": 54.3,
+            "opponent_id": "MUN-RB",
+            "receiver_id": null,
+            "possession_id": "p0212",
+            "under_pressure": false,
+            "speed_kmh": 22.7
+          }
+        ]
+      },
+      {
+        "case": "m100030",
+        "teams": "NFO v CHE",
+        "goal": "e00837 by NFO at 79.8'",
+        "truth_label": null,
+        "planted": [
+          "FATIGUE",
+          "CHE-RB"
+        ],
+        "measured_effects": [
+          [
+            "factor",
+            [
+              "FATIGUE",
+              "CHE-RB"
+            ],
+            0.125,
+            0.055
+          ],
+          [
+            "static",
+            [
+              "STATIC",
+              "CHE-RB"
+            ],
+            0.092,
+            0.035
+          ],
+          [
+            "style",
+            [
+              "STYLE",
+              "left"
+            ],
+            0.008,
+            0.042
+          ]
+        ],
+        "but_for": true,
+        "top3": [
+          [
+            "FATIGUE",
+            "CHE-RB",
+            4.62,
+            75
+          ],
+          [
+            "STYLE",
+            "left",
+            2.18,
+            null
+          ],
+          [
+            "FATIGUE",
+            "CHE-LB",
+            1.18,
+            60
+          ]
+        ],
+        "top1_cited": [
+          "e00792",
+          "e00793",
+          "e00803",
+          "e00813",
+          "e00829"
+        ],
+        "evidence_sample": [
+          {
+            "id": "e00792",
+            "t": 4563.4,
+            "team": "NFO",
+            "player_id": "NFO-CML",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 15.0,
+            "y": 49.3,
+            "end_x": 26.0,
+            "end_y": 49.3,
+            "opponent_id": "CHE-RB",
+            "receiver_id": null,
+            "possession_id": "p0178",
+            "under_pressure": false,
+            "speed_kmh": 29.9
+          },
+          {
+            "id": "e00793",
+            "t": 4568.1,
+            "team": "NFO",
+            "player_id": "NFO-CML",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 26.0,
+            "y": 57.4,
+            "end_x": 37.2,
+            "end_y": 57.4,
+            "opponent_id": "CHE-RB",
+            "receiver_id": null,
+            "possession_id": "p0178",
+            "under_pressure": false,
+            "speed_kmh": 18.5
+          },
+          {
+            "id": "e00803",
+            "t": 4620.3,
+            "team": "NFO",
+            "player_id": "NFO-LB",
+            "type": "dribble",
+            "outcome": "success",
+            "x": 63.0,
+            "y": 60.5,
+            "end_x": 74.0,
+            "end_y": 60.5,
+            "opponent_id": "CHE-RB",
+            "receiver_id": null,
+            "possession_id": "p0180",
+            "under_pressure": false,
+            "speed_kmh": 17.6
+          }
+        ]
+      }
+    ]
+  }
+}

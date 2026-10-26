@@ -1,0 +1,162 @@
+{
+ "headline": "Chelsea s'impose 2-0 face à West Ham à Stamford Bridge",
+ "paragraphs": [
+  "Chelsea a fait le travail à Stamford Bridge et a battu West Ham 2-0. Les Blues ont beaucoup attaqué, avec 18 tirs dont 10 cadrés, et Nicolas Jackson s'est créé plusieurs occasions franches dès le début du match. Le score a tardé à s'ouvrir, mais les locaux ont fini par trouver la faille.",
+  "Pedro Neto a ouvert la marque à la 68e minute, bien servi par Enzo Fernández. Onze minutes plus tard, Noni Madueke a doublé la mise sur une passe de Cole Palmer à la 79e. Madueke a été très précis avec 95% de passes réussies et 9 duels gagnés.",
+  "Côté West Ham, les visiteurs ont eu peu de réussite, avec 5 tirs et une seule grosse occasion, signée Tomás Soucek à la 71e minute. Le match s'est tendu en fin de rencontre, avec plusieurs cartons, dont celui d'Emerson, averti à trois reprises. Chelsea repart avec trois points précieux."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "2-0",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 68,
+    "team": "Chelsea",
+    "scorer": "Pedro Neto",
+    "assist": "Enzo Fernández",
+    "xg": 0.189,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 79,
+    "team": "Chelsea",
+    "scorer": "Noni Madueke",
+    "assist": "Cole Palmer",
+    "xg": 0.175,
+    "score_after": "2-0"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   },
+   {
+    "minute": 71,
+    "team": "West Ham",
+    "player": "Tomás Soucek",
+    "xg": 0.283
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [
+   {
+    "minute": 51,
+    "team": "West Ham",
+    "player": "Emerson"
+   },
+   {
+    "minute": 78,
+    "team": "Chelsea",
+    "player": "Marc Cucurella"
+   },
+   {
+    "minute": 78,
+    "team": "West Ham",
+    "player": "Konstantinos Mavropanos"
+   },
+   {
+    "minute": 84,
+    "team": "West Ham",
+    "player": "Emerson"
+   },
+   {
+    "minute": 88,
+    "team": "West Ham",
+    "player": "Emerson"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 2,
+    "shots": 18,
+    "on_target": 10,
+    "xg": 4.56,
+    "possession": 57,
+    "pass_accuracy": 87,
+    "field_tilt": 73,
+    "control": 71
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 5,
+    "on_target": 3,
+    "xg": 0.98,
+    "possession": 43,
+    "pass_accuracy": 73,
+    "field_tilt": 27,
+    "control": 47
+   }
+  },
+  "chaos_now": 23,
+  "tempo_passes_per_min": 3.3,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "fr",
+ "voice": "fan",
+ "phase": "ft"
+}

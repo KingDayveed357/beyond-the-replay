@@ -1,0 +1,113 @@
+{
+ "headline": "تشيلسي يسيطر على الشوط الأول أمام وست هام بلا أهداف",
+ "paragraphs": [
+  "انتهى الشوط الأول على ملعب ستامفورد بريدج بالتعادل السلبي 0-0. كان تشيلسي صاحب الكرة والأفضلية طوال الوقت، واستحوذ على 59% من الاستحواذ. سدد أصحاب الأرض 9 تسديدات، خمس منها على المرمى، بينما لم يسدد وست هام سوى مرتين.",
+  "كانت أقرب الفرص لتشيلسي من نصيب نيكولاس جاكسون في الدقائق 6 و13 و18، ومويسيس كايسيدو في الدقيقة 8. الفرصة في الدقيقة 13 كانت الأخطر بين الجميع، لكن الكرة لم تجد طريقها إلى الشباك. ومع ذلك، ظهر لاعبو تشيلسي بثقة كبيرة، وكان مالو غوستو حاضراً بقوة في الصراعات الثنائية بفوزه بـ39 صراعاً.",
+  "في الشوط الثاني، ينتظر الجماهير المزيد من الإثارة. على وست هام أن يرفع إيقاعه إذا أراد العودة إلى المباراة، أما تشيلسي فيبحث عن الهدف الأول الذي يكسر هذا التعادل."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "0-0",
+  "venue": "Stamford Bridge",
+  "goals": [],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 0,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 2.96,
+    "possession": 59,
+    "pass_accuracy": 87,
+    "field_tilt": 79,
+    "control": 74
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 2,
+    "on_target": 1,
+    "xg": 0.45,
+    "possession": 41,
+    "pass_accuracy": 72,
+    "field_tilt": 21,
+    "control": 44
+   }
+  },
+  "chaos_now": 55,
+  "tempo_passes_per_min": 3.5,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "ar",
+ "voice": "fan",
+ "phase": "ht"
+}

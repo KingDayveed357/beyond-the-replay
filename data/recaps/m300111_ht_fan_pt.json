@@ -1,0 +1,113 @@
+{
+ "headline": "Chelsea domina, mas West Ham segura o 0-0 no intervalo",
+ "paragraphs": [
+  "Fim do primeiro tempo em Stamford Bridge, e o placar continua zerado. O Chelsea mandou no jogo, com 59% da posse e 9 finalizações. Nicolas Jackson teve três grandes chances, aos 6, 13 e 18 minutos, mas não conseguiu balançar a rede. Moisés Caicedo também quase marcou aos 8 minutos.",
+  "O West Ham quase não apareceu no ataque, com apenas 2 finalizações. A equipe de Londres aguentou firme atrás e chegou ao intervalo sem sofrer gol. Foi um tempo de muita pressão azul e pouca resposta dos visitantes.",
+  "Na volta do intervalo, o Chelsea vai precisar ser mais eficiente para transformar tanto domínio em gols. Fique ligado, porque o jogo promete continuar intenso."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "0-0",
+  "venue": "Stamford Bridge",
+  "goals": [],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 0,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 2.96,
+    "possession": 59,
+    "pass_accuracy": 87,
+    "field_tilt": 79,
+    "control": 74
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 2,
+    "on_target": 1,
+    "xg": 0.45,
+    "possession": 41,
+    "pass_accuracy": 72,
+    "field_tilt": 21,
+    "control": 44
+   }
+  },
+  "chaos_now": 55,
+  "tempo_passes_per_min": 3.5,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "pt",
+ "voice": "fan",
+ "phase": "ht"
+}

@@ -1,0 +1,167 @@
+{
+ "headline": "Forest survive a wild thriller against Brentford, 3-2",
+ "paragraphs": [
+  "Nott'm Forest edged Brentford 3-2 at the City Ground in a match full of goals and drama. Chris Wood opened the scoring in the 8th minute, set up by Ola Aina, and it looked like a comfortable start. Brentford hit back quickly, though. Vitaly Janelt equalised in the 26th minute, and Mikkel Damsgaard turned it around in the 35th minute with a goal from Christian Nørgaard's pass.",
+  "Forest refused to panic. Nicolás Domínguez levelled it just before half-time in the 37th minute, set up by Elliot Anderson, and the home side grew more and more in control. Wood struck again in the 66th minute, once more from a pass by Aina, to put Forest back in front for good. Brentford had their moments, but Forest had 17 shots to their opponents' 4, and they took their chances when it mattered.",
+  "Brentford were not short on fight. Keane Lewis-Potter was booked early, and Nørgaard and Michael Kayode also picked up cards late on. Forest will be pleased with the win, and Wood and Aina deserve plenty of credit for a memorable afternoon at the City Ground."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Nott'm Forest",
+  "away": "Brentford",
+  "score": "3-2",
+  "venue": "City Ground",
+  "goals": [
+   {
+    "minute": 8,
+    "team": "Nott'm Forest",
+    "scorer": "Chris Wood",
+    "assist": "Ola Aina",
+    "xg": 0.194,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 26,
+    "team": "Brentford",
+    "scorer": "Vitaly Janelt",
+    "assist": "Mikkel Damsgaard",
+    "xg": 0.39,
+    "score_after": "1-1"
+   },
+   {
+    "minute": 35,
+    "team": "Brentford",
+    "scorer": "Mikkel Damsgaard",
+    "assist": "Christian Nørgaard",
+    "xg": 0.436,
+    "score_after": "1-2"
+   },
+   {
+    "minute": 37,
+    "team": "Nott'm Forest",
+    "scorer": "Nicolás Domínguez",
+    "assist": "Elliot Anderson",
+    "xg": 0.449,
+    "score_after": "2-2"
+   },
+   {
+    "minute": 66,
+    "team": "Nott'm Forest",
+    "scorer": "Chris Wood",
+    "assist": "Ola Aina",
+    "xg": 0.183,
+    "score_after": "3-2"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Nott'm Forest",
+    "player": "Chris Wood",
+    "xg": 0.267
+   },
+   {
+    "minute": 86,
+    "team": "Nott'm Forest",
+    "player": "Elliot Anderson",
+    "xg": 0.288
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 35,
+    "team": "Brentford"
+   },
+   {
+    "minute": 45,
+    "team": "Nott'm Forest"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 1,
+    "team": "Brentford",
+    "player": "Keane Lewis-Potter"
+   },
+   {
+    "minute": 66,
+    "team": "Brentford",
+    "player": "Christian Nørgaard"
+   },
+   {
+    "minute": 87,
+    "team": "Brentford",
+    "player": "Michael Kayode"
+   }
+  ],
+  "team_stats": {
+   "Nott'm Forest": {
+    "goals": 3,
+    "shots": 17,
+    "on_target": 8,
+    "xg": 3.33,
+    "possession": 55,
+    "pass_accuracy": 81,
+    "field_tilt": 67,
+    "control": 66
+   },
+   "Brentford": {
+    "goals": 2,
+    "shots": 4,
+    "on_target": 3,
+    "xg": 1.0,
+    "possession": 45,
+    "pass_accuracy": 78,
+    "field_tilt": 33,
+    "control": 51
+   }
+  },
+  "chaos_now": 27,
+  "tempo_passes_per_min": 4.7,
+  "standout_players": [
+   {
+    "name": "Chris Wood",
+    "team": "Nott'm Forest",
+    "goals": 2,
+    "assists": 0,
+    "xg": 1.56,
+    "pass_accuracy": 60,
+    "duels_won": 3
+   },
+   {
+    "name": "Ola Aina",
+    "team": "Nott'm Forest",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.0,
+    "pass_accuracy": 100,
+    "duels_won": 34
+   },
+   {
+    "name": "Mikkel Damsgaard",
+    "team": "Brentford",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.44,
+    "pass_accuracy": 62,
+    "duels_won": 8
+   },
+   {
+    "name": "Vitaly Janelt",
+    "team": "Brentford",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.39,
+    "pass_accuracy": 84,
+    "duels_won": 8
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "fr",
+ "voice": "fan",
+ "phase": "ft"
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.claude/
+.venv/
+node_modules/
+results_dev_tuning.json
+.cache/
+.idea/
+web/dist/
+
+.runtime/

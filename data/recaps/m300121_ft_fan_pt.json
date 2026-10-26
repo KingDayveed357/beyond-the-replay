@@ -1,0 +1,163 @@
+{
+ "headline": "Liverpool vence o City por 4-1 em Anfield",
+ "paragraphs": [
+  "Que noite em Anfield! O Liverpool acelerou logo no começo e não deu chance ao Manchester City. Luis Díaz abriu o placar aos 2 minutos, com assistência de Mohamed Salah, e marcou de novo aos 17, depois de passe de Dominik Szoboszlai. Aos 34, Alexis Mac Allister fez o terceiro, com assistência de Andy Robertson.",
+  "O City não desistiu. Aos 32 minutos, Erling Haaland teve uma chance enorme e a torcida visitante ganhou força no jogo. Aos 65, Ilkay Gündogan marcou com assistência de Bernardo Silva e deixou tudo mais aberto. Mas o Liverpool respondeu rápido: aos 86, Mohamed Salah fez o quarto gol, de novo com Andy Robertson na assistência. Robertson terminou com duas assistências e 23 duelos vencidos.",
+  "No fim, o Liverpool teve 53% de posse de bola e 7 chutes no alvo, contra 3 do City. Rúben Dias recebeu cartão amarelo aos 86 minutos. Foi uma vitória merecida, com muita energia e gols bonitos para o torcedor da casa."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Liverpool",
+  "away": "Man City",
+  "score": "4-1",
+  "venue": "Anfield",
+  "goals": [
+   {
+    "minute": 2,
+    "team": "Liverpool",
+    "scorer": "Luis Díaz",
+    "assist": "Mohamed Salah",
+    "xg": 0.189,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 17,
+    "team": "Liverpool",
+    "scorer": "Luis Díaz",
+    "assist": "Dominik Szoboszlai",
+    "xg": 0.175,
+    "score_after": "2-0"
+   },
+   {
+    "minute": 34,
+    "team": "Liverpool",
+    "scorer": "Alexis Mac Allister",
+    "assist": "Andy Robertson",
+    "xg": 0.285,
+    "score_after": "3-0"
+   },
+   {
+    "minute": 65,
+    "team": "Man City",
+    "scorer": "Ilkay Gündogan",
+    "assist": "Bernardo Silva",
+    "xg": 0.181,
+    "score_after": "3-1"
+   },
+   {
+    "minute": 86,
+    "team": "Liverpool",
+    "scorer": "Mohamed Salah",
+    "assist": "Andy Robertson",
+    "xg": 0.194,
+    "score_after": "4-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 30,
+    "team": "Man City",
+    "player": "Rúben Dias",
+    "xg": 0.282
+   },
+   {
+    "minute": 32,
+    "team": "Man City",
+    "player": "Erling Haaland",
+    "xg": 0.261
+   },
+   {
+    "minute": 46,
+    "team": "Liverpool",
+    "player": "Alexis Mac Allister",
+    "xg": 0.742
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 32,
+    "team": "Man City"
+   },
+   {
+    "minute": 41,
+    "team": "Liverpool"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 86,
+    "team": "Man City",
+    "player": "Rúben Dias"
+   }
+  ],
+  "team_stats": {
+   "Liverpool": {
+    "goals": 4,
+    "shots": 13,
+    "on_target": 7,
+    "xg": 2.88,
+    "possession": 53,
+    "pass_accuracy": 85,
+    "field_tilt": 59,
+    "control": 65
+   },
+   "Man City": {
+    "goals": 1,
+    "shots": 7,
+    "on_target": 3,
+    "xg": 1.44,
+    "possession": 47,
+    "pass_accuracy": 80,
+    "field_tilt": 41,
+    "control": 55
+   }
+  },
+  "chaos_now": 38,
+  "tempo_passes_per_min": 3.2,
+  "standout_players": [
+   {
+    "name": "Luis Díaz",
+    "team": "Liverpool",
+    "goals": 2,
+    "assists": 0,
+    "xg": 0.92,
+    "pass_accuracy": 100,
+    "duels_won": 2
+   },
+   {
+    "name": "Mohamed Salah",
+    "team": "Liverpool",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.43,
+    "pass_accuracy": 54,
+    "duels_won": 11
+   },
+   {
+    "name": "Andy Robertson",
+    "team": "Liverpool",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.0,
+    "pass_accuracy": 83,
+    "duels_won": 23
+   },
+   {
+    "name": "Alexis Mac Allister",
+    "team": "Liverpool",
+    "goals": 1,
+    "assists": 0,
+    "xg": 1.12,
+    "pass_accuracy": 85,
+    "duels_won": 5
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "pt",
+ "voice": "fan",
+ "phase": "ft"
+}

@@ -1,0 +1,1 @@
+{"label": ["OVERLOAD", "left"], "effects": [{"variable": "factor", "key": ["OVERLOAD", "left"], "mean": 0.175, "se": 0.08084159910379224}, {"variable": "style", "key": ["STYLE", "right"], "mean": -0.05, "se": 0.047115686933144385}], "planted_key": ["OVERLOAD", "left"], "but_for": true, "k": 120, "factor_onset_minute": 65, "decoy_key": ["FOUL", "e00829"], "evaluation_only": true}

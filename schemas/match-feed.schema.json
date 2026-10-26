@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://beyond-the-replay/schemas/match-feed.schema.json",
+  "title": "Beyond the Replay live match feed",
+  "description": "Create a feed with POST /api/feeds (MatchSheet), then push events with POST /api/feeds/{feed_id}/events (EventBatch) and Authorization: Bearer <write_token>. Events must arrive in clock order. Coordinates are metres on a 105 x 68 pitch; the home side attacks towards +x.",
+  "$defs": {
+    "Team": {
+      "type": "object",
+      "required": ["code", "name"],
+      "properties": {
+        "code": {"type": "string", "pattern": "^[A-Za-z0-9]{2,4}$"},
+        "name": {"type": "string", "minLength": 1, "maxLength": 40},
+        "colours": {"type": "array", "items": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}, "maxItems": 2}
+      }
+    },
+    "Player": {
+      "type": "object",
+      "required": ["team", "name"],
+      "properties": {
+        "team": {"type": "string", "description": "A team code from the sheet"},
+        "role": {"type": "string", "description": "GK, RB, CB1, CB2, LB, DM, CMR, CML, RW, ST, LW (full-back roles power the 'is he tiring?' and flank storylines)"},
+        "name": {"type": "string", "maxLength": 40}
+      }
+    },
+    "MatchSheet": {
+      "type": "object",
+      "required": ["home", "away", "roster"],
+      "properties": {
+        "home": {"$ref": "#/$defs/Team"},
+        "away": {"$ref": "#/$defs/Team"},
+        "roster": {"type": "object", "maxProperties": 60, "additionalProperties": {"$ref": "#/$defs/Player"}},
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "competition": {"type": "string"}, "venue": {"type": "string"}, "kickoff": {"type": "string"},
+            "referee": {"type": "string"}, "matchweek": {"type": "integer"}, "attendance": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "Event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "t", "team", "player_id", "type", "outcome", "x", "y", "end_x", "end_y", "opponent_id",
+                   "receiver_id", "possession_id", "under_pressure", "speed_kmh"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1, "maxLength": 32},
+        "t": {"type": "number", "minimum": 0, "maximum": 6000, "description": "Seconds from kick-off"},
+        "team": {"type": "string"},
+        "player_id": {"type": "string"},
+        "type": {"enum": ["pass", "carry", "dribble", "cross", "shot", "foul", "card", "tackle", "interception", "clearance"]},
+        "outcome": {"type": "string", "description": "success | fail for actions; goal | saved | off_target for shots"},
+        "x": {"type": "number", "minimum": 0, "maximum": 105},
+        "y": {"type": "number", "minimum": 0, "maximum": 68},
+        "end_x": {"type": ["number", "null"], "minimum": 0, "maximum": 105},
+        "end_y": {"type": ["number", "null"], "minimum": 0, "maximum": 68},
+        "opponent_id": {"type": ["string", "null"]},
+        "receiver_id": {"type": ["string", "null"]},
+        "possession_id": {"type": ["string", "null"]},
+        "under_pressure": {"type": "boolean"},
+        "speed_kmh": {"type": ["number", "null"], "minimum": 0, "maximum": 200, "description": "Ball speed for passes and shots, player speed for carries and dribbles"}
+      }
+    },
+    "EventBatch": {
+      "type": "object",
+      "required": ["events"],
+      "properties": {
+        "events": {"type": "array", "maxItems": 500, "items": {"$ref": "#/$defs/Event"}},
+        "final": {"type": "boolean", "description": "true on the last batch: full-time"}
+      }
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+ "headline": "تشيلسي يقلب المباراة ويفوز 2-1 أمام West Ham",
+ "paragraphs": [
+  "فاز Chelsea 2-1 على West Ham في ملعب Stamford Bridge بعد مباراة مثيرة حتى النهاية. تقدم West Ham في الدقيقة 11 عن طريق Mohammed Kudus، بتمريرة حاسمة من Emerson. لكن Enzo Fernández أعاد التعادل في الدقيقة 36 بمساعدة Nicolas Jackson.",
+  "في الدقيقة 79 سجل Nicolas Jackson هدف الفوز، بعد تمريرة رائعة من Enzo Fernández. كان Chelsea أخطر الفريقين، فقد سدد 19 مرة وكانت 10 تسديدات على المرمى، مقابل 7 تسديدات لـ West Ham. كما بلغ مجموع الفرص الخطيرة 3.51 مقابل 1.87 لصالح Chelsea.",
+  "كانت هناك لحظات ساخنة كثيرة، أبرزها فرصة Lucas Paquetá في الدقيقة 30 التي كانت قريبة جدا من الهدف. لكن Chelsea أنهى الشوط الثاني بقوة، وأظهر Nicolas Jackson وEnzo Fernández أنهما الأفضل في الملعب. ستكون هذه ليلة سعيدة لجماهير Chelsea."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "2-1",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 11,
+    "team": "West Ham",
+    "scorer": "Mohammed Kudus",
+    "assist": "Emerson",
+    "xg": 0.177,
+    "score_after": "0-1"
+   },
+   {
+    "minute": 36,
+    "team": "Chelsea",
+    "scorer": "Enzo Fernández",
+    "assist": "Nicolas Jackson",
+    "xg": 0.158,
+    "score_after": "1-1"
+   },
+   {
+    "minute": 79,
+    "team": "Chelsea",
+    "scorer": "Nicolas Jackson",
+    "assist": "Enzo Fernández",
+    "xg": 0.177,
+    "score_after": "2-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.251
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.267
+   },
+   {
+    "minute": 19,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.265
+   },
+   {
+    "minute": 26,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.341
+   },
+   {
+    "minute": 30,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.718
+   },
+   {
+    "minute": 72,
+    "team": "Chelsea",
+    "player": "Enzo Fernández",
+    "xg": 0.259
+   },
+   {
+    "minute": 82,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.264
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 29,
+    "team": "West Ham"
+   },
+   {
+    "minute": 48,
+    "team": "Chelsea"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 41,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 56,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 74,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 79,
+    "team": "West Ham",
+    "player": "Maximilian Kilman"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 2,
+    "shots": 19,
+    "on_target": 10,
+    "xg": 3.51,
+    "possession": 51,
+    "pass_accuracy": 80,
+    "field_tilt": 58,
+    "control": 62
+   },
+   "West Ham": {
+    "goals": 1,
+    "shots": 7,
+    "on_target": 3,
+    "xg": 1.87,
+    "possession": 49,
+    "pass_accuracy": 80,
+    "field_tilt": 42,
+    "control": 56
+   }
+  },
+  "chaos_now": 33,
+  "tempo_passes_per_min": 4.7,
+  "standout_players": [
+   {
+    "name": "Nicolas Jackson",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 1.42,
+    "pass_accuracy": 87,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.79,
+    "pass_accuracy": 90,
+    "duels_won": 8
+   },
+   {
+    "name": "Mohammed Kudus",
+    "team": "West Ham",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.18,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Emerson",
+    "team": "West Ham",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.0,
+    "pass_accuracy": 67,
+    "duels_won": 13
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "ar",
+ "voice": "fan",
+ "phase": "ft"
+}

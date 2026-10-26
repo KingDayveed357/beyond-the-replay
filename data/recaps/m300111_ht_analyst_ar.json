@@ -1,0 +1,113 @@
+{
+ "headline": "تشيلسي يسيطر على الشوط الأول أمام وست هام بلا أهداف",
+ "paragraphs": [
+  "انتهى الشوط الأول على ملعب ستامford بريدج بالتعادل السلبي 0-0. سيطر تشيلسي بوضوح بمؤشر xG بلغ 2.96 مقابل 0.45 لوست هام، وبعدد تسديدات 9 مقابل 2، وتسديدات على المرمى 5 مقابل 1. كما تفوّق في الاستحواذ بنسبة 59% مقابل 41%، وفي الميل الميداني (field tilt) 79 مقابل 21، وفي السيطرة (control) 74 مقابل 44.",
+  "خلق تشيلسي أربع فرص كبيرة: نيكولاس جاكسون في الدقيقة 6 بقيمة xG 0.26، ومويسيس كايسيدو في الدقيقة 8 بقيمة 0.738، ثم جاكسون مرتين في الدقيقتين 13 (0.764) و18 (0.253). وكانت دقة التمرير 87% مقابل 72% لوست هام. على المستوى الفردي، برز مالو غوستو بفوزه في 39 مواجهة ثنائية، ونوني مادويكي بدقة تمرير 95% وفوزه في 9 مواجهات، فيما سجّل بيدرو نيتو وإنزو فernandez أرقاماً مؤثرة في الهجوم والوسط.",
+  "تنبيه للتحقق قبل النشر: قائمة اللاعبين البارزين تُظهر هدفاً لكل من مادويكي وبيدرو نيتو وتمريرة حاسمة لإنزو فernandez، بينما تُظهر النتيجة الرسمية 0-0 وقائمة الأهداف فارغة، لذا يجب مراجعة هذا التعارض قبل اعتماد الأرقام. تسجّل البيانات مؤشر فوضى (chaos) 55 ومعدل تمرير 3.5 في الدقيقة، ولا توجد تحولات زخم أو بطاقات حتى الآن. المباراة محاكاة (simulated)."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "0-0",
+  "venue": "Stamford Bridge",
+  "goals": [],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 0,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 2.96,
+    "possession": 59,
+    "pass_accuracy": 87,
+    "field_tilt": 79,
+    "control": 74
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 2,
+    "on_target": 1,
+    "xg": 0.45,
+    "possession": 41,
+    "pass_accuracy": 72,
+    "field_tilt": 21,
+    "control": 44
+   }
+  },
+  "chaos_now": 55,
+  "tempo_passes_per_min": 3.5,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "ar",
+ "voice": "analyst",
+ "phase": "ht"
+}

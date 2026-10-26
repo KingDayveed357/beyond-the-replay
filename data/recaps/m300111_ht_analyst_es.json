@@ -1,0 +1,113 @@
+{
+ "headline": "Chelsea domina ante West Ham, pero llega al descanso 0-0",
+ "paragraphs": [
+  "Al descanso, Chelsea y West Ham empatan 0-0 en Stamford Bridge, pero el dominio local es claro: xG de 2.96 frente a 0.45, 9 disparos (5 a puerta) contra 2 (1 a puerta), posesión de 59% y field tilt de 79 frente a 21. Los cuatro grandes méritos llegaron de Chelsea: Nicolas Jackson en los minutos 6, 13 y 18 (xG de 0.26, 0.764 y 0.253) y Moisés Caicedo en el minuto 8 (xG de 0.738). Ninguno acabó en gol.",
+  "El control territorial de Chelsea (74 frente a 44) se apoya en una precisión de pase de 87% contra 72% de West Ham. Madueke (precisión de pase 95%, 9 duelos ganados) y Enzo Fernández (86%, 11 duelos ganados) sostienen la circulación, mientras Malo Gusto acumula 39 duelos ganados por el perfil de presión. West Ham apenas ha generado una ocasión de calidad en toda la primera mitad y su control de 44 refleja un bloque replegado.",
+  "Nota de datos: el marcador oficial y la lista de goles indican 0-0 sin goles, pero las estadísticas individuales registran un gol para Noni Madueke y otro para Pedro Neto. Esta discrepancia debe verificarse con el feed de eventos antes de publicar el resultado definitivo. El ritmo de pases (3.5 por minuto) y el índice de caos actual (55) anticipan una segunda parte abierta."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "0-0",
+  "venue": "Stamford Bridge",
+  "goals": [],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 0,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 2.96,
+    "possession": 59,
+    "pass_accuracy": 87,
+    "field_tilt": 79,
+    "control": 74
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 2,
+    "on_target": 1,
+    "xg": 0.45,
+    "possession": 41,
+    "pass_accuracy": 72,
+    "field_tilt": 21,
+    "control": 44
+   }
+  },
+  "chaos_now": 55,
+  "tempo_passes_per_min": 3.5,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "es",
+ "voice": "analyst",
+ "phase": "ht"
+}

@@ -1,0 +1,202 @@
+{
+ "headline": "Bournemouth domina el xG y se impone 3-1 al Leicester en el Vitality",
+ "paragraphs": [
+  "Bournemouth se llevó el partido en el Vitality Stadium con un 3-1 final, construido sobre tres goles en la primera mitad: Evanilson (22'), Lewis Cook (26') y Ryan Christie (45'). Los tres tantos llegaron con un xG combinado de 1.111, mientras que Tyler Adams firmó dos asistencias y acumuló 0.82 de xG individual. Jamie Vardy descontó en el 72' con una asistencia de Stephy Mavididi, pero su gol llegó con un xG de solo 0.191 tras una temporada de remates de alta calidad que acumula 2.19 de xG en el partido.",
+  "Pese al resultado, Leicester generó más peligro: 3.47 de xG frente a 2.47 de Bournemouth, 13 disparos contra 10 y 7 a puerta contra 4. Leicester también dominó el campo final, con 55 de field tilt frente al 45 local, y ganó el control con 60 frente a 57. Bournemouth, en cambio, tuvo más posesión (51 frente a 49) y mejor precisión de pase en términos relativos (77 frente a 79 es ligeramente inferior, así que su ventaja fue la eficacia en área). Las oportunidades claras de Vardy en los minutos 28, 53, 55 y 89 (este último con xG de 0.738) quedaron sin premio, y Wilfred Ndidi tuvo otra ocasión clara en el 90' con 0.499 de xG.",
+  "El partido tuvo dos fases claras: el dominio local en los primeros 45 minutos, con cambios de momentum en el 19' y 44' favorables a Leicester pero sin reflejo en el marcador, y una segunda mitad más abierta en la que Leicester ganó impulso en el 55' y 87'. Bournemouth recuperó la iniciativa en el 79'. Las tarjetas de Adam Smith (38') y Dean Huijsen (71') marcaron el tramo de control defensivo. Con un ritmo de 3.9 pases por minuto y un caos actual de 25, el encuentro cierra como una victoria eficiente de Bournemouth sobre un Leicester que mereció más goles."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Bournemouth",
+  "away": "Leicester",
+  "score": "3-1",
+  "venue": "Vitality Stadium",
+  "goals": [
+   {
+    "minute": 22,
+    "team": "Bournemouth",
+    "scorer": "Evanilson",
+    "assist": "Lewis Cook",
+    "xg": 0.351,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 26,
+    "team": "Bournemouth",
+    "scorer": "Lewis Cook",
+    "assist": "Tyler Adams",
+    "xg": 0.186,
+    "score_after": "2-0"
+   },
+   {
+    "minute": 45,
+    "team": "Bournemouth",
+    "scorer": "Ryan Christie",
+    "assist": "Tyler Adams",
+    "xg": 0.574,
+    "score_after": "3-0"
+   },
+   {
+    "minute": 72,
+    "team": "Leicester",
+    "scorer": "Jamie Vardy",
+    "assist": "Stephy Mavididi",
+    "xg": 0.191,
+    "score_after": "3-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 13,
+    "team": "Leicester",
+    "player": "Jordan Ayew",
+    "xg": 0.251
+   },
+   {
+    "minute": 28,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.269
+   },
+   {
+    "minute": 34,
+    "team": "Bournemouth",
+    "player": "Tyler Adams",
+    "xg": 0.311
+   },
+   {
+    "minute": 53,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.268
+   },
+   {
+    "minute": 55,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.268
+   },
+   {
+    "minute": 77,
+    "team": "Bournemouth",
+    "player": "Lewis Cook",
+    "xg": 0.283
+   },
+   {
+    "minute": 89,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.738
+   },
+   {
+    "minute": 90,
+    "team": "Leicester",
+    "player": "Wilfred Ndidi",
+    "xg": 0.499
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 19,
+    "team": "Leicester"
+   },
+   {
+    "minute": 44,
+    "team": "Leicester"
+   },
+   {
+    "minute": 55,
+    "team": "Leicester"
+   },
+   {
+    "minute": 79,
+    "team": "Bournemouth"
+   },
+   {
+    "minute": 87,
+    "team": "Leicester"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Bournemouth",
+    "player": "Adam Smith"
+   },
+   {
+    "minute": 71,
+    "team": "Bournemouth",
+    "player": "Dean Huijsen"
+   }
+  ],
+  "team_stats": {
+   "Bournemouth": {
+    "goals": 3,
+    "shots": 10,
+    "on_target": 4,
+    "xg": 2.47,
+    "possession": 51,
+    "pass_accuracy": 77,
+    "field_tilt": 45,
+    "control": 57
+   },
+   "Leicester": {
+    "goals": 1,
+    "shots": 13,
+    "on_target": 7,
+    "xg": 3.47,
+    "possession": 49,
+    "pass_accuracy": 79,
+    "field_tilt": 55,
+    "control": 60
+   }
+  },
+  "chaos_now": 25,
+  "tempo_passes_per_min": 3.9,
+  "standout_players": [
+   {
+    "name": "Lewis Cook",
+    "team": "Bournemouth",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.47,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Jamie Vardy",
+    "team": "Leicester",
+    "goals": 1,
+    "assists": 0,
+    "xg": 2.19,
+    "pass_accuracy": 71,
+    "duels_won": 1
+   },
+   {
+    "name": "Tyler Adams",
+    "team": "Bournemouth",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.82,
+    "pass_accuracy": 81,
+    "duels_won": 2
+   },
+   {
+    "name": "Evanilson",
+    "team": "Bournemouth",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.61,
+    "pass_accuracy": 90,
+    "duels_won": 7
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "es",
+ "voice": "analyst",
+ "phase": "ft"
+}

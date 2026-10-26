@@ -1,0 +1,67 @@
+{
+  "prompt_version": "8b1f1dee53",
+  "model": "claude-haiku-5-5",
+  "spent_usd_estimate": 0.5052,
+  "n_cases": 40,
+  "variants": {
+    "deterministic (shipped)": {
+      "investigator": "deterministic",
+      "n_cases": 40,
+      "n_labelled": 40,
+      "recall@1": 0.7,
+      "recall@3": 0.975,
+      "recall@1_strict_onset": 0.525,
+      "macro_recall@1": 0.5177777777777778,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 25,
+          "recall@1": 0.72
+        },
+        "OVERLOAD": {
+          "n": 12,
+          "recall@1": 0.8333333333333334
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.0
+        }
+      }
+    },
+    "agents": {
+      "investigator": "agents",
+      "n_cases": 40,
+      "n_labelled": 40,
+      "recall@1": 0.675,
+      "recall@3": 0.775,
+      "recall@1_strict_onset": 0.525,
+      "macro_recall@1": 0.5044444444444445,
+      "decoy_rejection": 1.0,
+      "unsupported_claim_rate": 0.0,
+      "evidence_link_correctness": 1.0,
+      "by_label_kind": {
+        "FATIGUE": {
+          "n": 25,
+          "recall@1": 0.68
+        },
+        "OVERLOAD": {
+          "n": 12,
+          "recall@1": 0.8333333333333334
+        },
+        "STATIC": {
+          "n": 3,
+          "recall@1": 0.0
+        }
+      },
+      "completed": 40,
+      "errors": 0,
+      "mean_cost_usd": 0.00408,
+      "mean_calls": 7.2,
+      "template_fallbacks": 0,
+      "citations_dropped": 0
+    }
+  },
+  "seed_start": 400001
+}

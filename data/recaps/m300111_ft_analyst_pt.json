@@ -1,0 +1,162 @@
+{
+ "headline": "Chelsea vence West Ham por 2-0 com domínio territorial e controle",
+ "paragraphs": [
+  "Chelsea venceu o West Ham por 2-0 no Stamford Bridge, em jogo encerrado aos 91 minutos. Pedro Neto abriu o placar aos 68', com assistência de Enzo Fernández (xG 0,189), e Noni Madueke ampliou aos 79', assistido por Cole Palmer (xG 0,175). Os Blues criaram 4 grandes chances contra 1 do West Ham, com Nicolas Jackson responsável por três delas (6', 13' e 18') e Moisés Caicedo por outra (8', xG 0,738).",
+  "Os números de controle favorecem amplamente o Chelsea: 18 finalizações (10 no alvo) e xG de 4,56, contra 5 finalizações (3 no alvo) e xG de 0,98 do West Ham. A equipe de Enzo Maresca, perdão, de Chelsea teve 57% de posse, 87% de precisão de passe, field tilt de 73 e controle de 71, versus 43% de posse, 73% de precisão, field tilt de 27 e controle de 47 do adversário. O único grande chance do West Ham veio com Tomás Soucek aos 71' (xG 0,283), sem resultado. O índice de caos registrou 23 e o ritmo foi de 3,3 passes por minuto.",
+  "Disciplina foi outro ponto de atrito: Emerson aparece três vezes na lista de cartões (51', 84' e 88'), Konstantinos Mavropanos foi advertido aos 78', assim como Marc Cucurella, pelo Chelsea. Destaques individuais: Madueke, com 95% de precisão de passe e 9 duelos ganhos, Malo Gusto, com 39 duelos vencidos, e Pedro Neto, com xG de 0,36 na partida."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "2-0",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 68,
+    "team": "Chelsea",
+    "scorer": "Pedro Neto",
+    "assist": "Enzo Fernández",
+    "xg": 0.189,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 79,
+    "team": "Chelsea",
+    "scorer": "Noni Madueke",
+    "assist": "Cole Palmer",
+    "xg": 0.175,
+    "score_after": "2-0"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   },
+   {
+    "minute": 71,
+    "team": "West Ham",
+    "player": "Tomás Soucek",
+    "xg": 0.283
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [
+   {
+    "minute": 51,
+    "team": "West Ham",
+    "player": "Emerson"
+   },
+   {
+    "minute": 78,
+    "team": "Chelsea",
+    "player": "Marc Cucurella"
+   },
+   {
+    "minute": 78,
+    "team": "West Ham",
+    "player": "Konstantinos Mavropanos"
+   },
+   {
+    "minute": 84,
+    "team": "West Ham",
+    "player": "Emerson"
+   },
+   {
+    "minute": 88,
+    "team": "West Ham",
+    "player": "Emerson"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 2,
+    "shots": 18,
+    "on_target": 10,
+    "xg": 4.56,
+    "possession": 57,
+    "pass_accuracy": 87,
+    "field_tilt": 73,
+    "control": 71
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 5,
+    "on_target": 3,
+    "xg": 0.98,
+    "possession": 43,
+    "pass_accuracy": 73,
+    "field_tilt": 27,
+    "control": 47
+   }
+  },
+  "chaos_now": 23,
+  "tempo_passes_per_min": 3.3,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "pt",
+ "voice": "analyst",
+ "phase": "ft"
+}

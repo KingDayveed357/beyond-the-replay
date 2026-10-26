@@ -1,0 +1,152 @@
+{
+ "headline": "Level at the break: Chelsea 1-1 West Ham, with West Ham holding the xG edge",
+ "paragraphs": [
+  "Chelsea and West Ham are level 1-1 at half-time at Stamford Bridge. Mohammed Kudus put West Ham ahead in the 11th minute (xG 0.177), assisted by Emerson, before Enzo Fernández equalised in the 36th (xG 0.158), assisted by Nicolas Jackson. Chelsea started brightly, with Jackson's big chance in the 6th minute, Noni Madueke's in the 13th and Jackson's again in the 19th. West Ham's best spell came from Lucas Paquetá, whose big chances in the 26th (xG 0.341) and 30th (xG 0.718) were the clearest openings of the half, and the 29th minute was flagged as West Ham's momentum swing.",
+  "The underlying numbers point to a contest. Chelsea had 9 shots, 5 on target and 1.45 xG, against West Ham's 6 shots, 2 on target and 1.79 xG. Possession was 48% for Chelsea and 52% for West Ham, with field tilt level at 50 for both sides. Control favoured West Ham at 61 to Chelsea's 58, while pass accuracy was 80% for Chelsea and 83% for West Ham. Chaos sits at 35, and tempo is running at 4.4 passes per minute.",
+  "Individually, Jackson has 1 goal, 1 assist and 1.42 xG, with 4 duels won and 87% pass accuracy. Fernández has 1 goal, 1 assist and 0.79 xG, 90% pass accuracy and 8 duels won. For West Ham, Kudus has 1 goal from 0.18 xG and Emerson has 1 assist and 13 duels won. Malo Gusto was booked twice for Chelsea, in the 38th and 41st minutes, and will be a concern for the second half."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "half-time",
+  "minute": 45,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "1-1",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 11,
+    "team": "West Ham",
+    "scorer": "Mohammed Kudus",
+    "assist": "Emerson",
+    "xg": 0.177,
+    "score_after": "0-1"
+   },
+   {
+    "minute": 36,
+    "team": "Chelsea",
+    "scorer": "Enzo Fernández",
+    "assist": "Nicolas Jackson",
+    "xg": 0.158,
+    "score_after": "1-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.251
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.267
+   },
+   {
+    "minute": 19,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.265
+   },
+   {
+    "minute": 26,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.341
+   },
+   {
+    "minute": 30,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.718
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 29,
+    "team": "West Ham"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 41,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 1,
+    "shots": 9,
+    "on_target": 5,
+    "xg": 1.45,
+    "possession": 48,
+    "pass_accuracy": 80,
+    "field_tilt": 50,
+    "control": 58
+   },
+   "West Ham": {
+    "goals": 1,
+    "shots": 6,
+    "on_target": 2,
+    "xg": 1.79,
+    "possession": 52,
+    "pass_accuracy": 83,
+    "field_tilt": 50,
+    "control": 61
+   }
+  },
+  "chaos_now": 35,
+  "tempo_passes_per_min": 4.4,
+  "standout_players": [
+   {
+    "name": "Nicolas Jackson",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 1.42,
+    "pass_accuracy": 87,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.79,
+    "pass_accuracy": 90,
+    "duels_won": 8
+   },
+   {
+    "name": "Mohammed Kudus",
+    "team": "West Ham",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.18,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Emerson",
+    "team": "West Ham",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.0,
+    "pass_accuracy": 67,
+    "duels_won": 13
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "en",
+ "voice": "analyst",
+ "phase": "ht"
+}

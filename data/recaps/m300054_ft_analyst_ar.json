@@ -1,0 +1,191 @@
+{
+ "headline": "Chelsea تقلب التأخر أمام West Ham بهدف Jackson في الدقيقة 79",
+ "paragraphs": [
+  "انتهت المباراة على ملعب Stamford Bridge بفوز Chelsea 2-1 على West Ham. افتتح Mohammed Kudus التسجيل للضيوف في الدقيقة 11 بمساعدة Emerson وبقيمة xG بلغت 0.177، ثم عادل Enzo Fernández في الدقيقة 36 بتمريرة من Nicolas Jackson (xG 0.158). وحسم Nicolas Jackson النتيجة في الدقيقة 79 بتمريرة من Enzo Fernández (xG 0.177).",
+  "أنتج Chelsea الفارق في جودة الفرص لا في الاستحواذ، إذ سدد 19 تسديدة منها 10 على المرمى مقابل 7 تسديدات و3 على المرمى لـ West Ham، وبلغ xG للفريق اللندني 3.51 مقابل 1.87. أما الاستحواذ فكان متقاربا بنسبة 51 لـ Chelsea و49 لـ West Ham، لكن Chelsea تفوق في الميل الميداني بنسبة 58 مقابل 42 وفي السيطرة بنسبة 62 مقابل 56. ضيّع Lucas Paquetá فرصة كبيرة في الدقيقة 30 بقيمة xG بلغت 0.718، وشهدت الدقيقة 48 تحولا في الزخم لصالح Chelsea. بلغ مؤشر الفوضى 33 ومعدل التمريرات الهجومية 4.7 تمريرة في الدقيقة.",
+  "برز Nicolas Jackson بهدف وتمريرة حاسمة وxG بلغ 1.42 ودقة تمرير 87 بالمئة وأربعة duels ناجحة. وقدم Enzo Fernández أداء متوازنا بهدف وتمريرة وxG 0.79 ودقة تمرير 90 بالمئة وثماني duels ناجحة. في المقابل، سجل Mohammed Kudus هدفا بxG 0.18 ودقة تمرير 76 بالمئة، وفاز Emerson بثلاث عشرة duel مع دقة تمرير 67 بالمئة. تلقى Malo Gusto أربع بطاقات في الدقائق 38 و41 و56 و74، وحصل Maximilian Kilman على بطاقة لـ West Ham في الدقيقة 79. (هذه المباراة محاكاة بأسماء فرق حقيقية)."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "2-1",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 11,
+    "team": "West Ham",
+    "scorer": "Mohammed Kudus",
+    "assist": "Emerson",
+    "xg": 0.177,
+    "score_after": "0-1"
+   },
+   {
+    "minute": 36,
+    "team": "Chelsea",
+    "scorer": "Enzo Fernández",
+    "assist": "Nicolas Jackson",
+    "xg": 0.158,
+    "score_after": "1-1"
+   },
+   {
+    "minute": 79,
+    "team": "Chelsea",
+    "scorer": "Nicolas Jackson",
+    "assist": "Enzo Fernández",
+    "xg": 0.177,
+    "score_after": "2-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.251
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.267
+   },
+   {
+    "minute": 19,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.265
+   },
+   {
+    "minute": 26,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.341
+   },
+   {
+    "minute": 30,
+    "team": "West Ham",
+    "player": "Lucas Paquetá",
+    "xg": 0.718
+   },
+   {
+    "minute": 72,
+    "team": "Chelsea",
+    "player": "Enzo Fernández",
+    "xg": 0.259
+   },
+   {
+    "minute": 82,
+    "team": "Chelsea",
+    "player": "Noni Madueke",
+    "xg": 0.264
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 29,
+    "team": "West Ham"
+   },
+   {
+    "minute": 48,
+    "team": "Chelsea"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 41,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 56,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 74,
+    "team": "Chelsea",
+    "player": "Malo Gusto"
+   },
+   {
+    "minute": 79,
+    "team": "West Ham",
+    "player": "Maximilian Kilman"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 2,
+    "shots": 19,
+    "on_target": 10,
+    "xg": 3.51,
+    "possession": 51,
+    "pass_accuracy": 80,
+    "field_tilt": 58,
+    "control": 62
+   },
+   "West Ham": {
+    "goals": 1,
+    "shots": 7,
+    "on_target": 3,
+    "xg": 1.87,
+    "possession": 49,
+    "pass_accuracy": 80,
+    "field_tilt": 42,
+    "control": 56
+   }
+  },
+  "chaos_now": 33,
+  "tempo_passes_per_min": 4.7,
+  "standout_players": [
+   {
+    "name": "Nicolas Jackson",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 1.42,
+    "pass_accuracy": 87,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.79,
+    "pass_accuracy": 90,
+    "duels_won": 8
+   },
+   {
+    "name": "Mohammed Kudus",
+    "team": "West Ham",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.18,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Emerson",
+    "team": "West Ham",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.0,
+    "pass_accuracy": 67,
+    "duels_won": 13
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "ar",
+ "voice": "analyst",
+ "phase": "ft"
+}

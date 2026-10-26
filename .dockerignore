@@ -1,0 +1,11 @@
+.venv
+.cache
+.idea
+web/node_modules
+web/dist
+**/__pycache__
+results_dev_tuning.json
+.env
+.env.*
+!.env.example
+.runtime

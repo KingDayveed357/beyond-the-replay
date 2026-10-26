@@ -1,0 +1,202 @@
+{
+ "headline": "Bournemouth tiennent bon face à Leicester, 3-1 au Vitality",
+ "paragraphs": [
+  "Au Vitality Stadium, Bournemouth a pris une avance confortable grâce à Evanilson, à la 22e minute, servi par Lewis Cook. Cook a doublé la mise à la 26e, toujours sur une passe de Tyler Adams, puis Ryan Christie a inscrit le 3-0 juste avant la pause, à la 45e minute, encore sur un caviar d'Adams.",
+  "Leicester n'a pas baissé les bras. Les Foxes ont beaucoup poussé et Jamie Vardy s'est créé plusieurs occasions, sans trouver le chemin des filets avant la 72e minute, où il a réduit l'écart sur une passe de Stephy Mavididi. Vardy a aussi touché le poteau et frôlé le but à plusieurs reprises, et Wilfred Ndidi a eu une grosse chance dans les dernières minutes.",
+  "Au final, Bournemouth s'impose 3-1 et peut savourer une belle soirée. Leicester, qui a tiré treize fois, a eu le dernier mot en vitesse, mais les Cherries ont tenu jusqu'au coup de sifflet final. Deux cartons jaunes, pour Adam Smith à la 38e et Dean Huijsen à la 71e, ont aussi marqué la rencontre."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Bournemouth",
+  "away": "Leicester",
+  "score": "3-1",
+  "venue": "Vitality Stadium",
+  "goals": [
+   {
+    "minute": 22,
+    "team": "Bournemouth",
+    "scorer": "Evanilson",
+    "assist": "Lewis Cook",
+    "xg": 0.351,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 26,
+    "team": "Bournemouth",
+    "scorer": "Lewis Cook",
+    "assist": "Tyler Adams",
+    "xg": 0.186,
+    "score_after": "2-0"
+   },
+   {
+    "minute": 45,
+    "team": "Bournemouth",
+    "scorer": "Ryan Christie",
+    "assist": "Tyler Adams",
+    "xg": 0.574,
+    "score_after": "3-0"
+   },
+   {
+    "minute": 72,
+    "team": "Leicester",
+    "scorer": "Jamie Vardy",
+    "assist": "Stephy Mavididi",
+    "xg": 0.191,
+    "score_after": "3-1"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 13,
+    "team": "Leicester",
+    "player": "Jordan Ayew",
+    "xg": 0.251
+   },
+   {
+    "minute": 28,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.269
+   },
+   {
+    "minute": 34,
+    "team": "Bournemouth",
+    "player": "Tyler Adams",
+    "xg": 0.311
+   },
+   {
+    "minute": 53,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.268
+   },
+   {
+    "minute": 55,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.268
+   },
+   {
+    "minute": 77,
+    "team": "Bournemouth",
+    "player": "Lewis Cook",
+    "xg": 0.283
+   },
+   {
+    "minute": 89,
+    "team": "Leicester",
+    "player": "Jamie Vardy",
+    "xg": 0.738
+   },
+   {
+    "minute": 90,
+    "team": "Leicester",
+    "player": "Wilfred Ndidi",
+    "xg": 0.499
+   }
+  ],
+  "momentum_swings": [
+   {
+    "minute": 19,
+    "team": "Leicester"
+   },
+   {
+    "minute": 44,
+    "team": "Leicester"
+   },
+   {
+    "minute": 55,
+    "team": "Leicester"
+   },
+   {
+    "minute": 79,
+    "team": "Bournemouth"
+   },
+   {
+    "minute": 87,
+    "team": "Leicester"
+   }
+  ],
+  "cards": [
+   {
+    "minute": 38,
+    "team": "Bournemouth",
+    "player": "Adam Smith"
+   },
+   {
+    "minute": 71,
+    "team": "Bournemouth",
+    "player": "Dean Huijsen"
+   }
+  ],
+  "team_stats": {
+   "Bournemouth": {
+    "goals": 3,
+    "shots": 10,
+    "on_target": 4,
+    "xg": 2.47,
+    "possession": 51,
+    "pass_accuracy": 77,
+    "field_tilt": 45,
+    "control": 57
+   },
+   "Leicester": {
+    "goals": 1,
+    "shots": 13,
+    "on_target": 7,
+    "xg": 3.47,
+    "possession": 49,
+    "pass_accuracy": 79,
+    "field_tilt": 55,
+    "control": 60
+   }
+  },
+  "chaos_now": 25,
+  "tempo_passes_per_min": 3.9,
+  "standout_players": [
+   {
+    "name": "Lewis Cook",
+    "team": "Bournemouth",
+    "goals": 1,
+    "assists": 1,
+    "xg": 0.47,
+    "pass_accuracy": 76,
+    "duels_won": 6
+   },
+   {
+    "name": "Jamie Vardy",
+    "team": "Leicester",
+    "goals": 1,
+    "assists": 0,
+    "xg": 2.19,
+    "pass_accuracy": 71,
+    "duels_won": 1
+   },
+   {
+    "name": "Tyler Adams",
+    "team": "Bournemouth",
+    "goals": 0,
+    "assists": 2,
+    "xg": 0.82,
+    "pass_accuracy": 81,
+    "duels_won": 2
+   },
+   {
+    "name": "Evanilson",
+    "team": "Bournemouth",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.61,
+    "pass_accuracy": 90,
+    "duels_won": 7
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "fr",
+ "voice": "fan",
+ "phase": "ft"
+}

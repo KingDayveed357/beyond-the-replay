@@ -1,0 +1,162 @@
+{
+ "headline": "Chelsea beat West Ham 2-0 as Madueke and Neto strike late",
+ "paragraphs": [
+  "Chelsea beat West Ham 2-0 at Stamford Bridge. Pedro Neto opened the scoring in the 68th minute from an Enzo Fernández assist (xG 0.189), and Noni Madueke doubled the lead in the 79th, set up by Cole Palmer (xG 0.175). Chelsea finished with 18 shots, 10 on target and 4.56 xG, against West Ham's 5 shots, 3 on target and 0.98 xG. Chelsea held 57 possession to West Ham's 43, with field tilt 73 to 27 and control 71 to 47. Pass accuracy was 87 for Chelsea and 73 for West Ham.",
+  "Chelsea created four big chances in the first 18 minutes, all from open play: Nicolas Jackson three times (6', xG 0.26; 13', xG 0.764; 18', xG 0.253) and Moisés Caicedo once (8', xG 0.738). None were converted before the interval. West Ham's only big chance came from Tomás Soucek in the 71st minute (xG 0.283), and it did not trouble the scoreline. Madueke finished the match with 9 duels won and a 95 pass accuracy, while Malo Gusto won 39 duels, the highest figure among the standout players listed.",
+  "The contest became physical late on. Emerson was booked in the 51st, 84th and 88th minutes, with the 88th-minute caution reflecting a third card for West Ham, and Konstantinos Mavropanos was booked in the 78th, the same minute Marc Cucurella was carded for Chelsea. Chaos reached 23 and tempo sat at 3.3 passes per minute. The result keeps Chelsea in control of the match, but West Ham's disciplinary record will be a concern for the next fixture."
+ ],
+ "source": "claude",
+ "model": "claude-haiku-5-5",
+ "facts": {
+  "phase": "full-time",
+  "minute": 91,
+  "home": "Chelsea",
+  "away": "West Ham",
+  "score": "2-0",
+  "venue": "Stamford Bridge",
+  "goals": [
+   {
+    "minute": 68,
+    "team": "Chelsea",
+    "scorer": "Pedro Neto",
+    "assist": "Enzo Fernández",
+    "xg": 0.189,
+    "score_after": "1-0"
+   },
+   {
+    "minute": 79,
+    "team": "Chelsea",
+    "scorer": "Noni Madueke",
+    "assist": "Cole Palmer",
+    "xg": 0.175,
+    "score_after": "2-0"
+   }
+  ],
+  "big_chances": [
+   {
+    "minute": 6,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.26
+   },
+   {
+    "minute": 8,
+    "team": "Chelsea",
+    "player": "Moisés Caicedo",
+    "xg": 0.738
+   },
+   {
+    "minute": 13,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.764
+   },
+   {
+    "minute": 18,
+    "team": "Chelsea",
+    "player": "Nicolas Jackson",
+    "xg": 0.253
+   },
+   {
+    "minute": 71,
+    "team": "West Ham",
+    "player": "Tomás Soucek",
+    "xg": 0.283
+   }
+  ],
+  "momentum_swings": [],
+  "cards": [
+   {
+    "minute": 51,
+    "team": "West Ham",
+    "player": "Emerson"
+   },
+   {
+    "minute": 78,
+    "team": "Chelsea",
+    "player": "Marc Cucurella"
+   },
+   {
+    "minute": 78,
+    "team": "West Ham",
+    "player": "Konstantinos Mavropanos"
+   },
+   {
+    "minute": 84,
+    "team": "West Ham",
+    "player": "Emerson"
+   },
+   {
+    "minute": 88,
+    "team": "West Ham",
+    "player": "Emerson"
+   }
+  ],
+  "team_stats": {
+   "Chelsea": {
+    "goals": 2,
+    "shots": 18,
+    "on_target": 10,
+    "xg": 4.56,
+    "possession": 57,
+    "pass_accuracy": 87,
+    "field_tilt": 73,
+    "control": 71
+   },
+   "West Ham": {
+    "goals": 0,
+    "shots": 5,
+    "on_target": 3,
+    "xg": 0.98,
+    "possession": 43,
+    "pass_accuracy": 73,
+    "field_tilt": 27,
+    "control": 47
+   }
+  },
+  "chaos_now": 23,
+  "tempo_passes_per_min": 3.3,
+  "standout_players": [
+   {
+    "name": "Noni Madueke",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.4,
+    "pass_accuracy": 95,
+    "duels_won": 9
+   },
+   {
+    "name": "Malo Gusto",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 0,
+    "xg": 0.0,
+    "pass_accuracy": 82,
+    "duels_won": 39
+   },
+   {
+    "name": "Pedro Neto",
+    "team": "Chelsea",
+    "goals": 1,
+    "assists": 0,
+    "xg": 0.36,
+    "pass_accuracy": 80,
+    "duels_won": 4
+   },
+   {
+    "name": "Enzo Fernández",
+    "team": "Chelsea",
+    "goals": 0,
+    "assists": 1,
+    "xg": 0.17,
+    "pass_accuracy": 86,
+    "duels_won": 11
+   }
+  ],
+  "simulated": true
+ },
+ "lang": "en",
+ "voice": "analyst",
+ "phase": "ft"
+}
