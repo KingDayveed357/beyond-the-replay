@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { describeEvent, minute, playerName } from '../format'
 import type { Match, MatchEvent } from '../types'
+import { useWidth } from '../useWidth'
 
 const W = 105
 const H = 68
@@ -99,18 +100,7 @@ export default function Pitch({ match, path, evidence = [], focus, scoringTeam, 
   const points = useMemo(() => ballPoints(path, fx, fy), [path, flip]) // eslint-disable-line react-hooks/exhaustive-deps
   const ball = useBall(points, animate && !reduced)
   const solid = (team: string) => team === scoringTeam
-  const keyIdx = new Set(label === 'scorer' ? [path.length - 1] : [0, path.length - 1])
-  if (label === true) path.forEach((e, i) => e.type === 'dribble' && e.outcome === 'success' && keyIdx.add(i))
-  // Place labels latest-first and skip any that would collide with one already placed.
-  const placed: { x: number; y: number }[] = []
-  const labelAt = new Map<number, { x: number; y: number; anchor: 'start' | 'middle' | 'end' }>()
-  for (let i = path.length - 1; i >= 0; i--) {
-    if (!keyIdx.has(i)) continue
-    const x = fx(path[i].x), y = fy(path[i].y)
-    if (placed.some((q) => Math.abs(q.x - x) < 14 && Math.abs(q.y - y) < 4.5)) continue
-    placed.push({ x, y })
-    labelAt.set(i, { x, y: y < 6 ? y + 4.6 : y - 2.4, anchor: x > W - 12 ? 'end' : x < 12 ? 'start' : 'middle' })
-  }
+  const [ref, px] = useWidth<SVGSVGElement>()
   // Crop: frame the move and the goal it was aimed at, keeping the pitch's proportions readable.
   let view = '-3 -3 111 74'
   if (crop && path.length) {
@@ -125,12 +115,29 @@ export default function Pitch({ match, path, evidence = [], focus, scoringTeam, 
     const y0 = Math.min(Math.max(-3, (Math.min(...ys) + Math.max(...ys)) / 2 - h / 2), 71 - h)
     view = `${left.toFixed(1)} ${y0.toFixed(1)} ${(right - left).toFixed(1)} ${h.toFixed(1)}`
   }
+  // Text scale: labels never render smaller than about 10 px, so names stay readable on a phone-sized pitch.
+  const k = px ? Math.max(1, (10 * Number(view.split(' ')[2])) / px / 2.1) : 1
+  const keyIdx = new Set(label === 'scorer' ? [path.length - 1] : [0, path.length - 1])
+  if (label === true) path.forEach((e, i) => e.type === 'dribble' && e.outcome === 'success' && keyIdx.add(i))
+  // Place labels latest-first and skip any that would collide with one already placed.
+  const placed: { x: number; y: number }[] = []
+  const labelAt = new Map<number, { x: number; y: number; anchor: 'start' | 'middle' | 'end' }>()
+  for (let i = path.length - 1; i >= 0; i--) {
+    if (!keyIdx.has(i)) continue
+    const x = fx(path[i].x), y = fy(path[i].y)
+    if (placed.some((q) => Math.abs(q.x - x) < 14 * k && Math.abs(q.y - y) < 4.5 * k)) continue
+    placed.push({ x, y })
+    labelAt.set(i, { x, y: y < 6 * k ? y + 2.5 + 2.1 * k : y - 1.5 - 0.9 * k, anchor: x > W - 12 * k ? 'end' : x < 12 * k ? 'start' : 'middle' })
+  }
+  const focusText = focus ? `${minute(focus.t)} ${describeEvent(match, focus)}` : ''
+  const focusSize = 2.2 * Math.min(k, 1.35)
+  const focusHalf = Math.min(focusText.length * focusSize * 0.27, W / 2)  // rough half-width of the line, to keep it on the pitch
   const team = accent ?? 'var(--chalk)'
 
   const summary = path.map((e) => `${minute(e.t)} ${describeEvent(match, e)}`).join('; ')
 
   return (
-    <svg viewBox={view} role="img" aria-label={`Pitch. ${summary}`} style={{ display: 'block', width: '100%' }}>
+    <svg ref={ref} viewBox={view} role="img" aria-label={`Pitch. ${summary}`} style={{ display: 'block', width: '100%' }}>
       <defs>
         <marker id="arrow" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="4" markerHeight="4" orient="auto">
           <path d="M0 0 L6 3 L0 6 z" fill="var(--chalk)" />
@@ -166,8 +173,8 @@ export default function Pitch({ match, path, evidence = [], focus, scoringTeam, 
             <circle cx={x} cy={y} r={1.25} fill={solid(e.team) ? team : 'var(--pitch)'}
               stroke={solid(e.team) && !accent ? 'var(--ink)' : 'var(--chalk)'} strokeWidth={solid(e.team) ? (accent ? 0.4 : 0.25) : 0.4} />
             {label && labelAt.has(i) && (
-              <text x={labelAt.get(i)!.x} y={labelAt.get(i)!.y} textAnchor={labelAt.get(i)!.anchor} fontSize={2.1}
-                fill="var(--chalk)" fontFamily="var(--sans)" fontWeight={600} paintOrder="stroke" stroke="var(--pitch)" strokeWidth={0.6}>
+              <text x={labelAt.get(i)!.x} y={labelAt.get(i)!.y} textAnchor={labelAt.get(i)!.anchor} fontSize={2.1 * k}
+                fill="var(--chalk)" fontFamily="var(--sans)" fontWeight={600} paintOrder="stroke" stroke="var(--pitch)" strokeWidth={0.6 * k}>
                 {playerName(match, e.player_id)}
               </text>
             )}
@@ -178,9 +185,10 @@ export default function Pitch({ match, path, evidence = [], focus, scoringTeam, 
       {focus && (
         <g>
           <circle cx={fx(focus.x)} cy={fy(focus.y)} r={2.8} fill="none" stroke="var(--supported)" strokeWidth={0.5} />
-          <text x={Math.min(Math.max(fx(focus.x), 14), W - 14)} y={fy(focus.y) + (fy(focus.y) > 60 ? -4.2 : 5.6)} textAnchor="middle"
-            fontSize={2.2} fill="var(--chalk)" fontFamily="var(--sans)">
-            {`${minute(focus.t)} ${describeEvent(match, focus)}`}
+          <text x={Math.min(Math.max(fx(focus.x), Math.max(14, focusHalf)), W - Math.max(14, focusHalf))}
+            y={fy(focus.y) + (fy(focus.y) > 60 ? -2 - focusSize : 3.4 + focusSize)} textAnchor="middle"
+            fontSize={focusSize} fill="var(--chalk)" fontFamily="var(--sans)" paintOrder="stroke" stroke="var(--pitch)" strokeWidth={0.5}>
+            {focusText}
           </text>
         </g>
       )}

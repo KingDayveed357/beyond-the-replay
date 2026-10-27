@@ -1,5 +1,6 @@
 import { describeEvent, minute } from '../format'
 import type { Match } from '../types'
+import { useWidth } from '../useWidth'
 
 interface Props {
   match: Match
@@ -12,9 +13,12 @@ interface Props {
 }
 
 const END = 92 * 60
-const X = (t: number) => (Math.min(t, END) / END) * 1000
 
 export default function Timeline({ match, scoringTeam, incidentId, evidenceIds, focusId, onsetMinute, onSelect }: Props) {
+  // 1000 units wide on desktop; on a narrow panel the drawing gets fewer units so labels and marks stay legible.
+  const [ref, px] = useWidth<SVGSVGElement>()
+  const U = px && px < 640 ? Math.round(px * 1.25) : 1000
+  const X = (t: number) => (Math.min(t, END) / END) * U
   const shots = match.events.filter((e) => e.type === 'shot')
   const cards = match.events.filter((e) => e.type === 'card')
   const evidence = evidenceIds ? match.events.filter((e) => evidenceIds.has(e.id)) : []
@@ -22,8 +26,8 @@ export default function Timeline({ match, scoringTeam, incidentId, evidenceIds, 
   const row = (team: string) => (team === scoringTeam ? 22 : 62)
 
   return (
-    <svg viewBox="0 0 1000 86" role="group" aria-label="Match timeline">
-      <line x1={0} y1={42} x2={1000} y2={42} stroke="var(--rule)" />
+    <svg ref={ref} viewBox={`0 0 ${U} 86`} role="group" aria-label="Match timeline">
+      <line x1={0} y1={42} x2={U} y2={42} stroke="var(--rule)" />
       {[0, 15, 30, 45, 60, 75, 90].map((m) => (
         <g key={m}>
           <line x1={X(m * 60)} y1={38} x2={X(m * 60)} y2={46} stroke="var(--rule)" />
@@ -32,7 +36,7 @@ export default function Timeline({ match, scoringTeam, incidentId, evidenceIds, 
       ))}
       {onsetMinute != null && (
         <g>
-          <rect x={X((onsetMinute - 1) * 60)} y={4} width={1000 - X((onsetMinute - 1) * 60)} height={72} fill="rgba(143,227,176,0.05)" />
+          <rect x={X((onsetMinute - 1) * 60)} y={4} width={U - X((onsetMinute - 1) * 60)} height={72} fill="rgba(143,227,176,0.05)" />
           <line x1={X((onsetMinute - 1) * 60)} y1={4} x2={X((onsetMinute - 1) * 60)} y2={76} stroke="var(--supported)" strokeDasharray="3 3" />
           <text x={X((onsetMinute - 1) * 60) + 4} y={12} fontSize={10} fill="var(--supported)" fontFamily="var(--mono)">change {onsetMinute}'</text>
         </g>

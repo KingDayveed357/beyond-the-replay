@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, NavLink, Route, Routes } from 'react-router-dom'
+import { Link, NavLink, Route, Routes, useLocation } from 'react-router-dom'
 import { api } from './api'
 import ModelSettings, { ModelButton } from './components/ModelSettings'
 import { ModelProvider } from './model'
@@ -30,7 +30,19 @@ function SoundButton() {
 
 export default function App() {
   const [names, setNames] = useState('Fictional clubs and players')
+  // The phone menu remembers the page it was opened on, so moving to another page closes it.
+  const { pathname } = useLocation()
+  const [menuAt, setMenuAt] = useState<string | null>(null)
+  const menu = menuAt === pathname
+  const setMenu = (open: boolean | ((m: boolean) => boolean)) =>
+    setMenuAt((typeof open === 'function' ? open(menu) : open) ? pathname : null)
   useEffect(() => { api.identity().then((i) => setNames(i.label)).catch(() => {}) }, [])
+  useEffect(() => {
+    if (!menu) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setMenuAt(null) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [menu])
   return (
     <PrefsProvider>
     <ModelProvider>
@@ -38,13 +50,23 @@ export default function App() {
         <Link to="/" className="wordmark">Beyond <em>the</em> Replay</Link>
          <span className="tag synthetic" style={{display: "none"}}>Simulated matches · {names}</span>
         <nav>
-          <NavLink to="/" end>Matches</NavLink>
-          <NavLink to="/studio"><span className="nav-full">Live Studio</span><span className="nav-short">Studio</span></NavLink>
-          <NavLink to="/benchmark"><span className="nav-full">How accurate is it?</span><span className="nav-short">Accuracy</span></NavLink>
+          {/* On phones these links fold into the menu button's panel; the sound and model buttons stay in the bar. */}
+          <div className="nav-links" id="site-nav" data-open={menu}>
+            <NavLink to="/" end>Matches</NavLink>
+            <NavLink to="/studio">Live Studio</NavLink>
+            <NavLink to="/benchmark">How accurate is it?</NavLink>
+          </div>
           <SoundButton />
           <ModelButton />
+          <button type="button" className="menu-btn" aria-expanded={menu} aria-controls="site-nav"
+            aria-label={menu ? 'Close menu' : 'Open menu'} onClick={() => setMenu((m) => !m)}>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+              {menu ? <path d="M6 6l12 12M18 6L6 18" /> : <path d="M4 7h16M4 12h16M4 17h16" />}
+            </svg>
+          </button>
         </nav>
       </header>
+      {menu && <div className="nav-scrim" onClick={() => setMenu(false)} aria-hidden />}
       <main>
         <Routes>
           <Route path="/" element={<Landing />} />

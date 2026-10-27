@@ -184,9 +184,10 @@ export function MomentumChart({ match, series, lang }: { match: Match; series: M
           <span><i className="dot" style={{ background: teamColour(match, match.away) }} />{clubName(match, match.away)}</span>
         </span>
       </div>
-      <svg viewBox={`0 0 ${W} ${H + 26}`} role="img" aria-label="Momentum by minute: bars above the line favour the home side">
-        <line x1={0} y1={mid} x2={W} y2={mid} stroke="var(--rule)" />
-        <line x1={45 * bw} y1={4} x2={45 * bw} y2={H - 4} stroke="var(--rule)" strokeDasharray="3 3" />
+      {/* preserveAspectRatio none: on a phone the chart keeps a usable height instead of shrinking with the width (no text inside). */}
+      <svg viewBox={`0 0 ${W} ${H + 26}`} preserveAspectRatio="none" role="img" aria-label="Momentum by minute: bars above the line favour the home side">
+        <line x1={0} y1={mid} x2={W} y2={mid} stroke="var(--rule)" vectorEffect="non-scaling-stroke" />
+        <line x1={45 * bw} y1={4} x2={45 * bw} y2={H - 4} stroke="var(--rule)" strokeDasharray="3 3" vectorEffect="non-scaling-stroke" />
         {series.map((s) => {
           const h = (Math.abs(s.momentum) / max) * (mid - 6)
           const home = s.momentum >= 0

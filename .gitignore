@@ -10,3 +10,6 @@ results_dev_tuning.json
 web/dist/
 
 .runtime/
+
+# demo film renders (large)
+video/

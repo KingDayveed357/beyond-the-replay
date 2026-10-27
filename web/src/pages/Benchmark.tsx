@@ -19,9 +19,10 @@ const pct = (x: number | undefined) => (x === undefined ? '–' : `${Math.round(
 
 function ScoreTable({ rows, highlight, order }: { rows: Record<string, any>; highlight: string[]; order?: string[] }) {
   const names = order ? order.filter((n) => rows[n]) : Object.keys(rows)
+  // data-label feeds the phone layout, where each row becomes a card of label/value pairs.
   return (
     <div style={{ overflowX: 'auto' }}>
-      <table className="data">
+      <table className="data stack">
         <thead>
           <tr><th>Who explains the goal</th><th>Right cause first</th><th>In its top 3</th><th>Ignores the booking</th><th>Claims not backed by data</th></tr>
         </thead>
@@ -31,10 +32,10 @@ function ScoreTable({ rows, highlight, order }: { rows: Record<string, any>; hig
             return (
               <tr key={name} className={highlight.includes(name) ? 'ours' : ''}>
                 <td>{LABELS[name] ?? name}</td>
-                <td>{pct(s['recall@1'])}</td>
-                <td>{pct(s['recall@3'])}</td>
-                <td>{pct(s.decoy_rejection)}</td>
-                <td>{name === 'agents' && s.pre_verification_unsupported_rate !== undefined
+                <td data-label="Right cause first">{pct(s['recall@1'])}</td>
+                <td data-label="In its top 3">{pct(s['recall@3'])}</td>
+                <td data-label="Ignores the booking">{pct(s.decoy_rejection)}</td>
+                <td data-label="Claims not backed by data">{name === 'agents' && s.pre_verification_unsupported_rate !== undefined
                   ? `${pct(s.pre_verification_unsupported_rate)} caught, 0% shown` : pct(s.unsupported_claim_rate)}</td>
               </tr>
             )
@@ -48,7 +49,9 @@ function ScoreTable({ rows, highlight, order }: { rows: Record<string, any>; hig
 export default function Benchmark() {
   const [data, setData] = useState<Record<string, any> | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const [fictional, setFictional] = useState(true)  // the server's default name mode (BTR_NAMES)
   useEffect(() => { api.benchmark().then(setData).catch((e) => setError(e.message)) }, [])
+  useEffect(() => { api.identity().then((i) => setFictional(i.mode === 'fictional')).catch(() => {}) }, [])
 
   if (error) return <div className="page"><p className="error" style={{ marginTop: 32 }}>{error}</p></div>
   if (!data) return <div className="page"><p className="faint" style={{ marginTop: 32 }}>Loading results…</p></div>
@@ -118,8 +121,9 @@ export default function Benchmark() {
           </div>
           <div className="panel panel-pad">
             <h2>Honest limits</h2>
-            <p className="muted" style={{ margin: 0 }}>This is a simulation, not real football. Real club and player names are used for familiarity; the
-              events, goals and explanations are invented.</p>
+            <p className="muted" style={{ margin: 0 }}>{fictional
+              ? 'This is a simulation, not real football. The clubs, players, stadiums and officials are fictional, and the events, goals and explanations are invented.'
+              : 'This is a simulation, not real football. Real club and player names are used for familiarity; the events, goals and explanations are invented.'}</p>
           </div>
         </div>
       </section>
